@@ -1,0 +1,11 @@
+{
+  "public_url": "https://jixin-cybermind.reedymaple.chatgpt.site",
+  "access_mode": "public",
+  "project_id": "appgprj_6af5d3afa6c4819182f280383d13d960",
+  "site_version": 1,
+  "site_source_commit": "5964285a7f7c13a1024005b65e833c7c61d2c36d",
+  "deployment_status": "succeeded",
+  "anonymous_public_file_checks": "27/27; hosting Cloudflare script normalized in 2 HTML files",
+  "main_interaction_test": "Public URL reached AWAKE with VM off and local HTTP server stopped",
+  "github_repository": "https://github.com/Changhongyin/CyberMind-3D-Web"
+}

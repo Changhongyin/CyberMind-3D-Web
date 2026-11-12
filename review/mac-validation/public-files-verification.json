@@ -1,0 +1,153 @@
+{
+  "public_url": "https://jixin-cybermind.reedymaple.chatgpt.site/",
+  "anonymous": true,
+  "checked": 27,
+  "passed": 27,
+  "results": [
+    {
+      "path": "index.html",
+      "pass": true,
+      "error": "",
+      "follow_redirects": true,
+      "host_injected_cloudflare_script": true,
+      "verification": "HTML matches after excluding hosting-added Cloudflare bot-management script"
+    },
+    {
+      "path": "serve.py",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "style.css",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "assets/censer.glb",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "assets/drone.glb",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "assets/mask.glb",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/audio.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/director.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/engine.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/halo.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/hotspots.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/main.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/mask.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/materials.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/post.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/textures.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/ui.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/util.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "src/world.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "tools/model-viewer.html",
+      "pass": true,
+      "error": "",
+      "follow_redirects": true,
+      "host_injected_cloudflare_script": true,
+      "verification": "HTML matches after excluding hosting-added Cloudflare bot-management script"
+    },
+    {
+      "path": "vendor/THREE-LICENSE",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "vendor/three.core.min.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "vendor/three.module.min.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "vendor/jsm/environments/RoomEnvironment.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "vendor/jsm/loaders/GLTFLoader.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "vendor/jsm/objects/Reflector.js",
+      "pass": true,
+      "error": ""
+    },
+    {
+      "path": "vendor/jsm/utils/BufferGeometryUtils.js",
+      "pass": true,
+      "error": ""
+    }
+  ],
+  "local_server_stopped": true,
+  "temporary_directory": "/var/folders/rq/mw58_vxs2x54djkzlj49ddyr0000gn/T/jixin-public-check-n4pvtiwi",
+  "public_browser_main_flow": "entry, three locks, unseal reaches AWAKE; zero captured console errors",
+  "runtime_independence": "VM off; local server stopped; public browser entry, ring alignment and unseal reached AWAKE; zero captured console errors"
+}

@@ -1,0 +1,18 @@
+{
+  "public_files_verification": "review/mac-validation/public-files-verification.json",
+  "base_archive_files": 285,
+  "additional_files_in_git": [
+    {
+      "path": "coordination/PUBLICATION.json",
+      "bytes": 550,
+      "sha256": "da573a1532deee5d83b6752168059055ccac1094fa8b2c1ebfa6a53580ceb788"
+    },
+    {
+      "path": "review/mac-validation/public-files-verification.json",
+      "bytes": 3232,
+      "sha256": "6a3e0b11069e6ac44ccffb7430ef89d02ebb0813efc8c85a3cacff2c1a6be970"
+    }
+  ],
+  "public_url": "https://jixin-cybermind.reedymaple.chatgpt.site",
+  "site_independent_of_local_computer": true
+}
