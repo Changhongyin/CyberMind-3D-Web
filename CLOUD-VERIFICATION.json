@@ -1,0 +1,1791 @@
+{
+  "date": "2026-11-12T15:19:17.784892+00:00",
+  "repository": "https://github.com/Changhongyin/CyberMind-3D-Web",
+  "release": "https://github.com/Changhongyin/CyberMind-3D-Web/releases/tag/v1.0.0",
+  "public_url": "https://jixin-cybermind.reedymaple.chatgpt.site",
+  "source_commit_verified": "35e072b451cb5c587fc99c6d8f01c82a0af03348",
+  "git_files_verified": 252,
+  "archive_original_files": 285,
+  "current_project_files_covered": 287,
+  "archive_sha256": "2540a4656805bde74374166653b328af789030b36ab98ee97e62a4409d594952",
+  "server_verified_assets": [
+    {
+      "name": "BACKUP-MANIFEST.json",
+      "bytes": 49816,
+      "sha256": "d23bb48f117f901a6a38188e82e6fa74475c816fdd9940d7becc96441d908ebc"
+    },
+    {
+      "name": "JIXIN-Full-Project.zip.part01",
+      "bytes": 838860800,
+      "sha256": "e0d814ee87d6d714f7e9a0163b7b9a0882a40639690e678913fefd56322f7dfb"
+    },
+    {
+      "name": "JIXIN-Full-Project.zip.part02",
+      "bytes": 838860800,
+      "sha256": "7275ac8cc78301bc4928f030d380f93342e8376750bfc67984fefc165d53dc7e"
+    },
+    {
+      "name": "JIXIN-Full-Project.zip.part03",
+      "bytes": 823973603,
+      "sha256": "556978f5c2c878a261d9c390e2be467874362c6068a11879184ea2b9a0124ad2"
+    },
+    {
+      "name": "JIXIN_Demo_1080p60.mp4",
+      "bytes": 145741929,
+      "sha256": "f25e4f2754467d24dfda325a24b8e40b71b1f3f2a23dc001f4f2bdec3db4c0c2"
+    },
+    {
+      "name": "JIXIN_project-report.pdf",
+      "bytes": 8756985,
+      "sha256": "f471a38645e3a6357b70213cb90386c9aea24e643b2ff92aff8db219d690e1af"
+    },
+    {
+      "name": "JIXIN_site-static.zip",
+      "bytes": 47985323,
+      "sha256": "0938310eb67d1b2feee5277328601857985054a40e02d24d817899a43950c9d2"
+    },
+    {
+      "name": "JIXIN_source.zip",
+      "bytes": 171672967,
+      "sha256": "aee37dd3c472df0dfa6cbcbefe8860b567941748454dc583fe6c79961935be6e"
+    },
+    {
+      "name": "RESTORE.md",
+      "bytes": 818,
+      "sha256": "844c4c9f60b338588747b38e336b5c8fb013e2af12942518477e40672a0d98e8"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 288,
+      "sha256": "cfd32b13b70f3ee28383fd0c20145d6842f53629b6b310a905e6061bf9f5911b"
+    }
+  ],
+  "coverage": [
+    {
+      "path": "README.md",
+      "sha256": "addafac82898e95574748bd0679c371741d3fb3426b0bb335753bd34d7753c3f",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "README_任务说明.txt",
+      "sha256": "b7cf6ea41f2a86c34276b688b7390797b8522bbe1e6aa80fc2d722049984f415",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/censer/censer_image_t6690707_0.jpg",
+      "sha256": "29841ff49f3352605a919d87f58e0f19fb84429c649ff70a72c172b3a6663b52",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/censer/censer_img3d_t6691965_0.zip",
+      "sha256": "973bc28f52f83b2d6e7f309e774c8e00b47b04f37bf6c1ee6a6432a747b7de9a",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "assets/lux3d/censer/censer_img3d_t6691965_1.glb",
+      "sha256": "80e1476fb14ae09b9ada701f54f08accb3a0248612fbdbaf1a066e66015393fc",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/censer/chain_state.json",
+      "sha256": "21cc72005333f4d17037df79de2b0193dfe11e496da5b9a0a98c3acc146b1f48",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/censer/img3d.log",
+      "sha256": "3b93260081e32c1b633bf547e100f3ed91dfd3657d7a6982e7aae22025609669",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/credits_from_task_list.json",
+      "sha256": "6d3e08001dc81b71491b180b3604b62bc203a885c6bd3170e236db93efad9909",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/drone/chain_state.json",
+      "sha256": "31a7f69b8a0894976dfd79f1f20828cd450b36b65df7e962683b3ee5585e59eb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/drone/drone_image_t6690729_0.jpg",
+      "sha256": "c29d4cad1d72b4c5ab8e10d372a711360c66eafa062eb1178e9de8a835b61c82",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/drone/drone_img3d_t6691979_0.zip",
+      "sha256": "393634171d412add3312680378023484e63e06341b3bf5c6b03ca47e02cc7b73",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "assets/lux3d/drone/drone_img3d_t6691979_1.glb",
+      "sha256": "e3d0f4352f879b00676af36e752577f2385e0d4872c995c547cc9d2ed62e543e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/drone/img3d.log",
+      "sha256": "07dab8d951d7e5080a2b2734a418d8567a252f509f7eacf8dd12186e216f2f39",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/ledger.jsonl",
+      "sha256": "2c88ddf1ec6768896003103aad99fd2180be7ac7e49dd995cf9e83b5810f09a6",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/mask/chain_state.json",
+      "sha256": "5302e6bba5262d638849f4697295a16f13fcf87ca566eee168a5a8ef6aaccea1",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/mask/img3d.log",
+      "sha256": "e3dc47de942448a5403776e3a62c0fbb958026af615c5b8b518353e88a2d844f",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/mask/mask_image_t6690690_0.jpg",
+      "sha256": "637d27e457efc36f6c23532a7b3df47379f88d1287dd9421b4c5906fc2d61b30",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "assets/lux3d/mask/mask_img3d_t6691940_0.zip",
+      "sha256": "da1264d49fb9a4b8fced51446a9c61ad0ad9871bc49a25696de3342e891da0cd",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "assets/lux3d/mask/mask_img3d_t6691940_1.glb",
+      "sha256": "cc081dcaaf96918ae1490a14426f2c9d0d0f05d3c1c5afcb92afc4776f1ca0db",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "coordination/CLAUDE-CYBERMIND-PRODUCTION-EN.txt",
+      "sha256": "0eb2f25fb460492f9654fb8f6e439c99b476fc5183d9526aa3d7fdf733196118",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "coordination/FINAL-VM-TRANSFER-AUDIT-EN.txt",
+      "sha256": "c6e233d704cd4b9785664845f93d0fa04c0e88538ffe62f6beca10682e67035b",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "coordination/PROJECT_STATE.md",
+      "sha256": "ed8bd2e425d570298f589e2b9192505bece4f1f88cdfc14ff20e0dde74e4137e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "coordination/PUBLICATION.json",
+      "sha256": "da573a1532deee5d83b6752168059055ccac1094fa8b2c1ebfa6a53580ceb788",
+      "in_complete_archive": false,
+      "in_git": true
+    },
+    {
+      "path": "coordination/START-LOCAL-CLI-EN.txt",
+      "sha256": "1e5441f7af134072c3f7b9ad4c5efd9165e7cc28469c5aa030ac9c7b1f150254",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "coordination/TASKS-EN.md",
+      "sha256": "ebfda394714703c2aa6075703157b71e9db80aa22033429d02fb361d91f25a8f",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "coordination/WINDOWS-READY-FOR-SHUTDOWN.md",
+      "sha256": "8d2732703112da97013e87dbd4a5b83a8e5835505277a188d00f8a19dc982aa1",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/JIXIN_site-static.zip",
+      "sha256": "0938310eb67d1b2feee5277328601857985054a40e02d24d817899a43950c9d2",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "deliverables/JIXIN_source.zip",
+      "sha256": "aee37dd3c472df0dfa6cbcbefe8860b567941748454dc583fe6c79961935be6e",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "deliverables/SUBMISSION.md",
+      "sha256": "73004de1893dff09d9ab6f30f499563599521e4a6852eb42a3ccb5666e844361",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/VALIDATION.md",
+      "sha256": "9bc0c42682d21efcdf0c1b91fb8357de6077e7688aeeb01f729c25487d3115a5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/report/JIXIN_project-report.pdf",
+      "sha256": "f471a38645e3a6357b70213cb90386c9aea24e643b2ff92aff8db219d690e1af",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_01_sealed.png",
+      "sha256": "dae864263d56cfbc1e35b5e2db18b5bb9aad5db434ad004297005c15775d17b1",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_02_rings-aligned.png",
+      "sha256": "5dabd8db7fc3101139513420fd5244ad51d6e9d2f1dec568ab7cdfdae5c81c6f",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_03_unsealing.png",
+      "sha256": "8cba83fe35bfd9aced02b94a5e73d04a2d427a81dc6bf26468bfaf66f461b462",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_04_awake.png",
+      "sha256": "616d43b65e19c020ef2d82629ca874aa04e02d377db55ab56f1c99bbd9e95b37",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_05_glyph-drums.png",
+      "sha256": "7abd4c5722a8aa1e73a61f5cc136bd87206f1d052ad03887af9f6bae25d9ee85",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_06_reed-comb.png",
+      "sha256": "b32e7409a11d2d683dc6b94e1363596734f668eaa74e8cd57004234240bccb02",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_07_seed.png",
+      "sha256": "663a8a90b4b27883ff785f9554e32e3c86fb0822f5fc5677554c231572f3bb0d",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_08_inner-lining.png",
+      "sha256": "91da29d09628f21facae2262e00343bca7e64ebc5ff96727b6dd932f26a42fec",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_09_shrine.png",
+      "sha256": "10467c89c668927107a4836ffc06701acca5a899cc6411b1cf59465ac80cd1d7",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_10_well-overview.png",
+      "sha256": "de4457ba4877dccb3db7915128c598359b5e70b07c6cc46342c7dec8cd9ae550",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_11_wugang.png",
+      "sha256": "2b3b9b7ef8b6680292c757bff1900691a63cd84ca967ef286d2a14a37fcfc7e3",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/JIXIN_4K_12_drums-with-interface.png",
+      "sha256": "0a9a7167642c745f21d9250e2eabc93310bb8d3705b2b7ec1aa5a4c7c364d2cb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/stills/shots.meta.json",
+      "sha256": "99a69628b23812e83dab9390eaaa8d34b4506eae23bea8d5964f68ded04db5fe",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/video/JIXIN_master_3840x2160_120fps_HEVC-Main10.mp4",
+      "sha256": "faea4c8b23f82e3ff8e4d93df03726e91a2e03315318a7e8dc873227dd8791e2",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "deliverables/video/JIXIN_viewing-copy_1920x1080_60fps_H264_derived-from-master.mp4",
+      "sha256": "f25e4f2754467d24dfda325a24b8e40b71b1f3f2a23dc001f4f2bdec3db4c0c2",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "deliverables/video/JIXIN_viewing-copy_3840x2160_60fps_H264_derived-from-master.mp4",
+      "sha256": "4e2c0b54a1a80811d43b4627623695ad5a70ee85c35f28d4a9d9dda14a1c7f39",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "deliverables/video/soundtrack/JIXIN_soundtrack_48k.events.json",
+      "sha256": "b5ef075196af3a652615ed9fffd3d558fb2ca0c9817f260f29ae1cae63ec3a04",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/video/soundtrack/JIXIN_soundtrack_48k.wav",
+      "sha256": "d3b9d01c4638157e993bc185c7f85401336f67783e859f7cda7e0bf4cc290478",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/video/soundtrack/waveform.png",
+      "sha256": "677d99d604426c1b1a7ec51372db3b684534d72272cbc99b4d00e4938c98483a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "deliverables/zips.sha256.json",
+      "sha256": "ffcef671151f3e76f843b2793cbba6ca6214b13c73d6a747c72bb86df720f400",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "publication/.gitignore",
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/.openai/hosting.json",
+      "sha256": "d871bc1bc2fde97aa2cc82dd3ff1ce25531c8d6ae18fb9a9b7f55145c2ac934f",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/assets/censer.glb",
+      "sha256": "80e1476fb14ae09b9ada701f54f08accb3a0248612fbdbaf1a066e66015393fc",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/assets/drone.glb",
+      "sha256": "e3d0f4352f879b00676af36e752577f2385e0d4872c995c547cc9d2ed62e543e",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/assets/mask.glb",
+      "sha256": "cc081dcaaf96918ae1490a14426f2c9d0d0f05d3c1c5afcb92afc4776f1ca0db",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/index.html",
+      "sha256": "ed28a39de7227bfe244b0f0a4a30e1ed296e0cb9bf4ea83074b5f5a28fe53aeb",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/serve.py",
+      "sha256": "a2b3d8619a1598de3185269e5c30e78d5b566564a78dccda6a6b32654ee48439",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/audio.js",
+      "sha256": "884a9f06059b63b8361d0528f48ccc78149100838364454c9a9f6e5e914b4a76",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/director.js",
+      "sha256": "aef93cd5f2876bb5e4516802ea4cfdfe44ded9022bb1a2a802579a36b259a261",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/engine.js",
+      "sha256": "73507c75830c14595e299ef7e878e46f81cef70624fd6d27080a1d3d37a83e5a",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/halo.js",
+      "sha256": "c7f738189cd3d73aae6b2a2a47f0bc3e930d58d4298d6a6ccb9fff8dccbc86d0",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/hotspots.js",
+      "sha256": "8b1152ff8a7c46f5bde9429fdf039b4aa182de6e1adb27785ef0be9e680de370",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/main.js",
+      "sha256": "3ff1f08f5f9c7c410da04d569030cda1b836eebbc500fff2567eaa6d9c66c677",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/mask.js",
+      "sha256": "9b4fef1fdaf562b8ce1ac3c77063c58ccbcfb82087e1e5f4babbfb24591131ad",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/materials.js",
+      "sha256": "9614a3f4cd64ff87e7b7b44a2a294716c1a3592421f6edcc485c968a64438aeb",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/post.js",
+      "sha256": "9de521e645e007c435c557ed052cfc695fb08f688a91265e6f9d8ec7cd64e095",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/textures.js",
+      "sha256": "734112ef110ba5494ca2ad94fb977aa50b7136eefb0bd9c48e4ec5d5450d0314",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/ui.js",
+      "sha256": "9d8835c7e06f87db8836e4f10300cf9209d6136ed15cbfe99aff228fc9e95924",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/util.js",
+      "sha256": "ca93014b02372dd4d3a89bb061670dcbfb7b2ff57c511df437c0006cce71599c",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/src/world.js",
+      "sha256": "bc1d0e0bc5a4053edae41703d3231e170f6deb00f360786fe50e967ffac6d5c5",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/style.css",
+      "sha256": "0acf85e6257ce2e919f1b8465c2f2f195fbb23e870dc5dbb2997d3efbb039aa1",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/tools/model-viewer.html",
+      "sha256": "84ed896ff57580c1b9140f2bb10dc33a4e44feafa442254109118bb38af538b9",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/vendor/THREE-LICENSE",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/vendor/jsm/environments/RoomEnvironment.js",
+      "sha256": "c20f0b4677f6128a138d7152b85cbef9091f4f45cdfa05adca04d40c1697c7ae",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/vendor/jsm/loaders/GLTFLoader.js",
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/vendor/jsm/objects/Reflector.js",
+      "sha256": "0908d87a7251268dd6d12310b9633f08fd3be9c6faf2e2a4076fce0e87bdd26d",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/vendor/jsm/utils/BufferGeometryUtils.js",
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/vendor/three.core.min.js",
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication/dist/vendor/three.module.min.js",
+      "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "publication-deploy.zip",
+      "sha256": "e04ee95887e94432abc68d7a9e6fa91337139dc318729977a2023741f5253446",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "recovery/windows-final-transfer/audit-tools/audit_finish.py",
+      "sha256": "b401dd909714ef175f6f08da70d4997a8f347725bd82f2d066f2e5282429f651",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/audit-tools/audit_scan.py",
+      "sha256": "51f0d3bdb9b58d036efd1bd00e358751c9d027adad6b0f3da2d01ef0b0a9e1d5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/audit-tools/summ.py",
+      "sha256": "56ea87b10bfa5a0497beb8b62e02a4e5ff47350b048c3c5e857a0738793fee7e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/audit-tools/summ2.py",
+      "sha256": "fe88e221db4a2ab6db552d5e5d62a463e670bf413abaad37650f963137611768",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/b3ds21epz.output",
+      "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/b8nk6x737.output",
+      "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/b91t0kjf2.output",
+      "sha256": "08b118d54384fafddd1b45ef2eefdd368498e234c8690d2ee4ce7ff4f0b8a8b0",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/bb0opvj1x.output",
+      "sha256": "a28e94cfde56bd6a69a6df89d1e4b3aae7348a3d93a9f8f447217e8c37cf11e2",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/be6ep3cky.output",
+      "sha256": "b6e3013da6489b9de38906ac6593b9aa83304291db87d071432cfbb289ba6c28",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/bkxw7kdfs.output",
+      "sha256": "60431182f50616f4e5b5007b3ea37e62b2e44af4340463f437e79cd3ebbdd614",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/blvu9nbir.output",
+      "sha256": "5fb264a3313163c2488a9928c3eebbe4e323d67bb30c649e5c7ff261a9cafbec",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/bti87d89x.output",
+      "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/bynmbi7on.output",
+      "sha256": "5da6bcf56bf3157a2448671a77c71e7350cc778f24edffcee3fcee8f0431879d",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "references/aholo-api/llms.txt",
+      "sha256": "6efcd040da293d68ae0493b6f454395b802bd534229cb40a9777ec2c86b9168a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "references/aholo-api/openapi.json",
+      "sha256": "2e57dd09aa26c09ec5c40df7ad1da23098c897f73c97f03c16256badf35e1a58",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "references/competition-page-text-20261112.txt",
+      "sha256": "58d8aeccc00f6f5f43c81be2dbd177171e1531e2c92c7bd09a39e017fe526383",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "references/competition-requirements-snapshot-EN.md",
+      "sha256": "137f3cb677b6fe0445733043171a4f66c1fbb3cc899cc15eeed9ab63b9b2bfac",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "references/inspiration-video-OPTIONAL.mp4",
+      "sha256": "7acf0c6e5ae24f86ee0eda439a6ad4dbbd06c149cf7d06f1946a954f6ade3650",
+      "in_complete_archive": true,
+      "in_git": false
+    },
+    {
+      "path": "references/inspiration-video-contact-sheet.jpg",
+      "sha256": "825b03ee42db0e0a0a3d6335b6a46b5e7fd88a1492afb78cfe31c2ffbc65b3bd",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "references/source-upload-limit-500MB.png",
+      "sha256": "7bf3e6c2d56fbac37b0a1a35c3fa15d1c4bef5a3f298cfaa130987eb9c281bc7",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "references/technical-reference-links-EN.md",
+      "sha256": "201b8ecd2b66828fc9948d6c58406759648d3e42f05e447a285894c48e748bee",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "references/topic-and-tool-requirement.png",
+      "sha256": "7c93d63fd2864b84227ab564949dbb7699c0e628e11fba41840fb0f357a37e22",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/benchmark/bench_1_fidelity_headed.json",
+      "sha256": "1efc9331b9add5589bcba3c55368bd8d0b0860d5195c1fb20fe1abce5b8b0e0e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/benchmark/bench_2_balanced_headed.json",
+      "sha256": "23b5aa0d89615938c052e2cf678159554f20a571828f4e4d8cd2f156efbc82ed",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/benchmark/bench_3_performance_headed.json",
+      "sha256": "8df14ddb35c12e91bd2ad9b4dd066f474a6a240016e282c8672e585761319343",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/benchmark/bench_4_auto_headed.json",
+      "sha256": "a1d5036222cd0e227b37d0222b9bb35fdba172985e6fd5b3b5731177be195275",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/benchmark/bench_5_fidelity_headless-offscreen-3840x2160.json",
+      "sha256": "e0e638a7dcac7381940ec03253fb093d497a35d93c80c6be4178d88eba41a11e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/benchmark/env.json",
+      "sha256": "b89a4085437466f069223cef5badf7c59d85dcf23c47c762136e90da01c32b9b",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/copy_manifest.json",
+      "sha256": "bc1f37dc2d3b23dc8a1feca69c63d626969b8d4553d1dfc0b189adf3095df0c7",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/mac-validation/RESULT.md",
+      "sha256": "b619281727a4ef1150a77a58053e4d5142b964231619c75181fe9f19355147af",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/mac-validation/environment.json",
+      "sha256": "05306e947a4683681468df4a14438d893ba9d7ad84599240642a9754f8ece8b3",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/mac-validation/public-files-verification.json",
+      "sha256": "6a3e0b11069e6ac44ccffb7430ef89d02ebb0813efc8c85a3cacff2c1a6be970",
+      "in_complete_archive": false,
+      "in_git": true
+    },
+    {
+      "path": "review/mac-validation/results.json",
+      "sha256": "68c94dcdea3342bc84a5d139c6866a6821f3b81fdb72e930180506d22773a219",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/01_first-run_NaN-lighting-bug.jpg",
+      "sha256": "1305ee2f1f3cefaeaa36c373a37d4e762cdec2b27f9d721df0d84c58a0dae222",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/02_first-lit-frame_small-chrome-head_thick-cables.jpg",
+      "sha256": "08786c05496d55ca71dc862244d13756f73b7a670b449841d4357ce9c73c97fb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/03_head-scaled_blocky-city-windows.jpg",
+      "sha256": "310548036383e49557b2458894cef4956270b527708819e3c61c658336fbc2ff",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/04_first-awake_overbloom_snowy-beads.jpg",
+      "sha256": "14996d5d117ffa5e4ff26e4f2c6ba4dfe7d66a53d9decd10f00fc9f829eb0b97",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/05_drums-closeup_overexposed.jpg",
+      "sha256": "93d5396fcfe9311a3fffca285c6651c7bc4be8c11c3634e95f6354700c612f79",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/06_pier-wash-added_head-still-chrome.jpg",
+      "sha256": "cfd9c1aa74db1411bf3eb6be660a7075726c9eddae42388ef99ea567cd9bcddb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/07_drums-missing-regression.jpg",
+      "sha256": "ed84a636fe708765f1092bbab602336dd11411ecf62b37d60faab9c7a08e5137",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/08_dormant_after-city-and-pier-pass.jpg",
+      "sha256": "821f8966f33b2c5d50d329684be6cf65e2c0591b10976f8050cf92569f546b3e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/09_awake_after-bloom-and-seam-pass.jpg",
+      "sha256": "46c866272a1693fa19d4bac75ca843bc334a6e5a9d9a501efd32edfb0e095f61",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/10_city-view_after-haze-pass.jpg",
+      "sha256": "53ede4124205d62e7702068cccf8947f304e437d112fff196d36a736a9a5c0f7",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/11_native-4k-crop_from-capture-test.jpg",
+      "sha256": "b2ac65f6b51233262ee29b9c4cd0ee27d39487fab82d3c6c800173297b405e03",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/12_lux3d-mask_base-colour-texture.jpg",
+      "sha256": "81e23f8f2558ade2db2f15a7d23aeaa902a43970a54165fbf6eb64b7083cff50",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/13_interaction-test_final-state.jpg",
+      "sha256": "ed49150d2759064cb3d37ee436a2283fee9f1001843288d5ab90e1ea14e5eb47",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/14_porcelain-after-gold-key-fix.jpg",
+      "sha256": "2a337c419fde1f79e0ed3139e22f2ddc39b13213ade4d5f79fbc65cc6583784a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/15_inspection-views_sheet.jpg",
+      "sha256": "d756dddb391239e06da797d27ded618bd4b84b2fcdc06f400df6deb0e086a22b",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/16_tour-filmstrip_0-23s.jpg",
+      "sha256": "a9d15e655ecd80824b91be789f6ec722ece945665ea09ac55a73d59cd6695b61",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/process/17_tour-filmstrip_25-49s.jpg",
+      "sha256": "ebe4fb37bf2ecff58dff68b2bf963992d0653b677a3e8cfc241e10cf0599217f",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p01.png",
+      "sha256": "2aa153936fb02c20494b9963916252a87a5cbc939c57d47cd9c77f78812e9f14",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p02.png",
+      "sha256": "112b246133d763d0eed18a419a5165651d6e689ab1a7812cb24b3c4710be253b",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p03.png",
+      "sha256": "4fc4fdf9c0bb8c5fb0022eb3e0d6708ee0a38be782efe489e986c98298d8244e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p04.png",
+      "sha256": "c5dd6edd2d69d034f296c1eae4a437be81bf982254760fe5586798edf2428bf6",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p05.png",
+      "sha256": "fa021c920ff9875d9fcceaf188ede07dadd38f5cc28c4e4d9127b54fde7b548e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p06.png",
+      "sha256": "95bd8c48a120cb20abb49dde077c5476bce6687da3a230c66e1d45a1e7a33a6c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p07.png",
+      "sha256": "1e9592f76780af4f0db3ff61247a1c70063cb89a1f0ea51a9454224e37ad7e9c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p08.png",
+      "sha256": "7cd67db9234741b05a671a73ed6f45558b891db28459c89c95162deb96b9c3be",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p09.png",
+      "sha256": "fbe11251b01c13eb14a3f39a8ae5508b864f25a6f73c253b073345b3429e8976",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p10.png",
+      "sha256": "c6a983bdbeef6078aa0375e2c8c541b45d7d0b4e6a753b115470752e19b170e3",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p11.png",
+      "sha256": "4cb199ee47e4b4d2483b7b84a02ee98c5c29577ca6cdf81168cf8dc55170a3c0",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p12.png",
+      "sha256": "a59c00b3915c9eac79ce00a04c1788d422e3abf41e61a185455e97d962c0d31c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/report-pages/p13.png",
+      "sha256": "91571089c16c7bb83fecaa48d60a29f726f492af40fbc57dd566d32990040e2d",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/failtest_packaged.txt",
+      "sha256": "036657ae46cd529ace189738d3cf1dd7210bf02b754f3e367af8e5e75f4ce788",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/fallback_missing-model_loading.png",
+      "sha256": "fdbc7d37098194fba2f3756fc14d6c97cd046375cf2bd4b3bbfae8d47508e6e5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/fallback_missing-model_scene.png",
+      "sha256": "e5380d5411f6bc8f1f3efba9ff095604e1ede2db29718a28004683c021af003c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/fallback_no-webgl.png",
+      "sha256": "d6d60e2c1c87b287cf4015ed5ef47757ca757bc04fe66641412f8204f49fde20",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/itest_end_packaged.png",
+      "sha256": "fe5c37a00c3bea2fe4227f663b3e033f234949ab851b06c5c368fae434aca303",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/itest_packaged.txt",
+      "sha256": "a98260681213673f5a313ab8512f0f43db42c8a3f626ebafdb752b6658e467fb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/phone_390x844.png",
+      "sha256": "dfe86ef4ba2cd38d5768f9b005e052fe98ea3af9744f570de99be16716f5cd21",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/phone_390x844_awake.png",
+      "sha256": "6c253ccc4cc596b1b426352f3255f41221b4d2a6a683f6d2e6eff672cbb75e90",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/tests/sound_label.txt",
+      "sha256": "01a902bfdbcdf7ecddb4e063580f15b8a5e898fc5e972f835152fc16c1764918",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/capture-records/deriv_log.txt",
+      "sha256": "5e6a326b9c2b35241f060395ff1fb2cd0a4e9651f545581a9b78cbb755c7b16d",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/capture-records/master_log.txt",
+      "sha256": "4276aae3cd68a36fbbec3dc45fce5f9cec77818db6a09831de2efdbe73930d56",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/capture-records/seg_0.capture.json",
+      "sha256": "01739f73c0f3f4bd6c3698bc4f0c5a073fc87490a487a46a4e5231e2d0840ab3",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/capture-records/seg_1.capture.json",
+      "sha256": "b0888e71229074ccb9cbf4eda57643193398417c85baf35d287d2959bf1906e4",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/capture-records/seg_2.capture.json",
+      "sha256": "6f8df6653eed096e0de5fd32eb996bdc7085aa0fdc061c3a078e2968fcaa36ac",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/capture-records/seg_3.capture.json",
+      "sha256": "9ae029e2f18218a2440618c2cdeb994de58da726e1db02d35c5fd61274516279",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/capture-records/seg_4.capture.json",
+      "sha256": "f1d54797bf6aa355183a486282c005b35dd8b46dc6244daf143c26c055618bf5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/capture-records/seg_5.capture.json",
+      "sha256": "225f0871818c03dd446db5d05fbe0ee42077fd3183e9d428227fa9bd3ce991dd",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_01199.png",
+      "sha256": "64b2a770ae4f5b8dfb794fdb8031d5ab48c086177b6236bacf5c268977380fd6",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_01200.png",
+      "sha256": "ad23dea4dd33666304c862cc43982009f3f174dad36a20992228e5b9a49c1268",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_02399.png",
+      "sha256": "b57b1ede80c9d39bbd583b93ba243c7c00ffc44360d383800e3723758b915f94",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_02400.png",
+      "sha256": "51dca68f4602cc207f75049e21e84d9886ae39fbcc989f4bfb51001fe8b77181",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_03599.png",
+      "sha256": "9209ffcecbfec535320e3d44ffefd384405ea3aa612313bff16f4021c55aa6b4",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_03600.png",
+      "sha256": "3f7165516d9d736df57f6cf1e78026b5c31d15d310fb884c43e92796ef411935",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_04799.png",
+      "sha256": "1cfe0cb0c34cd95babe1bd0217294622669ace64125bf02c32fbf078fe74a097",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_04800.png",
+      "sha256": "23e5e4f8946ba3e3fe5ee1bec61b335f2cd51b03bfb15e8f9fc6d2d0426c1591",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_05999.png",
+      "sha256": "c15ac34c6055774fa26c489ac0c2e47e11fe8609874e8bdd498d5af59de7bb54",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/join-check-continuous/cont_06000.png",
+      "sha256": "32e2c5159feaa9a41f858423f10696e447cad7a1e40901951efdc5629016e279",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_00000.png",
+      "sha256": "3bc01f7bac1037e7108225add95c2e0d139832175fe541ffa269929953b7f9ff",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_00600.png",
+      "sha256": "ebf28bb68dd9f3588ec3c12badcd18dcf066d4a5fab2eb1e1ae77f8ba44ec14e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_01200.png",
+      "sha256": "717be201da15823f1b9cd0cf34631c95ca8ccf22b5d389d0ad14b36b4d42ca67",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_01800.png",
+      "sha256": "832639d2613c4c62c265990e703f32e5a09957648be64fd5db3810ffbb2b5891",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_02400.png",
+      "sha256": "a41fa2d3fd815a96bda1fc0f0d3182734faa8a1fdc9defb3c647b5d148012557",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_03000.png",
+      "sha256": "8c0c2b66aaf1245c77342cbe4873ad2fd7669e392f1aa879999b344beb5b6b4a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_03600.png",
+      "sha256": "29419e628fd543c59765a4a064858edead3f16454bc996519811da9de93aa467",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_04200.png",
+      "sha256": "20e4f200b8a0e9aa704528a80eed71582557b9cb7f04d3173364b150c8ac0dbb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_04800.png",
+      "sha256": "ab5218b4b4f2d815d94f360c08c640688de5205e7bf16f54979de3b0ddacd333",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_05400.png",
+      "sha256": "7fd0d3024034f31c8efcb01e21117b07b8bfec908666511000a937b482161ae7",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_06000.png",
+      "sha256": "195773f353bea92b32e2fbe89c5cd515d29931ecc47bd0ab39cee5f419e7e1a6",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master-native-frames/frame_06600.png",
+      "sha256": "cf35f74ee4750bf0732955ad4be013bf7e858a39feeabc74541acb171bf2916a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master_validation.json",
+      "sha256": "9ddbcdb9bfc0968d5d1e46be28d6c7cde05782cd3800fd742fb7ddaa70b49102",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/master_validation_joins.png",
+      "sha256": "a757ba82fa65af8ed3b7ee47416bb9439a895af0a2a3b0f7ee401868c066e0e1",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/video/waveform.png",
+      "sha256": "677d99d604426c1b1a7ec51372db3b684534d72272cbc99b4d00e4938c98483a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "review/windows-final-transfer-audit.json",
+      "sha256": "7a0ef4e67db36db641aca7ff1129fe4df9356d6e8ba250d1dbc779143ceaec89",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/bench.mjs",
+      "sha256": "407af4d20e51706055a2087c9ddd83379c5255285b3c67d2b63d63407f2110c1",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/capture.mjs",
+      "sha256": "9567f462ffce104530c2a5f1b6490f57cc24435d158879d4a5f822fe43f81154",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/copy_verified.py",
+      "sha256": "a7e64a1030aaf1b34c76cfc98e41349b01cd3f62126c0e3d40f48c0b00f1319d",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/failtest.mjs",
+      "sha256": "bae91c665965547a1b50c961cec0e7886e001feadc9a8da9fef33fd914e38791",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/filmstrip.mjs",
+      "sha256": "4e42f3a9c84fc68196815a82da12586a3fbdacb56e4f1566f86bfcf98327b96a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/helpers/encoder_test_grab.mjs",
+      "sha256": "d1de58e9f1712527c791e28804efceccc047403b28f9cfc0d5b0b518a29d16af",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/helpers/fetch_rules_page.mjs",
+      "sha256": "7bfae2d2e26f444398cfb7750a35a87c9ff3de965d383fb3286c9c2806a29a89",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/itest.mjs",
+      "sha256": "799bcf5d2112aee4b1874dd495eebb5d40f7f025634bd3552371723b52562387",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/join_check.mjs",
+      "sha256": "d8aa19ba71292f71c1203e005fa4091d2949be595ab5ed57a22d0b692c0fb403",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/make_derivatives.sh",
+      "sha256": "03536589cd4a594ea3aa29f6d1425f711165b4078d6975df64ca412a0fd7e8bb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/mv_shots.mjs",
+      "sha256": "5a9f132edb0e18a78724c5caeb0935a38bc334396c21c9735345c2b09dd8d32e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/probe.mjs",
+      "sha256": "467f9c5e0e77cd5ce9df73a05a744e584d664cb51eff29a5ddb27bfa29ece536",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/run_master.sh",
+      "sha256": "b909617faf6716b7c603f82abfe1ca619604f44f4a3d22cacd323003c8734465",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/shot.mjs",
+      "sha256": "cc638be7015814c59c31048ac528d70af2d8cb36c0c2a84e1988de445988e640",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/shots_report.json",
+      "sha256": "879fc9da7d0d0b954668c3089604fbaaf4b886f8cbff51809128e7f400bf6fd5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/shots_stills.json",
+      "sha256": "b60d022364256c4ebe09357990538de175aa057e69ffc6374d45cfadb7841cfc",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/soundtrack.mjs",
+      "sha256": "4f4a49991c938c05b5ba6faeacabd40125d9b33bbddd2b9828d5c8a5cc2f9b98",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/timing.mjs",
+      "sha256": "fd151ad1b7624cf78f579207185a3961d4cbd76ea44a519fd4e866c670fa7e6e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/capture/validate_video.py",
+      "sha256": "cd336ea2008e2edf76a6af5b8a2aaa176b0fe482aa5e2eed14579b5baff107c0",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/lux3d/glbinfo.py",
+      "sha256": "5d322b5d4ae2887f33a411bde73f63b5218bedfd720d1e641bc3b02e19d55a45",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/lux3d/img3d_from_task.py",
+      "sha256": "0166807e0743da7acabcaed6ffa93c923a65ab4690ee3041cdfa812c5afe6545",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/lux3d/lux3d.py",
+      "sha256": "88c1217f8bfb0360610dcf1ee1f93fa96b9feb993bb8328a4e651e1015eecc5e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/lux3d/req_censer_image.json",
+      "sha256": "5884953a97d875f36107637252543fd69848570dc5de012992ed96838d08ab1d",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/lux3d/req_drone_image.json",
+      "sha256": "b29ff88308d8882db2b5ce6b2f9fe2b2113ec07e22d2a3b9f9ba00fb3d9fd181",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/lux3d/req_mask_image.json",
+      "sha256": "3fa966244a7855f7f356df195d97f1eba3044435ed6b849aa8438264e85378e5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/package-lock.json",
+      "sha256": "5df5966c8be75c6b135970363948735a247927551ebcc1e89e693d9ec8e5ad5c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/package.json",
+      "sha256": "cbde55813bf66fbc2cbe07ad421d7dd6824a487f187d542e85c8632827247f39",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/package.py",
+      "sha256": "1b7e83cb7a385b42cfeb515c53ad90b689a4c8a1a02adb5e3e8ebd8d4a45937c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/build_pdf.mjs",
+      "sha256": "70bb780abf29fbb75b12742f5da951c9287f9ba41b539abebee59e65fd3921e6",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/fill_report.py",
+      "sha256": "65987776038502fa6ab7101edca0aab8c0af27408bcaec7cd5e9bc93c32e6683",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/code_city.jpg",
+      "sha256": "33b54e37510fc1973c95748efd698961c2659e636e299a73d540c37ab58e9bae",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/code_engine.jpg",
+      "sha256": "c076285912a850dd9ec8a703b01b7af54b04952d09b788efae0c44bd8dbecd81",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/code_halo.jpg",
+      "sha256": "9925eacf98fc5a6456984d590f894b7a4107a82392e901ade6a19e3e06b63a38",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/code_water.jpg",
+      "sha256": "d66aa60d736d9e231ea4e4ec1bce2266d8eb11bef3d65062f605b2a7cc3db062",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/cover.jpg",
+      "sha256": "d4c0d03c0c73ad3aca1700e3dff901a9b878c227390e40c9d70a6c0da87f68d5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/detail1.jpg",
+      "sha256": "eead4657e45f22157349531ddf9de9a8e2ab1b6132f2e631ff7c28665b4e0978",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/detail2.jpg",
+      "sha256": "4d45fa80613a6ba70e16f26dd46d000cd67b9611f4264581423430920ae3ffbc",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/detail3.jpg",
+      "sha256": "1088bf49b273ee19425ee7383505b981f6edaa61fd67955ee1174cdeabb893c3",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/home.jpg",
+      "sha256": "1a4851e1053be638a5c6389fc81ec4b6394bfd2e0e1e15d34a43e7aafe8f1c73",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/idea_drums.jpg",
+      "sha256": "e248f63b4f798a4b9f5134787480e7aea3b4df9b7a54fb8e537add0db8a2a17c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/idea_reeds.jpg",
+      "sha256": "ee0f3b1aa6f6e14c4a51b1c35690cda1bfb0b18fc289b7b0c1a3bee6022e4d6c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/idea_seed.jpg",
+      "sha256": "efa2f642fea19c678dac79c0360c41eecc43ffef3188e6d4dd19593909debf5e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/idea_talisman.jpg",
+      "sha256": "80b4ebb0029e2fe4a5c1ef52370af723a60da4418673bfd103c9235d1a592fd3",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/it1.jpg",
+      "sha256": "91792e984aa7be44748287f3ae1bfdee2cac0e646157cc97ad3e7b9ebc014563",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/it2.jpg",
+      "sha256": "e5ddead9f133e3e3c8bf40420724f14273cf77fbbe45dc65d9caf68677c1758e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/it3.jpg",
+      "sha256": "cc960032a2671efb8a685be27dee0ecf4a4a9b25dd3fed695a4980c8dc356883",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/it4.jpg",
+      "sha256": "1a7a8ad65ea784f7d1d0d40ca23492473c4b5f88275eb15d2dd05d3331d2b31f",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/it5.jpg",
+      "sha256": "39f3fb4b86f1a34d2af8d88a0497e8cc156bce2a5b2edd16c7661250e5fb0fca",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/it6.jpg",
+      "sha256": "21f330e925055f02f3eee4d60269ab47157556c0dff2f19ad016c52a29e0fdd6",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/loop1.jpg",
+      "sha256": "df168c78d8aaec9f6c1d76143267a34f13b4dbd321e28558803e13b62bab828d",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/loop2.jpg",
+      "sha256": "57ca5390ce2dcda26a542f4a3b43ae3baab8dd394ea9532bfe155afd9e536009",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/loop3.jpg",
+      "sha256": "d35bc68d95d778ee6bbb0cfb789bfb61cd6e6287dc03a6359f990ff76ebb6022",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/loop4.jpg",
+      "sha256": "9f046914c8015bd1d2e0e2d1735a89641f4df4d51d011d649e406ac9d9435970",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_censer_concept.jpg",
+      "sha256": "b78999f6c4d2bd526790864c674b4568bf397e003255077f58564f6347342ac4",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_censer_glb.jpg",
+      "sha256": "3baa5d2664d474303a9f624a33ce0978f9c8de3e286e34e5442793052373f16b",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_censer_scene.jpg",
+      "sha256": "4a70c5ef0f10ca177b788ea43404c9488830deba23945bb11aefe6e1b1a82477",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_drone_concept.jpg",
+      "sha256": "85473d622d64ec5add1b1f3d936fd5e7cc88ee6697b071dcb3dedbb61a299b82",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_drone_glb.jpg",
+      "sha256": "0fa6a455e64146412eb58c5bd5111ca98f5a38dcf139be50b7941a465b4f39f7",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_drone_scene.jpg",
+      "sha256": "4edfbcd3cfb8e7821aa26197b0648be9216ea4c2ec983fcc1a094b073dcb90ed",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_mask_concept.jpg",
+      "sha256": "c55898417f23b4b550bf4be491d7ab6377d8909349abc2e8dec5438df5894684",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_mask_glb.jpg",
+      "sha256": "ba4008aa677469b58deee67904050896763aed26b89c5f30da296e1f8f3594a0",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/lux_mask_scene.jpg",
+      "sha256": "34a9d64defcd380e973705e0cfb0ab052bf7af8df5a7e1eff15aeb7da18310c5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/split_closed.jpg",
+      "sha256": "c388da2ff94429dcb10860d8a4d830edad34fd9ed95ab363cf01e075be0a3b0e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/split_lining.jpg",
+      "sha256": "f3aa153dcae76a3bdd3223a28c3976b400828defd05673b4ad9408644fa76d11",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/split_open.jpg",
+      "sha256": "ce0a4cdcfcd1e024954b1371686db0d8ad32f806b5c987390e681399af98680a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/split_wire.jpg",
+      "sha256": "4d52a6132b3812e9a0ca4bdd36985dd9104511f46fe33d290b90b7d4c01c43c1",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/trans1.jpg",
+      "sha256": "f98088f76e7bbbe8975f244bddf41cd5e5c99d33a42879402483da3e8ec0fa14",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/trans2.jpg",
+      "sha256": "d9aa9908a8a42062ad82ec6220c0ff14faf6201dbe120f756cc552a19037803b",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/trans3.jpg",
+      "sha256": "feebc3514d80c42a97bc20cc7d9e9c3f8d404cfc38471ccc98574d0bef72d160",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/img/trans4.jpg",
+      "sha256": "0238a3ccf96d080d59291c1fe44d6aebe98b98076d731119b66cd0699a63ad4a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/prep_images.py",
+      "sha256": "9353add124809ed55df17daed5ba2f92a256a257c6a36b3090d180ab73cf9c06",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/report.html",
+      "sha256": "df235cbe53e273c5781b6a6f7c12bcf5651b145f4e24ff9ae4e5318e797acae9",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/report/report_built.html",
+      "sha256": "9ed9bf6798efd67e72667363ad29f18af3e5d35d9fe4a4e43e9510b8a1ae6e4a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/assets/censer.glb",
+      "sha256": "80e1476fb14ae09b9ada701f54f08accb3a0248612fbdbaf1a066e66015393fc",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/assets/drone.glb",
+      "sha256": "e3d0f4352f879b00676af36e752577f2385e0d4872c995c547cc9d2ed62e543e",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/assets/mask.glb",
+      "sha256": "cc081dcaaf96918ae1490a14426f2c9d0d0f05d3c1c5afcb92afc4776f1ca0db",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/index.html",
+      "sha256": "ed28a39de7227bfe244b0f0a4a30e1ed296e0cb9bf4ea83074b5f5a28fe53aeb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/serve.py",
+      "sha256": "a2b3d8619a1598de3185269e5c30e78d5b566564a78dccda6a6b32654ee48439",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/audio.js",
+      "sha256": "884a9f06059b63b8361d0528f48ccc78149100838364454c9a9f6e5e914b4a76",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/director.js",
+      "sha256": "aef93cd5f2876bb5e4516802ea4cfdfe44ded9022bb1a2a802579a36b259a261",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/engine.js",
+      "sha256": "73507c75830c14595e299ef7e878e46f81cef70624fd6d27080a1d3d37a83e5a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/halo.js",
+      "sha256": "c7f738189cd3d73aae6b2a2a47f0bc3e930d58d4298d6a6ccb9fff8dccbc86d0",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/hotspots.js",
+      "sha256": "8b1152ff8a7c46f5bde9429fdf039b4aa182de6e1adb27785ef0be9e680de370",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/main.js",
+      "sha256": "3ff1f08f5f9c7c410da04d569030cda1b836eebbc500fff2567eaa6d9c66c677",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/mask.js",
+      "sha256": "9b4fef1fdaf562b8ce1ac3c77063c58ccbcfb82087e1e5f4babbfb24591131ad",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/materials.js",
+      "sha256": "9614a3f4cd64ff87e7b7b44a2a294716c1a3592421f6edcc485c968a64438aeb",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/post.js",
+      "sha256": "9de521e645e007c435c557ed052cfc695fb08f688a91265e6f9d8ec7cd64e095",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/textures.js",
+      "sha256": "734112ef110ba5494ca2ad94fb977aa50b7136eefb0bd9c48e4ec5d5450d0314",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/ui.js",
+      "sha256": "9d8835c7e06f87db8836e4f10300cf9209d6136ed15cbfe99aff228fc9e95924",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/util.js",
+      "sha256": "ca93014b02372dd4d3a89bb061670dcbfb7b2ff57c511df437c0006cce71599c",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/src/world.js",
+      "sha256": "bc1d0e0bc5a4053edae41703d3231e170f6deb00f360786fe50e967ffac6d5c5",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/style.css",
+      "sha256": "0acf85e6257ce2e919f1b8465c2f2f195fbb23e870dc5dbb2997d3efbb039aa1",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/tools/model-viewer.html",
+      "sha256": "84ed896ff57580c1b9140f2bb10dc33a4e44feafa442254109118bb38af538b9",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/vendor/THREE-LICENSE",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/vendor/jsm/environments/RoomEnvironment.js",
+      "sha256": "c20f0b4677f6128a138d7152b85cbef9091f4f45cdfa05adca04d40c1697c7ae",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/vendor/jsm/loaders/GLTFLoader.js",
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/vendor/jsm/objects/Reflector.js",
+      "sha256": "0908d87a7251268dd6d12310b9633f08fd3be9c6faf2e2a4076fce0e87bdd26d",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/vendor/jsm/utils/BufferGeometryUtils.js",
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/vendor/three.core.min.js",
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de",
+      "in_complete_archive": true,
+      "in_git": true
+    },
+    {
+      "path": "source/web/vendor/three.module.min.js",
+      "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6",
+      "in_complete_archive": true,
+      "in_git": true
+    }
+  ],
+  "local_server_stopped": true,
+  "vm_off": true,
+  "public_site_check": "27/27 assets verified (two HTML documents normalized for hosting-injected Cloudflare script); public browser entered and reached AWAKE with no captured console errors",
+  "delete_local_effect": "Deleting the local project does not affect the deployed Sites site, GitHub repository or Release. Keep those cloud resources."
+}
