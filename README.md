@@ -1,8 +1,14 @@
 # 机心 JIXIN — 面壳之后的引擎
 
-## [进入公网 3D 互动体验](https://jixin-cybermind.reedymaple.chatgpt.site)
+## [进入 3D 互动体验 · 国内直连官方入口](https://changhongyin.github.io/CyberMind-3D-Web/)
 
 无需启动本地服务器。转动三环、启封白瓷面壳，探索雾港下的机械心智。
+
+> 中国大陆可直连（GitHub Pages）：2026-11-13 实测首页 HTTP 200、站点 27 个文件逐文件 SHA-256 一致、
+> 真实浏览器渲染通过；详见 [deploy/README.md](deploy/README.md) 与 [deploy/VERIFICATION.md](deploy/VERIFICATION.md)。
+>
+> 原公网地址 <https://jixin-cybermind.reedymaple.chatgpt.site> 由 Cloudflare 托管，在中国大陆会被拦截（HTTP 403），
+> 仅保留为历史发布记录。首次进入需下载约 54 MB 的 3D 模型，请等待加载完成。
 
 - [完整项目备份与原画质视频](https://github.com/Changhongyin/CyberMind-3D-Web/releases/tag/v1.0.0)
 - [项目报告 PDF](deliverables/report/JIXIN_project-report.pdf)

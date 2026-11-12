@@ -1,0 +1,161 @@
+{
+  "site_url": "https://changhongyin.github.io/CyberMind-3D-Web",
+  "source": "source/web",
+  "generated_at": "2026-11-13T00:32:05+08:00",
+  "checks": {
+    "http_status_ok": true,
+    "files_checked": 27,
+    "files_matching_sha256": 27,
+    "browser": "Google Chrome for Testing 140.0.7339.82 (chrome-headless-shell, headless, SwiftShader WebGL2)",
+    "browser_page_errors": 0,
+    "browser_failed_requests": 0,
+    "webgl2": true,
+    "models_loaded": [
+      "assets/mask.glb",
+      "assets/censer.glb",
+      "assets/drone.glb"
+    ],
+    "screenshots": [
+      "deploy/screenshots/01-loading.png",
+      "deploy/screenshots/02-scene.png",
+      "deploy/screenshots/03-rings.png"
+    ]
+  },
+  "files": [
+    {
+      "path": "assets/censer.glb",
+      "bytes": 18652680,
+      "sha256": "80e1476fb14ae09b9ada701f54f08accb3a0248612fbdbaf1a066e66015393fc"
+    },
+    {
+      "path": "assets/drone.glb",
+      "bytes": 19627524,
+      "sha256": "e3d0f4352f879b00676af36e752577f2385e0d4872c995c547cc9d2ed62e543e"
+    },
+    {
+      "path": "assets/mask.glb",
+      "bytes": 15565300,
+      "sha256": "cc081dcaaf96918ae1490a14426f2c9d0d0f05d3c1c5afcb92afc4776f1ca0db"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4315,
+      "sha256": "ed28a39de7227bfe244b0f0a4a30e1ed296e0cb9bf4ea83074b5f5a28fe53aeb"
+    },
+    {
+      "path": "serve.py",
+      "bytes": 870,
+      "sha256": "a2b3d8619a1598de3185269e5c30e78d5b566564a78dccda6a6b32654ee48439"
+    },
+    {
+      "path": "src/audio.js",
+      "bytes": 4569,
+      "sha256": "884a9f06059b63b8361d0528f48ccc78149100838364454c9a9f6e5e914b4a76"
+    },
+    {
+      "path": "src/director.js",
+      "bytes": 4088,
+      "sha256": "aef93cd5f2876bb5e4516802ea4cfdfe44ded9022bb1a2a802579a36b259a261"
+    },
+    {
+      "path": "src/engine.js",
+      "bytes": 20417,
+      "sha256": "73507c75830c14595e299ef7e878e46f81cef70624fd6d27080a1d3d37a83e5a"
+    },
+    {
+      "path": "src/halo.js",
+      "bytes": 9437,
+      "sha256": "c7f738189cd3d73aae6b2a2a47f0bc3e930d58d4298d6a6ccb9fff8dccbc86d0"
+    },
+    {
+      "path": "src/hotspots.js",
+      "bytes": 3296,
+      "sha256": "8b1152ff8a7c46f5bde9429fdf039b4aa182de6e1adb27785ef0be9e680de370"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 23053,
+      "sha256": "3ff1f08f5f9c7c410da04d569030cda1b836eebbc500fff2567eaa6d9c66c677"
+    },
+    {
+      "path": "src/mask.js",
+      "bytes": 12494,
+      "sha256": "9b4fef1fdaf562b8ce1ac3c77063c58ccbcfb82087e1e5f4babbfb24591131ad"
+    },
+    {
+      "path": "src/materials.js",
+      "bytes": 7256,
+      "sha256": "9614a3f4cd64ff87e7b7b44a2a294716c1a3592421f6edcc485c968a64438aeb"
+    },
+    {
+      "path": "src/post.js",
+      "bytes": 8898,
+      "sha256": "9de521e645e007c435c557ed052cfc695fb08f688a91265e6f9d8ec7cd64e095"
+    },
+    {
+      "path": "src/textures.js",
+      "bytes": 9507,
+      "sha256": "734112ef110ba5494ca2ad94fb977aa50b7136eefb0bd9c48e4ec5d5450d0314"
+    },
+    {
+      "path": "src/ui.js",
+      "bytes": 8790,
+      "sha256": "9d8835c7e06f87db8836e4f10300cf9209d6136ed15cbfe99aff228fc9e95924"
+    },
+    {
+      "path": "src/util.js",
+      "bytes": 5547,
+      "sha256": "ca93014b02372dd4d3a89bb061670dcbfb7b2ff57c511df437c0006cce71599c"
+    },
+    {
+      "path": "src/world.js",
+      "bytes": 48992,
+      "sha256": "bc1d0e0bc5a4053edae41703d3231e170f6deb00f360786fe50e967ffac6d5c5"
+    },
+    {
+      "path": "style.css",
+      "bytes": 12099,
+      "sha256": "0acf85e6257ce2e919f1b8465c2f2f195fbb23e870dc5dbb2997d3efbb039aa1"
+    },
+    {
+      "path": "tools/model-viewer.html",
+      "bytes": 3909,
+      "sha256": "84ed896ff57580c1b9140f2bb10dc33a4e44feafa442254109118bb38af538b9"
+    },
+    {
+      "path": "vendor/THREE-LICENSE",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "vendor/jsm/environments/RoomEnvironment.js",
+      "bytes": 4899,
+      "sha256": "c20f0b4677f6128a138d7152b85cbef9091f4f45cdfa05adca04d40c1697c7ae"
+    },
+    {
+      "path": "vendor/jsm/loaders/GLTFLoader.js",
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    {
+      "path": "vendor/jsm/objects/Reflector.js",
+      "bytes": 9476,
+      "sha256": "0908d87a7251268dd6d12310b9633f08fd3be9c6faf2e2a4076fce0e87bdd26d"
+    },
+    {
+      "path": "vendor/jsm/utils/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "path": "vendor/three.core.min.js",
+      "bytes": 381124,
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+    },
+    {
+      "path": "vendor/three.module.min.js",
+      "bytes": 338908,
+      "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6"
+    }
+  ]
+}
