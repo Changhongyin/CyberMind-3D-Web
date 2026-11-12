@@ -1,0 +1,6 @@
+task 6691979
+[   3s] status=1
+[ 341s] status=3
+saved drone_img3d_t6691979_0.zip 19575495
+saved drone_img3d_t6691979_1.glb 19627524
+DONE {"img3d": 6691979, "files": [["drone_img3d_t6691979_0.zip", 19575495], ["drone_img3d_t6691979_1.glb", 19627524]]}

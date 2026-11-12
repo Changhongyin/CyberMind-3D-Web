@@ -1,0 +1,72 @@
+capture 3840x2160 @ 120 fps, frames 0..1199 (1200), profile fidelity, msaa 4
+frame 0 (0/1200)  T=0.025  1 s elapsed, 0.88 s/frame
+frame 120 (120/1200)  T=1.025  129 s elapsed, 1.07 s/frame
+frame 240 (240/1200)  T=2.025  249 s elapsed, 1.03 s/frame
+frame 360 (360/1200)  T=3.025  429 s elapsed, 1.19 s/frame
+frame 480 (480/1200)  T=4.025  584 s elapsed, 1.21 s/frame
+frame 600 (600/1200)  T=5.025  704 s elapsed, 1.17 s/frame
+frame 720 (720/1200)  T=6.025  856 s elapsed, 1.19 s/frame
+frame 840 (840/1200)  T=7.025  2206 s elapsed, 2.62 s/frame
+frame 960 (960/1200)  T=8.025  2305 s elapsed, 2.40 s/frame
+frame 1080 (1080/1200)  T=9.025  2394 s elapsed, 2.21 s/frame
+done {"out":"seg_0.mp4","width":3840,"height":2160,"fps":120,"firstFrame":0,"frames":1200,"seconds":10,"dt":0.008333333333333333,"codec":"hevc","crf":"16","profile":"fidelity","msaa":4,"sceneTarget":[3840,2160],"drawingBuffer":[3840,2160],"simFrameFirst":2,"simFrameLast":1201,"wallSeconds":2503.338,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0","date":"2026-11-12T10:07:52.968Z","method":"fixed-step 1/fps simulation, one native-resolution render and one lossless PNG screenshot per output frame, piped to ffmpeg"}
+capture 3840x2160 @ 120 fps, frames 1200..2399 (1200), profile fidelity, msaa 4
+frame 1200 (0/1200)  T=10.025  1 s elapsed, 0.92 s/frame
+frame 1320 (120/1200)  T=11.025  126 s elapsed, 1.04 s/frame
+frame 1440 (240/1200)  T=12.025  368 s elapsed, 1.53 s/frame
+frame 1560 (360/1200)  T=13.025  495 s elapsed, 1.37 s/frame
+frame 1680 (480/1200)  T=14.025  646 s elapsed, 1.34 s/frame
+frame 1800 (600/1200)  T=15.025  810 s elapsed, 1.35 s/frame
+frame 1920 (720/1200)  T=16.025  942 s elapsed, 1.31 s/frame
+frame 2040 (840/1200)  T=17.025  1042 s elapsed, 1.24 s/frame
+frame 2160 (960/1200)  T=18.025  1140 s elapsed, 1.19 s/frame
+frame 2280 (1080/1200)  T=19.025  1241 s elapsed, 1.15 s/frame
+done {"out":"seg_1.mp4","width":3840,"height":2160,"fps":120,"firstFrame":1200,"frames":1200,"seconds":10,"dt":0.008333333333333333,"codec":"hevc","crf":"16","profile":"fidelity","msaa":4,"sceneTarget":[3840,2160],"drawingBuffer":[3840,2160],"simFrameFirst":1202,"simFrameLast":2401,"wallSeconds":1355.359,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0","date":"2026-11-12T10:30:40.658Z","method":"fixed-step 1/fps simulation, one native-resolution render and one lossless PNG screenshot per output frame, piped to ffmpeg"}
+capture 3840x2160 @ 120 fps, frames 2400..3599 (1200), profile fidelity, msaa 4
+frame 2400 (0/1200)  T=20.025  1 s elapsed, 0.97 s/frame
+frame 2520 (120/1200)  T=21.025  116 s elapsed, 0.96 s/frame
+frame 2640 (240/1200)  T=22.025  255 s elapsed, 1.06 s/frame
+frame 2760 (360/1200)  T=23.025  383 s elapsed, 1.06 s/frame
+frame 2880 (480/1200)  T=24.025  524 s elapsed, 1.09 s/frame
+frame 3000 (600/1200)  T=25.025  677 s elapsed, 1.13 s/frame
+frame 3120 (720/1200)  T=26.025  798 s elapsed, 1.11 s/frame
+frame 3240 (840/1200)  T=27.025  898 s elapsed, 1.07 s/frame
+frame 3360 (960/1200)  T=28.025  1011 s elapsed, 1.05 s/frame
+frame 3480 (1080/1200)  T=29.025  1167 s elapsed, 1.08 s/frame
+done {"out":"seg_2.mp4","width":3840,"height":2160,"fps":120,"firstFrame":2400,"frames":1200,"seconds":10,"dt":0.008333333333333333,"codec":"hevc","crf":"16","profile":"fidelity","msaa":4,"sceneTarget":[3840,2160],"drawingBuffer":[3840,2160],"simFrameFirst":2402,"simFrameLast":3601,"wallSeconds":1305.08,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0","date":"2026-11-12T10:52:37.161Z","method":"fixed-step 1/fps simulation, one native-resolution render and one lossless PNG screenshot per output frame, piped to ffmpeg"}
+capture 3840x2160 @ 120 fps, frames 3600..4799 (1200), profile fidelity, msaa 4
+frame 3600 (0/1200)  T=30.025  1 s elapsed, 1.24 s/frame
+frame 3720 (120/1200)  T=31.025  152 s elapsed, 1.26 s/frame
+frame 3840 (240/1200)  T=32.025  279 s elapsed, 1.16 s/frame
+frame 3960 (360/1200)  T=33.025  402 s elapsed, 1.11 s/frame
+frame 4080 (480/1200)  T=34.025  501 s elapsed, 1.04 s/frame
+frame 4200 (600/1200)  T=35.025  689 s elapsed, 1.15 s/frame
+frame 4320 (720/1200)  T=36.025  852 s elapsed, 1.18 s/frame
+frame 4440 (840/1200)  T=37.025  966 s elapsed, 1.15 s/frame
+frame 4560 (960/1200)  T=38.025  1080 s elapsed, 1.12 s/frame
+frame 4680 (1080/1200)  T=39.025  1193 s elapsed, 1.10 s/frame
+done {"out":"seg_3.mp4","width":3840,"height":2160,"fps":120,"firstFrame":3600,"frames":1200,"seconds":10,"dt":0.008333333333333333,"codec":"hevc","crf":"16","profile":"fidelity","msaa":4,"sceneTarget":[3840,2160],"drawingBuffer":[3840,2160],"simFrameFirst":3602,"simFrameLast":4801,"wallSeconds":1286.538,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0","date":"2026-11-12T11:14:17.496Z","method":"fixed-step 1/fps simulation, one native-resolution render and one lossless PNG screenshot per output frame, piped to ffmpeg"}
+capture 3840x2160 @ 120 fps, frames 4800..5999 (1200), profile fidelity, msaa 4
+frame 4800 (0/1200)  T=40.025  1 s elapsed, 0.96 s/frame
+frame 4920 (120/1200)  T=41.025  89 s elapsed, 0.74 s/frame
+frame 5040 (240/1200)  T=42.025  178 s elapsed, 0.74 s/frame
+frame 5160 (360/1200)  T=43.025  261 s elapsed, 0.72 s/frame
+frame 5280 (480/1200)  T=44.025  346 s elapsed, 0.72 s/frame
+frame 5400 (600/1200)  T=45.025  430 s elapsed, 0.72 s/frame
+frame 5520 (720/1200)  T=46.025  523 s elapsed, 0.73 s/frame
+frame 5640 (840/1200)  T=47.025  625 s elapsed, 0.74 s/frame
+frame 5760 (960/1200)  T=48.025  716 s elapsed, 0.74 s/frame
+frame 5880 (1080/1200)  T=49.025  806 s elapsed, 0.75 s/frame
+done {"out":"seg_4.mp4","width":3840,"height":2160,"fps":120,"firstFrame":4800,"frames":1200,"seconds":10,"dt":0.008333333333333333,"codec":"hevc","crf":"16","profile":"fidelity","msaa":4,"sceneTarget":[3840,2160],"drawingBuffer":[3840,2160],"simFrameFirst":4802,"simFrameLast":6001,"wallSeconds":906.679,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0","date":"2026-11-12T11:29:34.377Z","method":"fixed-step 1/fps simulation, one native-resolution render and one lossless PNG screenshot per output frame, piped to ffmpeg"}
+capture 3840x2160 @ 120 fps, frames 6000..7019 (1020), profile fidelity, msaa 4
+frame 6000 (0/1020)  T=50.025  1 s elapsed, 0.93 s/frame
+frame 6120 (120/1020)  T=51.025  98 s elapsed, 0.81 s/frame
+frame 6240 (240/1020)  T=52.025  200 s elapsed, 0.83 s/frame
+frame 6360 (360/1020)  T=53.025  310 s elapsed, 0.86 s/frame
+frame 6480 (480/1020)  T=54.025  423 s elapsed, 0.88 s/frame
+frame 6600 (600/1020)  T=55.025  531 s elapsed, 0.88 s/frame
+frame 6720 (720/1020)  T=56.025  641 s elapsed, 0.89 s/frame
+frame 6840 (840/1020)  T=57.025  747 s elapsed, 0.89 s/frame
+frame 6960 (960/1020)  T=58.025  863 s elapsed, 0.90 s/frame
+done {"out":"seg_5.mp4","width":3840,"height":2160,"fps":120,"firstFrame":6000,"frames":1020,"seconds":8.5,"dt":0.008333333333333333,"codec":"hevc","crf":"16","profile":"fidelity","msaa":4,"sceneTarget":[3840,2160],"drawingBuffer":[3840,2160],"simFrameFirst":6002,"simFrameLast":7021,"wallSeconds":924.177,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0","date":"2026-11-12T11:45:08.572Z","method":"fixed-step 1/fps simulation, one native-resolution render and one lossless PNG screenshot per output frame, piped to ffmpeg"}
+MASTER_DONE

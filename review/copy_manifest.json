@@ -1,0 +1,590 @@
+[
+ {
+  "src": "out/video/JIXIN_master_3840x2160_120fps_HEVC-Main10.mp4",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/video/JIXIN_master_3840x2160_120fps_HEVC-Main10.mp4",
+  "bytes": 905841400,
+  "sha256": "faea4c8b23f82e3ff8e4d93df03726e91a2e03315318a7e8dc873227dd8791e2",
+  "verified": true
+ },
+ {
+  "src": "out/video/JIXIN_viewing-copy_1920x1080_60fps_H264_derived-from-master.mp4",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/video/JIXIN_viewing-copy_1920x1080_60fps_H264_derived-from-master.mp4",
+  "bytes": 145741929,
+  "sha256": "f25e4f2754467d24dfda325a24b8e40b71b1f3f2a23dc001f4f2bdec3db4c0c2",
+  "verified": true
+ },
+ {
+  "src": "out/video/JIXIN_viewing-copy_3840x2160_60fps_H264_derived-from-master.mp4",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/video/JIXIN_viewing-copy_3840x2160_60fps_H264_derived-from-master.mp4",
+  "bytes": 549544311,
+  "sha256": "4e2c0b54a1a80811d43b4627623695ad5a70ee85c35f28d4a9d9dda14a1c7f39",
+  "verified": true
+ },
+ {
+  "src": "out/audio/JIXIN_soundtrack_48k.events.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/video/soundtrack/JIXIN_soundtrack_48k.events.json",
+  "bytes": 2877,
+  "sha256": "b5ef075196af3a652615ed9fffd3d558fb2ca0c9817f260f29ae1cae63ec3a04",
+  "verified": true
+ },
+ {
+  "src": "out/audio/JIXIN_soundtrack_48k.wav",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/video/soundtrack/JIXIN_soundtrack_48k.wav",
+  "bytes": 11232044,
+  "sha256": "d3b9d01c4638157e993bc185c7f85401336f67783e859f7cda7e0bf4cc290478",
+  "verified": true
+ },
+ {
+  "src": "out/audio/waveform.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/video/soundtrack/waveform.png",
+  "bytes": 6570,
+  "sha256": "677d99d604426c1b1a7ec51372db3b684534d72272cbc99b4d00e4938c98483a",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_01_sealed.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_01_sealed.png",
+  "bytes": 10056870,
+  "sha256": "dae864263d56cfbc1e35b5e2db18b5bb9aad5db434ad004297005c15775d17b1",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_02_rings-aligned.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_02_rings-aligned.png",
+  "bytes": 9421294,
+  "sha256": "5dabd8db7fc3101139513420fd5244ad51d6e9d2f1dec568ab7cdfdae5c81c6f",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_03_unsealing.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_03_unsealing.png",
+  "bytes": 10310734,
+  "sha256": "8cba83fe35bfd9aced02b94a5e73d04a2d427a81dc6bf26468bfaf66f461b462",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_04_awake.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_04_awake.png",
+  "bytes": 10450421,
+  "sha256": "616d43b65e19c020ef2d82629ca874aa04e02d377db55ab56f1c99bbd9e95b37",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_05_glyph-drums.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_05_glyph-drums.png",
+  "bytes": 10029457,
+  "sha256": "7abd4c5722a8aa1e73a61f5cc136bd87206f1d052ad03887af9f6bae25d9ee85",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_06_reed-comb.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_06_reed-comb.png",
+  "bytes": 8747102,
+  "sha256": "b32e7409a11d2d683dc6b94e1363596734f668eaa74e8cd57004234240bccb02",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_07_seed.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_07_seed.png",
+  "bytes": 9322037,
+  "sha256": "663a8a90b4b27883ff785f9554e32e3c86fb0822f5fc5677554c231572f3bb0d",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_08_inner-lining.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_08_inner-lining.png",
+  "bytes": 9411618,
+  "sha256": "91da29d09628f21facae2262e00343bca7e64ebc5ff96727b6dd932f26a42fec",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_09_shrine.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_09_shrine.png",
+  "bytes": 9341969,
+  "sha256": "10467c89c668927107a4836ffc06701acca5a899cc6411b1cf59465ac80cd1d7",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_10_well-overview.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_10_well-overview.png",
+  "bytes": 10748745,
+  "sha256": "de4457ba4877dccb3db7915128c598359b5e70b07c6cc46342c7dec8cd9ae550",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_11_wugang.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_11_wugang.png",
+  "bytes": 9765289,
+  "sha256": "2b3b9b7ef8b6680292c757bff1900691a63cd84ca967ef286d2a14a37fcfc7e3",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/JIXIN_4K_12_drums-with-interface.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/JIXIN_4K_12_drums-with-interface.png",
+  "bytes": 9921918,
+  "sha256": "0a9a7167642c745f21d9250e2eabc93310bb8d3705b2b7ec1aa5a4c7c364d2cb",
+  "verified": true
+ },
+ {
+  "src": "out/stills4k/shots.meta.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/stills/shots.meta.json",
+  "bytes": 7498,
+  "sha256": "99a69628b23812e83dab9390eaaa8d34b4506eae23bea8d5964f68ded04db5fe",
+  "verified": true
+ },
+ {
+  "src": "rep/JIXIN_project-report.pdf",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/deliverables/report/JIXIN_project-report.pdf",
+  "bytes": 8756985,
+  "sha256": "f471a38645e3a6357b70213cb90386c9aea24e643b2ff92aff8db219d690e1af",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p01.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p01.png",
+  "bytes": 2262696,
+  "sha256": "2aa153936fb02c20494b9963916252a87a5cbc939c57d47cd9c77f78812e9f14",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p02.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p02.png",
+  "bytes": 1190022,
+  "sha256": "112b246133d763d0eed18a419a5165651d6e689ab1a7812cb24b3c4710be253b",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p03.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p03.png",
+  "bytes": 1073819,
+  "sha256": "4fc4fdf9c0bb8c5fb0022eb3e0d6708ee0a38be782efe489e986c98298d8244e",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p04.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p04.png",
+  "bytes": 922656,
+  "sha256": "c5dd6edd2d69d034f296c1eae4a437be81bf982254760fe5586798edf2428bf6",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p05.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p05.png",
+  "bytes": 1260712,
+  "sha256": "fa021c920ff9875d9fcceaf188ede07dadd38f5cc28c4e4d9127b54fde7b548e",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p06.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p06.png",
+  "bytes": 1515559,
+  "sha256": "95bd8c48a120cb20abb49dde077c5476bce6687da3a230c66e1d45a1e7a33a6c",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p07.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p07.png",
+  "bytes": 1133955,
+  "sha256": "1e9592f76780af4f0db3ff61247a1c70063cb89a1f0ea51a9454224e37ad7e9c",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p08.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p08.png",
+  "bytes": 1279709,
+  "sha256": "7cd67db9234741b05a671a73ed6f45558b891db28459c89c95162deb96b9c3be",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p09.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p09.png",
+  "bytes": 1403606,
+  "sha256": "fbe11251b01c13eb14a3f39a8ae5508b864f25a6f73c253b073345b3429e8976",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p10.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p10.png",
+  "bytes": 1776166,
+  "sha256": "c6a983bdbeef6078aa0375e2c8c541b45d7d0b4e6a753b115470752e19b170e3",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p11.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p11.png",
+  "bytes": 222701,
+  "sha256": "4cb199ee47e4b4d2483b7b84a02ee98c5c29577ca6cdf81168cf8dc55170a3c0",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p12.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p12.png",
+  "bytes": 229403,
+  "sha256": "a59c00b3915c9eac79ce00a04c1788d422e3abf41e61a185455e97d962c0d31c",
+  "verified": true
+ },
+ {
+  "src": "rep/pages/p13.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/report-pages/p13.png",
+  "bytes": 168420,
+  "sha256": "91571089c16c7bb83fecaa48d60a29f726f492af40fbc57dd566d32990040e2d",
+  "verified": true
+ },
+ {
+  "src": "out/bench/bench_1_fidelity_headed.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/benchmark/bench_1_fidelity_headed.json",
+  "bytes": 1446,
+  "sha256": "1efc9331b9add5589bcba3c55368bd8d0b0860d5195c1fb20fe1abce5b8b0e0e",
+  "verified": true
+ },
+ {
+  "src": "out/bench/bench_2_balanced_headed.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/benchmark/bench_2_balanced_headed.json",
+  "bytes": 1446,
+  "sha256": "23b5aa0d89615938c052e2cf678159554f20a571828f4e4d8cd2f156efbc82ed",
+  "verified": true
+ },
+ {
+  "src": "out/bench/bench_3_performance_headed.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/benchmark/bench_3_performance_headed.json",
+  "bytes": 1443,
+  "sha256": "8df14ddb35c12e91bd2ad9b4dd066f474a6a240016e282c8672e585761319343",
+  "verified": true
+ },
+ {
+  "src": "out/bench/bench_4_auto_headed.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/benchmark/bench_4_auto_headed.json",
+  "bytes": 1451,
+  "sha256": "a1d5036222cd0e227b37d0222b9bb35fdba172985e6fd5b3b5731177be195275",
+  "verified": true
+ },
+ {
+  "src": "out/bench/bench_5_fidelity_headless-offscreen-3840x2160.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/benchmark/bench_5_fidelity_headless-offscreen-3840x2160.json",
+  "bytes": 1462,
+  "sha256": "e0e638a7dcac7381940ec03253fb093d497a35d93c80c6be4178d88eba41a11e",
+  "verified": true
+ },
+ {
+  "src": "out/report/env.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/benchmark/env.json",
+  "bytes": 1592,
+  "sha256": "b89a4085437466f069223cef5badf7c59d85dcf23c47c762136e90da01c32b9b",
+  "verified": true
+ },
+ {
+  "src": "out/val/master_validation.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master_validation.json",
+  "bytes": 8940,
+  "sha256": "9ddbcdb9bfc0968d5d1e46be28d6c7cde05782cd3800fd742fb7ddaa70b49102",
+  "verified": true
+ },
+ {
+  "src": "out/val/master_validation_joins.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master_validation_joins.png",
+  "bytes": 3781028,
+  "sha256": "a757ba82fa65af8ed3b7ee47416bb9439a895af0a2a3b0f7ee401868c066e0e1",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_01199.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_01199.png",
+  "bytes": 9685922,
+  "sha256": "64b2a770ae4f5b8dfb794fdb8031d5ab48c086177b6236bacf5c268977380fd6",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_01200.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_01200.png",
+  "bytes": 9692409,
+  "sha256": "ad23dea4dd33666304c862cc43982009f3f174dad36a20992228e5b9a49c1268",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_02399.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_02399.png",
+  "bytes": 10611195,
+  "sha256": "b57b1ede80c9d39bbd583b93ba243c7c00ffc44360d383800e3723758b915f94",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_02400.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_02400.png",
+  "bytes": 10596123,
+  "sha256": "51dca68f4602cc207f75049e21e84d9886ae39fbcc989f4bfb51001fe8b77181",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_03599.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_03599.png",
+  "bytes": 10910038,
+  "sha256": "9209ffcecbfec535320e3d44ffefd384405ea3aa612313bff16f4021c55aa6b4",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_03600.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_03600.png",
+  "bytes": 10888682,
+  "sha256": "3f7165516d9d736df57f6cf1e78026b5c31d15d310fb884c43e92796ef411935",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_04799.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_04799.png",
+  "bytes": 9837167,
+  "sha256": "1cfe0cb0c34cd95babe1bd0217294622669ace64125bf02c32fbf078fe74a097",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_04800.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_04800.png",
+  "bytes": 8751888,
+  "sha256": "23e5e4f8946ba3e3fe5ee1bec61b335f2cd51b03bfb15e8f9fc6d2d0426c1591",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_05999.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_05999.png",
+  "bytes": 9249123,
+  "sha256": "c15ac34c6055774fa26c489ac0c2e47e11fe8609874e8bdd498d5af59de7bb54",
+  "verified": true
+ },
+ {
+  "src": "out/val/cont/cont_06000.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/join-check-continuous/cont_06000.png",
+  "bytes": 10658812,
+  "sha256": "32e2c5159feaa9a41f858423f10696e447cad7a1e40901951efdc5629016e279",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_00000.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_00000.png",
+  "bytes": 13071419,
+  "sha256": "3bc01f7bac1037e7108225add95c2e0d139832175fe541ffa269929953b7f9ff",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_00600.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_00600.png",
+  "bytes": 12583160,
+  "sha256": "ebf28bb68dd9f3588ec3c12badcd18dcf066d4a5fab2eb1e1ae77f8ba44ec14e",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_01200.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_01200.png",
+  "bytes": 11842490,
+  "sha256": "717be201da15823f1b9cd0cf34631c95ca8ccf22b5d389d0ad14b36b4d42ca67",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_01800.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_01800.png",
+  "bytes": 11436870,
+  "sha256": "832639d2613c4c62c265990e703f32e5a09957648be64fd5db3810ffbb2b5891",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_02400.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_02400.png",
+  "bytes": 13073270,
+  "sha256": "a41fa2d3fd815a96bda1fc0f0d3182734faa8a1fdc9defb3c647b5d148012557",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_03000.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_03000.png",
+  "bytes": 13035447,
+  "sha256": "8c0c2b66aaf1245c77342cbe4873ad2fd7669e392f1aa879999b344beb5b6b4a",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_03600.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_03600.png",
+  "bytes": 13229485,
+  "sha256": "29419e628fd543c59765a4a064858edead3f16454bc996519811da9de93aa467",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_04200.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_04200.png",
+  "bytes": 12381271,
+  "sha256": "20e4f200b8a0e9aa704528a80eed71582557b9cb7f04d3173364b150c8ac0dbb",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_04800.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_04800.png",
+  "bytes": 11330979,
+  "sha256": "ab5218b4b4f2d815d94f360c08c640688de5205e7bf16f54979de3b0ddacd333",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_05400.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_05400.png",
+  "bytes": 11976959,
+  "sha256": "7fd0d3024034f31c8efcb01e21117b07b8bfec908666511000a937b482161ae7",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_06000.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_06000.png",
+  "bytes": 13108386,
+  "sha256": "195773f353bea92b32e2fbe89c5cd515d29931ecc47bd0ab39cee5f419e7e1a6",
+  "verified": true
+ },
+ {
+  "src": "out/master/frames_native/frame_06600.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/master-native-frames/frame_06600.png",
+  "bytes": 13114170,
+  "sha256": "cf35f74ee4750bf0732955ad4be013bf7e858a39feeabc74541acb171bf2916a",
+  "verified": true
+ },
+ {
+  "src": "out/master/capture_records/deriv_log.txt",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/capture-records/deriv_log.txt",
+  "bytes": 155,
+  "sha256": "5e6a326b9c2b35241f060395ff1fb2cd0a4e9651f545581a9b78cbb755c7b16d",
+  "verified": true
+ },
+ {
+  "src": "out/master/capture_records/master_log.txt",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/capture-records/master_log.txt",
+  "bytes": 7792,
+  "sha256": "4276aae3cd68a36fbbec3dc45fce5f9cec77818db6a09831de2efdbe73930d56",
+  "verified": true
+ },
+ {
+  "src": "out/master/capture_records/seg_0.capture.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/capture-records/seg_0.capture.json",
+  "bytes": 689,
+  "sha256": "01739f73c0f3f4bd6c3698bc4f0c5a073fc87490a487a46a4e5231e2d0840ab3",
+  "verified": true
+ },
+ {
+  "src": "out/master/capture_records/seg_1.capture.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/capture-records/seg_1.capture.json",
+  "bytes": 695,
+  "sha256": "b0888e71229074ccb9cbf4eda57643193398417c85baf35d287d2959bf1906e4",
+  "verified": true
+ },
+ {
+  "src": "out/master/capture_records/seg_2.capture.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/capture-records/seg_2.capture.json",
+  "bytes": 694,
+  "sha256": "6f8df6653eed096e0de5fd32eb996bdc7085aa0fdc061c3a078e2968fcaa36ac",
+  "verified": true
+ },
+ {
+  "src": "out/master/capture_records/seg_3.capture.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/capture-records/seg_3.capture.json",
+  "bytes": 695,
+  "sha256": "9ae029e2f18218a2440618c2cdeb994de58da726e1db02d35c5fd61274516279",
+  "verified": true
+ },
+ {
+  "src": "out/master/capture_records/seg_4.capture.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/capture-records/seg_4.capture.json",
+  "bytes": 694,
+  "sha256": "f1d54797bf6aa355183a486282c005b35dd8b46dc6244daf143c26c055618bf5",
+  "verified": true
+ },
+ {
+  "src": "out/master/capture_records/seg_5.capture.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/capture-records/seg_5.capture.json",
+  "bytes": 695,
+  "sha256": "225f0871818c03dd446db5d05fbe0ee42077fd3183e9d428227fa9bd3ce991dd",
+  "verified": true
+ },
+ {
+  "src": "out/audio/waveform.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/video/waveform.png",
+  "bytes": 6570,
+  "sha256": "677d99d604426c1b1a7ec51372db3b684534d72272cbc99b4d00e4938c98483a",
+  "verified": true
+ },
+ {
+  "src": "out/copy_manifest.json",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/copy_manifest.json",
+  "bytes": 20070,
+  "sha256": "d706052eaa8dc9149735d21175235e7849a836acf6fcb30bc517877c85a833cd",
+  "verified": true
+ },
+ {
+  "src": "out/tests/failtest_packaged.txt",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/failtest_packaged.txt",
+  "bytes": 474,
+  "sha256": "036657ae46cd529ace189738d3cf1dd7210bf02b754f3e367af8e5e75f4ce788",
+  "verified": true
+ },
+ {
+  "src": "out/tests/fallback_missing-model_loading.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/fallback_missing-model_loading.png",
+  "bytes": 158249,
+  "sha256": "fdbc7d37098194fba2f3756fc14d6c97cd046375cf2bd4b3bbfae8d47508e6e5",
+  "verified": true
+ },
+ {
+  "src": "out/tests/fallback_missing-model_scene.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/fallback_missing-model_scene.png",
+  "bytes": 1299080,
+  "sha256": "e5380d5411f6bc8f1f3efba9ff095604e1ede2db29718a28004683c021af003c",
+  "verified": true
+ },
+ {
+  "src": "out/tests/fallback_no-webgl.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/fallback_no-webgl.png",
+  "bytes": 252535,
+  "sha256": "d6d60e2c1c87b287cf4015ed5ef47757ca757bc04fe66641412f8204f49fde20",
+  "verified": true
+ },
+ {
+  "src": "out/tests/itest_end_packaged.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/itest_end_packaged.png",
+  "bytes": 2010204,
+  "sha256": "fe5c37a00c3bea2fe4227f663b3e033f234949ab851b06c5c368fae434aca303",
+  "verified": true
+ },
+ {
+  "src": "out/tests/itest_packaged.txt",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/itest_packaged.txt",
+  "bytes": 1035,
+  "sha256": "a98260681213673f5a313ab8512f0f43db42c8a3f626ebafdb752b6658e467fb",
+  "verified": true
+ },
+ {
+  "src": "out/tests/phone_390x844.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/phone_390x844.png",
+  "bytes": 3531520,
+  "sha256": "dfe86ef4ba2cd38d5768f9b005e052fe98ea3af9744f570de99be16716f5cd21",
+  "verified": true
+ },
+ {
+  "src": "out/tests/phone_390x844_awake.png",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/phone_390x844_awake.png",
+  "bytes": 3881615,
+  "sha256": "6c253ccc4cc596b1b426352f3255f41221b4d2a6a683f6d2e6eff672cbb75e90",
+  "verified": true
+ },
+ {
+  "src": "out/tests/sound_label.txt",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/review/tests/sound_label.txt",
+  "bytes": 69,
+  "sha256": "01a902bfdbcdf7ecddb4e063580f15b8a5e898fc5e972f835152fc16c1764918",
+  "verified": true
+ },
+ {
+  "src": "helpers/encoder_test_grab.mjs",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/source/capture/helpers/encoder_test_grab.mjs",
+  "bytes": 1479,
+  "sha256": "d1de58e9f1712527c791e28804efceccc047403b28f9cfc0d5b0b518a29d16af",
+  "verified": true
+ },
+ {
+  "src": "helpers/fetch_rules_page.mjs",
+  "dst": "//172.16.136.1/Win_share/CyberMind-3D-Web/source/capture/helpers/fetch_rules_page.mjs",
+  "bytes": 1261,
+  "sha256": "7bfae2d2e26f444398cfb7750a35a87c9ff3de965d383fb3286c9c2806a29a89",
+  "verified": true
+ }
+]

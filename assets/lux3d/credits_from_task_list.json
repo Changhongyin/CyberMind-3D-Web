@@ -1,0 +1,38 @@
+[
+ {
+  "taskId": "6691979",
+  "taskType": "image-to-3d",
+  "status": 3,
+  "consumedCredits": 20
+ },
+ {
+  "taskId": "6691965",
+  "taskType": "image-to-3d",
+  "status": 3,
+  "consumedCredits": 20
+ },
+ {
+  "taskId": "6691940",
+  "taskType": "image-to-3d",
+  "status": 3,
+  "consumedCredits": 20
+ },
+ {
+  "taskId": "6690729",
+  "taskType": "multimodal-to-image",
+  "status": 3,
+  "consumedCredits": 12
+ },
+ {
+  "taskId": "6690707",
+  "taskType": "multimodal-to-image",
+  "status": 3,
+  "consumedCredits": 12
+ },
+ {
+  "taskId": "6690690",
+  "taskType": "multimodal-to-image",
+  "status": 3,
+  "consumedCredits": 12
+ }
+]

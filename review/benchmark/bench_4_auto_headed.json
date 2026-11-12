@@ -1,0 +1,50 @@
+{
+ "kind": "JIXIN real-time benchmark (scripted tour incl. ring alignment, wake transformation and close inspection)",
+ "date": "2026-11-12T13:03:21.780Z",
+ "seconds": 40.01590000000596,
+ "frames": 2145,
+ "avgFps": 53.62,
+ "frameMs": {
+  "avg": 18.65,
+  "p50": 15.8,
+  "p90": 27.4,
+  "p95": 32,
+  "p99": 78,
+  "max": 221.2,
+  "min": 1
+ },
+ "profile": "auto",
+ "internalScale": 0.7500000000000008,
+ "sceneTarget": [
+  2565,
+  1545
+ ],
+ "msaa": 2,
+ "drawingBuffer": [
+  3420,
+  2060
+ ],
+ "cssSize": [
+  1710,
+  1030
+ ],
+ "devicePixelRatio": 2,
+ "visibility": "visible",
+ "focused": true,
+ "renderer": "ANGLE (VMware, VMware SVGA 3D (0x00000406) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+ "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+ "hardwareConcurrency": 10,
+ "screen": [
+  1710,
+  1073
+ ],
+ "estRefreshHz": 71.9,
+ "drawCalls": 98,
+ "triangles": 4108972,
+ "renderTargetMB": 141,
+ "geometries": 92,
+ "textures": 37,
+ "note": "estRefreshHz is derived from the fastest 5% of requestAnimationFrame intervals; a display or compositor capped at 60 Hz cannot show more than 60 presented frames per second.",
+ "mode": "headed, full-screen, visible and focused window",
+ "launchFlags": "--ignore-gpu-blocklist --enable-gpu --use-angle=d3d11 --mute-audio --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --disable-renderer-backgrounding"
+}

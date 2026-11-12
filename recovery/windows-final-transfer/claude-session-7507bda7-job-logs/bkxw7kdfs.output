@@ -1,0 +1,19 @@
+Thu Nov 12 03:45:27 PST 2026
+frame 6960 (960/1020)  T=58.025  863 s elapsed, 0.90 s/frame
+done {"out":"seg_5.mp4","width":3840,"height":2160,"fps":120,"firstFrame":6000,"frames":1020,"seconds":8.5,"dt":0.008333333333333333,"codec":"hevc","crf":"16","profile":"fidelity","msaa":4,"sceneTarget":[3840,2160],"drawingBuffer":[3840,2160],"simFrameFirst":6002,"simFrameLast":7021,"wallSeconds":924.177,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0","date":"2026-11-12T11:45:08.572Z","method":"fixed-step 1/fps simulation, one native-resolution render and one lossless PNG screenshot per output frame, piped to ffmpeg"}
+MASTER_DONE
+-rw-r--r-- 1 lover 197609 904000571 Nov 12 03:45 out/master/JIXIN_master_3840x2160_120fps_hevc.mp4
+-rw-r--r-- 1 lover 197609       689 Nov 12 02:07 out/master/seg_0.capture.json
+-rw-r--r-- 1 lover 197609 202059596 Nov 12 02:07 out/master/seg_0.mp4
+-rw-r--r-- 1 lover 197609       695 Nov 12 02:30 out/master/seg_1.capture.json
+-rw-r--r-- 1 lover 197609 112017603 Nov 12 02:30 out/master/seg_1.mp4
+-rw-r--r-- 1 lover 197609       694 Nov 12 02:52 out/master/seg_2.capture.json
+-rw-r--r-- 1 lover 197609 193839616 Nov 12 02:52 out/master/seg_2.mp4
+-rw-r--r-- 1 lover 197609       695 Nov 12 03:14 out/master/seg_3.capture.json
+-rw-r--r-- 1 lover 197609 148551847 Nov 12 03:14 out/master/seg_3.mp4
+-rw-r--r-- 1 lover 197609       694 Nov 12 03:29 out/master/seg_4.capture.json
+-rw-r--r-- 1 lover 197609  70561289 Nov 12 03:29 out/master/seg_4.mp4
+-rw-r--r-- 1 lover 197609       695 Nov 12 03:45 out/master/seg_5.capture.json
+-rw-r--r-- 1 lover 197609 176986975 Nov 12 03:45 out/master/seg_5.mp4
+
+[exited with code 0]

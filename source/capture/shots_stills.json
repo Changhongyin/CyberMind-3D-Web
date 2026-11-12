@@ -1,0 +1,14 @@
+[
+ {"name": "JIXIN_4K_01_sealed", "state": "dormant", "secs": 5, "pose": null},
+ {"name": "JIXIN_4K_02_rings-aligned", "state": "locked", "secs": 3, "pose": {"az": 0.42, "el": 0.06, "dist": 8.8, "tgt": [0.15, 0.6, 1.4], "fov": 36}, "hud": false},
+ {"name": "JIXIN_4K_03_unsealing", "state": "film@19.7", "hud": false},
+ {"name": "JIXIN_4K_04_awake", "state": "awake", "secs": 4, "pose": {"az": 0.3, "el": 0.035, "dist": 19.5, "tgt": [0, 0.55, 0], "fov": 38}, "hud": false},
+ {"name": "JIXIN_4K_05_glyph-drums", "state": "awake", "secs": 3, "pose": {"az": 0.2, "el": 0.02, "dist": 5.6, "tgt": [0, 0.3, 0.3], "fov": 36}, "hud": false},
+ {"name": "JIXIN_4K_06_reed-comb", "state": "awake", "secs": 3, "pose": {"az": -0.75, "el": 0.22, "dist": 1.7, "tgt": [0.62, 0.24, 1.22], "fov": 32}, "hud": false},
+ {"name": "JIXIN_4K_07_seed", "state": "awake", "secs": 3, "pose": {"az": -0.35, "el": 0.22, "dist": 3.0, "tgt": [0, 3.15, 0.06], "fov": 34}, "hud": false},
+ {"name": "JIXIN_4K_08_inner-lining", "state": "awake", "secs": 3, "pose": {"az": -0.62, "el": 0.05, "dist": 4.4, "tgt": [3.5, 0.8, 2.2], "fov": 36}, "hud": false},
+ {"name": "JIXIN_4K_09_shrine", "state": "dormant", "secs": 2, "pose": {"az": 0.78, "el": 0.2, "dist": 2.7, "tgt": [2.85, -3.08, 3.9], "fov": 34}, "hud": false},
+ {"name": "JIXIN_4K_10_well-overview", "state": "awake", "secs": 3, "pose": {"az": -0.5, "el": 0.45, "dist": 26, "tgt": [0, -0.5, 0], "fov": 38}, "hud": false},
+ {"name": "JIXIN_4K_11_wugang", "state": "awake", "secs": 6, "pose": {"az": 0.62, "el": 0.02, "dist": 40, "tgt": [-8, 5.5, -14], "fov": 30}, "hud": false},
+ {"name": "JIXIN_4K_12_drums-with-interface", "state": "film@36.2"}
+]

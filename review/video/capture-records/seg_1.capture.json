@@ -1,0 +1,28 @@
+{
+ "out": "seg_1.mp4",
+ "width": 3840,
+ "height": 2160,
+ "fps": 120,
+ "firstFrame": 1200,
+ "frames": 1200,
+ "seconds": 10,
+ "dt": 0.008333333333333333,
+ "codec": "hevc",
+ "crf": "16",
+ "profile": "fidelity",
+ "msaa": 4,
+ "sceneTarget": [
+  3840,
+  2160
+ ],
+ "drawingBuffer": [
+  3840,
+  2160
+ ],
+ "simFrameFirst": 1202,
+ "simFrameLast": 2401,
+ "wallSeconds": 1355.359,
+ "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+ "date": "2026-11-12T10:30:40.658Z",
+ "method": "fixed-step 1/fps simulation, one native-resolution render and one lossless PNG screenshot per output frame, piped to ffmpeg"
+}

@@ -1,0 +1,1 @@
+sound label at start: 有声SOUND ON | after toggle: 静音SOUND OFF

@@ -1,0 +1,6 @@
+task 6691965
+[   2s] status=1
+[ 351s] status=3
+saved censer_img3d_t6691965_0.zip 13004800
+saved censer_img3d_t6691965_1.glb 18652680
+DONE {"img3d": 6691965, "files": [["censer_img3d_t6691965_0.zip", 13004800], ["censer_img3d_t6691965_1.glb", 18652680]]}

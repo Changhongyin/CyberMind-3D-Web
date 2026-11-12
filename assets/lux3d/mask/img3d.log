@@ -1,0 +1,6 @@
+task 6691940
+[   2s] status=1
+[ 285s] status=3
+saved mask_img3d_t6691940_0.zip 13126990
+saved mask_img3d_t6691940_1.glb 15565300
+DONE {"img3d": 6691940, "files": [["mask_img3d_t6691940_0.zip", 13126990], ["mask_img3d_t6691940_1.glb", 15565300]]}

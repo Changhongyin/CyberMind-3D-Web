@@ -1,0 +1,374 @@
+{
+ "segments": [
+  {
+   "file": "seg_0.mp4",
+   "containerSeconds": 10.0,
+   "videoLine": "hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt709/unknown/unknown, progressive), 3840x2160, 161631 kb/s, 120 fps, 120 tbr, 15360 tbn (default)",
+   "codec": "hevc",
+   "width": 3840,
+   "height": 2160,
+   "fps": 120.0,
+   "pix_fmt": "yuv420p10le",
+   "audioLine": null,
+   "exitCode": 0,
+   "decodedFrames": 1200,
+   "decodeErrors": [],
+   "expectedFrames": 1200,
+   "ok": true
+  },
+  {
+   "file": "seg_1.mp4",
+   "containerSeconds": 10.0,
+   "videoLine": "hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt709/unknown/unknown, progressive), 3840x2160, 89598 kb/s, 120 fps, 120 tbr, 15360 tbn (default)",
+   "codec": "hevc",
+   "width": 3840,
+   "height": 2160,
+   "fps": 120.0,
+   "pix_fmt": "yuv420p10le",
+   "audioLine": null,
+   "exitCode": 0,
+   "decodedFrames": 1200,
+   "decodeErrors": [],
+   "expectedFrames": 1200,
+   "ok": true
+  },
+  {
+   "file": "seg_2.mp4",
+   "containerSeconds": 10.0,
+   "videoLine": "hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt709/unknown/unknown, progressive), 3840x2160, 155054 kb/s, 120 fps, 120 tbr, 15360 tbn (default)",
+   "codec": "hevc",
+   "width": 3840,
+   "height": 2160,
+   "fps": 120.0,
+   "pix_fmt": "yuv420p10le",
+   "audioLine": null,
+   "exitCode": 0,
+   "decodedFrames": 1200,
+   "decodeErrors": [],
+   "expectedFrames": 1200,
+   "ok": true
+  },
+  {
+   "file": "seg_3.mp4",
+   "containerSeconds": 10.0,
+   "videoLine": "hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt709/unknown/unknown, progressive), 3840x2160, 118825 kb/s, 120 fps, 120 tbr, 15360 tbn (default)",
+   "codec": "hevc",
+   "width": 3840,
+   "height": 2160,
+   "fps": 120.0,
+   "pix_fmt": "yuv420p10le",
+   "audioLine": null,
+   "exitCode": 0,
+   "decodedFrames": 1200,
+   "decodeErrors": [],
+   "expectedFrames": 1200,
+   "ok": true
+  },
+  {
+   "file": "seg_4.mp4",
+   "containerSeconds": 10.0,
+   "videoLine": "hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt709/unknown/unknown, progressive), 3840x2160, 56434 kb/s, 120 fps, 120 tbr, 15360 tbn (default)",
+   "codec": "hevc",
+   "width": 3840,
+   "height": 2160,
+   "fps": 120.0,
+   "pix_fmt": "yuv420p10le",
+   "audioLine": null,
+   "exitCode": 0,
+   "decodedFrames": 1200,
+   "decodeErrors": [],
+   "expectedFrames": 1200,
+   "ok": true
+  },
+  {
+   "file": "seg_5.mp4",
+   "containerSeconds": 8.5,
+   "videoLine": "hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt709/unknown/unknown, progressive), 3840x2160, 166559 kb/s, 120 fps, 120 tbr, 15360 tbn (default)",
+   "codec": "hevc",
+   "width": 3840,
+   "height": 2160,
+   "fps": 120.0,
+   "pix_fmt": "yuv420p10le",
+   "audioLine": null,
+   "exitCode": 0,
+   "decodedFrames": 1020,
+   "decodeErrors": [],
+   "expectedFrames": 1020,
+   "ok": true
+  }
+ ],
+ "master": {
+  "file": "JIXIN_master_3840x2160_120fps_hevc.mp4",
+  "bytes": 904000571,
+  "containerSeconds": 58.5,
+  "videoLine": "hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt709/unknown/unknown, progressive), 3840x2160, 123610 kb/s, 120 fps, 120 tbr, 15360 tbn (default)",
+  "codec": "hevc",
+  "width": 3840,
+  "height": 2160,
+  "fps": 120.0,
+  "pix_fmt": "yuv420p10le",
+  "audioLine": null,
+  "exitCode": 0,
+  "decodedFrames": 7020,
+  "decodeErrors": [],
+  "expectedFrames": 7020,
+  "expectedSeconds": 58.5,
+  "ok": true,
+  "joins": [
+   {
+    "join": 1200,
+    "madBefore": 1.808,
+    "madAcross": 2.359,
+    "madAfter": 2.021,
+    "ratio": 1.23,
+    "ok": true,
+    "scriptedCutAtJoin": false,
+    "continuousMatch": true
+   },
+   {
+    "join": 2400,
+    "madBefore": 2.221,
+    "madAcross": 2.79,
+    "madAfter": 2.299,
+    "ratio": 1.23,
+    "ok": true,
+    "scriptedCutAtJoin": false,
+    "continuousMatch": true
+   },
+   {
+    "join": 3600,
+    "madBefore": 3.466,
+    "madAcross": 4.161,
+    "madAfter": 3.818,
+    "ratio": 1.14,
+    "ok": true,
+    "scriptedCutAtJoin": false,
+    "continuousMatch": true
+   },
+   {
+    "join": 4800,
+    "madBefore": 0.125,
+    "madAcross": 57.668,
+    "madAfter": 2.068,
+    "ratio": 52.6,
+    "ok": true,
+    "scriptedCutAtJoin": true,
+    "continuousMatch": true
+   },
+   {
+    "join": 6000,
+    "madBefore": 0.529,
+    "madAcross": 70.394,
+    "madAfter": 0.723,
+    "ratio": 112.45,
+    "ok": true,
+    "scriptedCutAtJoin": true,
+    "continuousMatch": true
+   }
+  ],
+  "nativeFrameCheck": [
+   {
+    "frame": 0,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 2.281
+   },
+   {
+    "frame": 600,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 2.109
+   },
+   {
+    "frame": 1200,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 1.944
+   },
+   {
+    "frame": 1800,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 1.681
+   },
+   {
+    "frame": 2400,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 2.396
+   },
+   {
+    "frame": 3000,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 2.203
+   },
+   {
+    "frame": 3600,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 2.455
+   },
+   {
+    "frame": 4200,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 2.102
+   },
+   {
+    "frame": 4800,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 1.443
+   },
+   {
+    "frame": 5400,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 1.699
+   },
+   {
+    "frame": 6000,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 2.318
+   },
+   {
+    "frame": 6600,
+    "size": [
+     3840,
+     2160
+    ],
+    "madVsNativePNG": 2.178
+   }
+  ],
+  "continuousJoinCheck": {
+   "method": "frames on both sides of each join rendered in ONE uninterrupted session (join_check.mjs) vs decoded master frames; small values = identical apart from encoding",
+   "results": [
+    {
+     "frame": 1199,
+     "madContinuousVsMaster": 2.482
+    },
+    {
+     "frame": 1200,
+     "madContinuousVsMaster": 2.195
+    },
+    {
+     "frame": 2399,
+     "madContinuousVsMaster": 3.029
+    },
+    {
+     "frame": 2400,
+     "madContinuousVsMaster": 2.51
+    },
+    {
+     "frame": 3599,
+     "madContinuousVsMaster": 3.198
+    },
+    {
+     "frame": 3600,
+     "madContinuousVsMaster": 2.855
+    },
+    {
+     "frame": 4799,
+     "madContinuousVsMaster": 3.803
+    },
+    {
+     "frame": 4800,
+     "madContinuousVsMaster": 1.954
+    },
+    {
+     "frame": 5999,
+     "madContinuousVsMaster": 3.007
+    },
+    {
+     "frame": 6000,
+     "madContinuousVsMaster": 2.778
+    }
+   ]
+  }
+ },
+ "derivatives": [],
+ "delivered": [
+  {
+   "file": "JIXIN_master_3840x2160_120fps_HEVC-Main10.mp4",
+   "bytes": 905841400,
+   "mbps": 123.9,
+   "containerSeconds": 58.5,
+   "video": "hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt709/unknown/unknown, progressive), 3840x2160, 123610 kb/s, 120 fps, 120 tbr, 15360 tbn (default)",
+   "audio": "aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 244 kb/s (default)",
+   "width": 3840,
+   "height": 2160,
+   "fps": 120.0,
+   "decodedVideoFrames": 7020,
+   "decodeExit": 0,
+   "decodeErrors": [],
+   "expectedFrames": 7020,
+   "ok": true
+  },
+  {
+   "file": "JIXIN_viewing-copy_1920x1080_60fps_H264_derived-from-master.mp4",
+   "bytes": 145741929,
+   "mbps": 19.9,
+   "containerSeconds": 58.5,
+   "video": "h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080, 19725 kb/s, 60 fps, 60 tbr, 15360 tbn (default)",
+   "audio": "aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 191 kb/s (default)",
+   "width": 1920,
+   "height": 1080,
+   "fps": 60.0,
+   "decodedVideoFrames": 3510,
+   "decodeExit": 0,
+   "decodeErrors": [],
+   "expectedFrames": 3510,
+   "ok": true
+  },
+  {
+   "file": "JIXIN_viewing-copy_3840x2160_60fps_H264_derived-from-master.mp4",
+   "bytes": 549544311,
+   "mbps": 75.2,
+   "containerSeconds": 58.5,
+   "video": "h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160, 74946 kb/s, 60 fps, 60 tbr, 15360 tbn (default)",
+   "audio": "aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 191 kb/s (default)",
+   "width": 3840,
+   "height": 2160,
+   "fps": 60.0,
+   "decodedVideoFrames": 3510,
+   "decodeExit": 0,
+   "decodeErrors": [],
+   "expectedFrames": 3510,
+   "ok": true
+  }
+ ],
+ "deliveredMasterVideoPacketsIdenticalToValidatedSilentMaster": "MD5=8725b0c09c9bb9282a4e124fc3a51929 (both)",
+ "decimationCheck": {
+  "note": "4K60 frame k must equal master frame 2k",
+  "results": {
+   "v60_1799_vs_master3600": 9.452,
+   "v60_1800_vs_master3600": 2.801,
+   "v60_1801_vs_master3600": 9.253,
+   "v60_3000_vs_master6000": 2.635
+  }
+ }
+}

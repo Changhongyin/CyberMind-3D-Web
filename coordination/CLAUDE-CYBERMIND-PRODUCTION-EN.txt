@@ -1,0 +1,97 @@
+# CyberMind: autonomous high-detail 3D cyberpunk website production
+
+## Commission and creative authority
+
+Create a NEW competition entry: an exceptionally detailed, immersive, interactive, full-3D cyberpunk/science-and-technology themed website. The artistic quality, originality, spatial depth and impact of the finished experience are the priorities. The user explicitly allows procedural geometry, custom shaders, code-driven animation and hybrid asset production. Choose the actual title, fictional premise, art direction, interaction design and implementation yourself. No routine concept or design approvals are needed.
+
+Be ambitious in the central idea and disciplined in execution. Develop a coherent original interpretation of a technological mind, synthetic cognition or cybernetic intelligence that feels unfamiliar and compelling. You decide how that idea is embodied. Do not default to a generic glowing brain, neon orb, particle field or stock sci-fi dashboard without a distinctive mechanism and authored spatial design. Find a strong visual and interactive idea that makes a viewer want to explore what happens next.
+
+The desired benchmark is the clarity of art direction, material richness, environmental storytelling, lighting and responsiveness associated with high-end cyberpunk/science-fiction games, delivered as a focused website. This does not require the content scale of an entire AAA game. A small number of exceptionally rich, connected spaces is preferable to a sprawling unfinished world.
+
+Inspect references/inspiration-video-contact-sheet.jpg and, where useful, references/inspiration-video-OPTIONAL.mp4. The video shows a dimensional themed web presentation with a central three-dimensional scene and contextual panels. Take its spatial layering and presentation ambition as a reference, then create your own composition, interaction and visual identity. It is not a template to duplicate. If further research helps, study a small representative set of official game-art or technical references; synthesize principles rather than exhaustively surveying every game.
+
+## Local execution, shared files and project isolation
+
+Run in the LOCAL Claude CLI on the Windows VM or Mac that actually has access to this share. Verify your execution host, shared-folder read/write access, actual GPU/browser support, available memory and relevant tools before production. A desktop chat window does not itself prove that execution is local. Do not try to reach a private LAN share from a disconnected cloud Linux container.
+
+Canonical Windows root:
+\\172.16.136.1\Win_share\CyberMind-3D-Web\
+
+Mac counterpart:
+/Users/user/Documents/Win_share/CyberMind-3D-Web/
+
+All project-owned sources, assets, checkpoints and deliverables belong here. Use source/, assets/, references/, review/, coordination/ and deliverables/. Prefer direct shared-file editing. Where a tool requires local scratch, use one task-owned directory. Transfer completed editable sources, outputs and dependencies to the share, verify matching size/hash and successful opening or execution from the shared copy, then delete only the verified local duplicates. Do not delete the only copy or mirror-delete unrelated files. Keep credentials in the existing private configuration, outside the share and version control.
+
+Preserve both previous projects: Sensory-Garden-Restaurant and Autonomous-Lux3D-Entry. Do not overwrite their sources, deliverables, repositories or state files, and do not resume their production backlog.
+
+## Competition requirements and the role of Lux3D
+
+Read references/competition-requirements-snapshot-EN.md and the supplied screenshots. Verify the current official rules, eligibility, deadline and relevant limits from the actual competition page where accessible. Treat the snapshot as observed form requirements, not the full rulebook. Never invent scoring weights.
+
+Aholo Lux3D remains mandatory. Use the already configured China-site account for genuine asset generation or processing, and integrate the resulting asset or assets into the visible product. Choose a small, high-value contribution suited to the concept; the majority of the world may be code-authored. Do not force every surface, structure or animation through generation if code is the stronger route.
+
+The public-facing experience should emphasize the fictional world and its interactions. Technical tool credits and production explanations primarily belong in the report, README and optional credits, rather than interrupting the immersive experience. Accurately identify which assets Lux3D generated, which parts you modeled or generated procedurally, and which shaders, effects, motions and UI you wrote. Preserve generation task IDs and original outputs. Reporting procedural geometry does not replace the actual requirement to use Lux3D.
+
+## Art direction and three-dimensional detail
+
+Design a consistent visual language: authored silhouettes, a controlled palette, differentiated materials, motivated light sources, deliberate atmosphere, readable interfaces and a convincing sense of scale. Darkness and bloom must not erase geometry or conceal weak materials. Balance luminous accents with surfaces that can still be read in shadow and highlight.
+
+Build true spatial depth: foreground, navigable subject space, midground structures and a complete background. Camera movement should reveal parallax, changing occlusion, reflections, internal structure and details that could not be communicated by a flat poster. Cinematic depth of field is an artistic option, not a substitute for dimensional construction; preserve a readable focus hierarchy and crisp detail where the viewer is looking.
+
+Every allowed camera path and close viewing distance must be supported by the assets it exposes. Give hero objects credible layered construction and fine detail: surface transitions, edge treatment, joints, microstructure, moving parts or internal layers as appropriate to your design. Use fine geometry where silhouette, proximity or interaction requires it; use shaders, normal maps and instanced detail where they are effective. Prevent obvious intersections, floating joints, visible scene boundaries, stretched textures and empty reverse sides along permitted views.
+
+Include living, purposeful motion at multiple scales, with a clear hierarchy. Motion should communicate the invented system's state or function, rather than merely adding unrelated rotation. Small interactions should reveal more about the world. Fictional data and simulated cognition must be identifiable as designed content; do not present decorative signals as real live intelligence or telemetry.
+
+## Interaction and website experience
+
+This must be an actual usable 3D website. Build one coherent interaction loop with several tightly connected interactions; the exact mechanism is your creative decision. Mouse, touch where feasible and basic keyboard controls should have clear feedback, selection/hover states, transitions and an understandable reset or return path.
+
+At least one signature interaction must visibly and meaningfully transform the three-dimensional subject or environment. A second layer should reward closer exploration or inspection. The viewer should be able to discover the idea through use. Support repeat interaction without getting stuck in an animation or losing navigation. If scripted camera tours are offered, let the visitor interrupt them and regain control.
+
+Use a restrained, responsive interface integrated with the visual world. Include only copy and panels that help visitors explore or understand the premise. Avoid a generic marketing page, repeated feature cards or a long tool tutorial around a small 3D widget. Loading, failure and unsupported-renderer states should remain usable. A cinematic tour may demonstrate the same underlying interactive scene, but prerecorded video must not substitute for functional interaction.
+
+## 4K and 120fps: two separate acceptance targets
+
+The user's requested quality target is native 3840x2160 and 120 frames per second. Preserve that ambition in both the website architecture and the demonstration pipeline. Do not quietly downgrade it and continue describing the result as 4K120.
+
+A. Interactive website: target native-4K rendering at 120fps on a documented capable system. The corresponding frame budget is about 8.33 ms. Benchmark representative movement and interactions with the page visible and focused after warm-up. Record physical render-buffer dimensions, device pixel ratio, quality mode, browser, renderer/backend, hardware and display refresh when reliably available, average FPS and frame-time distribution. A 60Hz display or browser scheduling cap cannot demonstrate 120 presented frames per second, even if an offline render can generate them. If that is the available test environment, report the verification limit and optimize what can actually be measured. Do not fabricate a 4K120 real-time pass.
+
+Provide explicitly labeled quality/performance profiles, including a native-4K fidelity profile and useful responsive fallbacks. Keep the flagship composition and interaction design intact across them. Dynamic resolution or lower-quality modes must be labeled honestly; do not count a low-resolution offscreen target stretched onto a 4K canvas as native-4K rendering. Profile the expensive passes, draw calls, shader/geometry load and texture/render-target memory before making targeted optimizations. Use instancing, batching, LOD, culling, streaming, selective high-resolution assets and appropriate lighting strategies as needed. Do not assume more geometry or an experimental rendering backend automatically means better quality.
+
+B. Demonstration master: produce a genuine native 3840x2160 / 120fps video from the actual three-dimensional product. Use deterministic animation stepping at 1/120 second and render each output frame from that state. Verify the actual drawing-buffer/input dimensions throughout export, and retain representative native-resolution frames. No upscaling, motion interpolation or repeated 60fps frames labeled as 120fps. Choose a supported high-quality codec/container after a short encode/decode test. Target roughly 45-60 seconds with an intentional opening, signature transformation, close exploration and ending; adjust only if the concept genuinely needs it. A separate broadly compatible 60fps preview may be derived from the master and labeled as a derivative, not a replacement for the requested master.
+
+Test a short representative native-4K120 segment BEFORE committing to the full export. Confirm actual frame count, duration, cadence, codec, sharpness, UI readability and motion. Avoid multiple full-length recordings for problems that a short test would reveal. A master rendered slower than real time is valid offline output, but does not prove a 120fps live website. If a required target is blocked by actual hardware, browser or encoder limits, report the exact unmet target with evidence and preserve the highest-quality valid outputs; do not relabel them as having passed.
+
+## Usage, paid credits and recovery
+
+The user allows more production effort than the previous experiment. Spend it on the distinctive mechanism, visible detail, interaction and final quality. Keep planning short and avoid excessive intermediate documents, generic tooling exploration or open-ended asset/parameter sweeps.
+
+Use the existing numerical-cap-free authorization for Lux3D credits from the already configured China account's AVAILABLE balance. Do not ask for a new cap or approval for each ordinary generation. Verify actual account facts and get real quotes where supported, log costs and task IDs, and reuse usable results. This covers existing Lux3D credits, not purchasing credits, top-ups, subscriptions or other paid services. Do not expose keys in code, the browser, logs, reports or shared files. Query existing tasks after interruption; a polling/download problem is not authorization to pay for a duplicate generation.
+
+Model/chat quota is a separate resource and still needs discipline. If remaining usage is reliably exposed and reaches the user's 5% emergency threshold, stop new production and save a concise recoverable state. Do not claim you can monitor an unavailable quota counter. Preserve capacity for final validation and packaging. Save the current source before long renders or exports, record owned jobs and outputs, and keep coordination/PROJECT_STATE.md short enough to resume without rereading the entire conversation.
+
+Use actual available resources; do not inherit old VM core/RAM assumptions. Do not run competing heavy jobs on the same constrained machine, disable memory guards to force success or leave successful work only on the local Windows disk. On repeated failure of one approach, diagnose and make one bounded repair, then change the implementation route if needed. Avoid a repeated retry loop.
+
+## Production sequence and acceptance gates
+
+1. Recover environment and requirements. Verify local share, tools, hardware and input references. Independently choose one strong creative direction; a brief comparison of up to three options is enough. Record a one-screen concept and scope. Proceed without waiting for routine design approval.
+2. Prove the signature. Build a small real-3D vertical slice that shows the intended visual identity, one meaningful interaction, representative near-camera detail and a short camera move. Resolve concrete problems before scaling it into the whole site.
+3. Establish the performance/export route. Measure the representative slice, choose the renderer and quality structure, and validate a short native-4K120 capture/encode. Record constraints early, while retaining the final quality target.
+4. Complete the world and interactions. Build connected detail, materials, lighting, spatial background, original motion and integrated UI. Generate and polish the chosen Lux3D assets alongside independent code work. Check permitted camera paths and interaction/reset behavior.
+5. Concentrated final polish. Review representative full-resolution frames and actual motion. Correct the highest-impact defects in composition, materials, interaction feedback, lighting and legibility. Perform only focused corrections, not a new concept or unrelated expansion.
+6. Deliver and validate. Record the finished scene, inspect beginning/signature/close-up/ending, check video decoding/specifications, produce the PDF and portable sources, and verify the product from its final shared location. Test the actual final build, not just development files.
+
+Do not stop after a plan, scaffolding, attractive still image, asset-generation success or untested export. Continue through the full delivery unless there is a genuine blocker that requires user action. Keep updates concise and evidence-based.
+
+## Required final deliverables
+
+- A complete, launchable website build with its three-dimensional resources, editable source, pinned dependency versions and short startup/build instructions. Provide a deployable static bundle when feasible; use a server only where the experience actually needs one. Keep essential runtime dependencies reproducible and avoid putting a service API key in the client.
+- The native-4K120 demonstration master, representative sharp 4K stills, and an optional clearly labeled compatibility preview. Include media metadata and the capture method. Keep actual website benchmark results separate from export statistics.
+- A polished, visually inspected PDF report: concept and audience, key interactions, real process/effect screenshots, important iterations, meaningful Lux3D contribution, code-generated geometry/shaders/animation, references/licenses and honest performance/quality limitations. Let the report explain the production tools; keep the website focused on the experience.
+- A complete source archive with necessary editable assets, generation provenance, procedural source and reproducible build/render/export commands. Exclude credentials, caches, unrelated projects and redundant intermediate outputs. Keep the package intact; if it exceeds the form's observed 500 MB source-archive limit, prepare a repository plus large release/download assets for authorized publication rather than removing required engineering content.
+- A Chinese title, a concise Chinese introduction explaining what it does, who it is for and how Lux3D contributes, and a competition-field submission map. Select only applicable categories and technologies and verify each field's actual current limits.
+- A concise validation record specifying what passed, the exact environment tested, and anything that remains unverified or unmet. No invented metrics or declaration of perfection.
+
+Prepare the full result before any final external publication step that still needs authorization. Do not submit the competition form, accept its terms, publish social posts, alter an earlier repository or buy services as a routine production action. If authorized hosting is available, publish the finished app and test the public URL without relying on a signed-in session; otherwise keep the complete deployable package ready and identify the single missing hosting dependency. Localhost is not a public competition link.
+
+Begin with the local environment and shared-folder check. Then choose and explain your concept briefly, prove its central interaction, and proceed autonomously through the completed product. The goal is a memorable, richly detailed three-dimensional cyberpunk experience whose visual and interactive quality can be inspected, not just described.

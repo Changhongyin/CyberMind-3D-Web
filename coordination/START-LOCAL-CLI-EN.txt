@@ -1,0 +1,21 @@
+Execute this NEW assignment in the LOCAL Claude CLI on the Windows VM or Mac that can actually access our shared folder.
+
+Read and execute the complete production brief:
+\\172.16.136.1\Win_share\CyberMind-3D-Web\coordination\CLAUDE-CYBERMIND-PRODUCTION-EN.txt
+
+Read the competition snapshot, screenshots and visual references in that project's references folder first. This is independent of both Sensory-Garden-Restaurant and Autonomous-Lux3D-Entry; preserve both previous projects.
+
+Create an original, exceptionally detailed, fully three-dimensional cyberpunk and technological-mind themed WEBSITE with meaningful interactions, layered spatial depth and a memorable signature transformation. You choose the title, fictional premise, visual language, interaction mechanism and strongest feasible technical route. Use the supplied video as a quality/depth reference, not a template. Aim for the art-direction and material-detail standard of high-end cyberpunk games within a focused, finishable website.
+
+Procedural geometry, custom shaders and code-driven animation are explicitly allowed and may form most of the work. Use Aholo Lux3D genuinely for a small, effective set of visible assets. Keep tool explanations mainly in the report/credits and identify code-authored versus Lux3D-generated content accurately.
+
+Preserve the native 3840x2160 / 120fps quality target. Validate a short real-3D 4K120 export early, then deliver a genuine 4K120 demonstration master. Separately benchmark and honestly report interactive website performance on the actual tested hardware/display. Never substitute upscaled or duplicated frames, or claim that offline video output proves real-time 120fps. Follow the full brief's performance and acceptance requirements.
+
+Use the existing authorization to spend AVAILABLE credits in the already configured China-site Lux3D account without a fixed numerical cap. No additional cap confirmation is needed for ordinary Lux3D generation. Continue controlling model/chat usage, redundant trials and retries; existing-credit authorization does not cover purchases or other paid services.
+
+Keep every project-owned source, asset and deliverable in:
+\\172.16.136.1\Win_share\CyberMind-3D-Web\
+
+Prefer direct shared-file edits. If local scratch is necessary, transfer completed sources and outputs to the share, verify the shared copies, then delete only verified local duplicates.
+
+Proceed without routine design approvals: prove the signature interaction, complete and polish the world, then deliver the tested website, 4K120 master, sharp stills, PDF report, complete source package and submission-field instructions. Keep recovery state concise and preserve capacity to finish.

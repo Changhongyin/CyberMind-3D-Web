@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-12T22:46:17.669684+08:00",
+  "project": "JIXIN",
+  "transfer": {
+    "original_manifest_files_verified": 83,
+    "additional_files_verified": 13,
+    "manifest_exception": "Self-referencing manifest updated after its own hash was recorded.",
+    "scope_limitations": "Windows user-profile candidates scanned by Claude; 84 access/path errors disclosed; OS/program directories excluded. No independent direct read of Windows disk by Codex.",
+    "unique_project_files_missing": 0
+  },
+  "vm_state": "Total running VMs: 0",
+  "mac_tests": {
+    "source": "extracted deliverables/JIXIN_site-static.zip (unchanged)",
+    "browser": "Codex in-app browser running on the Mac",
+    "main_flow": [
+      "loading and scene entry",
+      "three rings align; unseal offered",
+      "unseal reaches AWAKE",
+      "THE SEED inspection card appears",
+      "Escape returns",
+      "seal reaches SEALED; ready for next cycle"
+    ],
+    "captured_console_errors": [],
+    "safari": "Loaded full scene; SOUND ON -> SOUND OFF -> SOUND ON confirmed. Rings locked. Full animation cycle was not established in Safari; no Safari compatibility pass claimed.",
+    "performance": "Only transient HUD readings observed (~60 FPS, internal 1276x1952, Fidelity 4xMSAA in in-app browser). Not a controlled benchmark and not proof of native 4K120.",
+    "not_repeated": [
+      "Windows 21-step automated suite",
+      "mobile/failure injection suite",
+      "full video decode",
+      "formal real-time 4K120 benchmark"
+    ]
+  },
+  "local_url": "http://127.0.0.1:8788/",
+  "source_changed": false,
+  "delivery_zips_rebuilt": false
+}

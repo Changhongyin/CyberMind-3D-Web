@@ -1,0 +1,234 @@
+{
+ "seconds": 58.5,
+ "peak": 0.5130838751792908,
+ "gainApplied": 1,
+ "rmsDb": -23.602450479753053,
+ "counts": {
+  "tickStart": 3,
+  "lock": 3,
+  "wake": 1,
+  "pluck": 17
+ },
+ "events": [
+  {
+   "simFrame": 362,
+   "videoTime": 3,
+   "call": "tickStart",
+   "args": []
+  },
+  {
+   "simFrame": 581,
+   "videoTime": 4.825,
+   "call": "lock",
+   "args": [
+    0
+   ]
+  },
+  {
+   "simFrame": 745,
+   "videoTime": 6.1917,
+   "call": "tickStart",
+   "args": []
+  },
+  {
+   "simFrame": 934,
+   "videoTime": 7.7667,
+   "call": "lock",
+   "args": [
+    1
+   ]
+  },
+  {
+   "simFrame": 1105,
+   "videoTime": 9.1917,
+   "call": "tickStart",
+   "args": []
+  },
+  {
+   "simFrame": 1357,
+   "videoTime": 11.2917,
+   "call": "lock",
+   "args": [
+    2
+   ]
+  },
+  {
+   "simFrame": 1946,
+   "videoTime": 16.2,
+   "call": "wake",
+   "args": []
+  },
+  {
+   "simFrame": 2709,
+   "videoTime": 22.5583,
+   "call": "pluck",
+   "args": [
+    1,
+    2,
+    0.55
+   ]
+  },
+  {
+   "simFrame": 3013,
+   "videoTime": 25.0917,
+   "call": "pluck",
+   "args": [
+    2,
+    6,
+    0.55
+   ]
+  },
+  {
+   "simFrame": 3380,
+   "videoTime": 28.15,
+   "call": "pluck",
+   "args": [
+    0,
+    1,
+    0.55
+   ]
+  },
+  {
+   "simFrame": 3651,
+   "videoTime": 30.4083,
+   "call": "pluck",
+   "args": [
+    2,
+    7,
+    0.55
+   ]
+  },
+  {
+   "simFrame": 3846,
+   "videoTime": 32.0333,
+   "call": "pluck",
+   "args": [
+    1,
+    3,
+    0.55
+   ]
+  },
+  {
+   "simFrame": 4084,
+   "videoTime": 34.0167,
+   "call": "pluck",
+   "args": [
+    0,
+    2,
+    0.55
+   ]
+  },
+  {
+   "simFrame": 4130,
+   "videoTime": 34.4,
+   "call": "pluck",
+   "args": [
+    0,
+    3,
+    1
+   ]
+  },
+  {
+   "simFrame": 4310,
+   "videoTime": 35.9,
+   "call": "pluck",
+   "args": [
+    2,
+    0,
+    1
+   ]
+  },
+  {
+   "simFrame": 4478,
+   "videoTime": 37.3,
+   "call": "pluck",
+   "args": [
+    1,
+    4,
+    1
+   ]
+  },
+  {
+   "simFrame": 4646,
+   "videoTime": 38.7,
+   "call": "pluck",
+   "args": [
+    0,
+    4,
+    1
+   ]
+  },
+  {
+   "simFrame": 4922,
+   "videoTime": 41,
+   "call": "pluck",
+   "args": [
+    1,
+    5,
+    1
+   ]
+  },
+  {
+   "simFrame": 5090,
+   "videoTime": 42.4,
+   "call": "pluck",
+   "args": [
+    1,
+    6,
+    1
+   ]
+  },
+  {
+   "simFrame": 5246,
+   "videoTime": 43.7,
+   "call": "pluck",
+   "args": [
+    1,
+    5,
+    1
+   ]
+  },
+  {
+   "simFrame": 5582,
+   "videoTime": 46.5,
+   "call": "pluck",
+   "args": [
+    0,
+    5,
+    1
+   ]
+  },
+  {
+   "simFrame": 5798,
+   "videoTime": 48.3,
+   "call": "pluck",
+   "args": [
+    0,
+    6,
+    1
+   ]
+  },
+  {
+   "simFrame": 6242,
+   "videoTime": 52,
+   "call": "pluck",
+   "args": [
+    3,
+    7,
+    1
+   ]
+  },
+  {
+   "simFrame": 6602,
+   "videoTime": 55,
+   "call": "pluck",
+   "args": [
+    1,
+    6,
+    1
+   ]
+  }
+ ],
+ "updates": 7020,
+ "method": "site synthesiser (src/audio.js) replayed offline from the simulation event log; event time = (simFrame - 2) / fps"
+}

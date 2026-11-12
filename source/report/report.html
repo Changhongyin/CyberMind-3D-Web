@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>《机心》JIXIN — 项目报告书</title>
+<style>
+  @page { size: 297mm 167.0625mm; margin: 0; }
+  :root { --ivory: #ece5d6; --dim: #9a968c; --line: rgba(236, 229, 214, .2); --acc: #ffb85c; --cy: #5fe6ff; --mg: #ff5aa0; --bg: #07090d;
+    --kai: "Kaiti SC", "STKaiti", "KaiTi", "Songti SC", "SimSun", serif; --hei: "PingFang SC", "Microsoft YaHei", "Heiti SC", sans-serif; --mono: "SF Mono", "Cascadia Mono", Consolas, monospace; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #000; color: var(--ivory); font-family: var(--hei); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  section { width: 297mm; height: 167.0625mm; position: relative; overflow: hidden; background: var(--bg); padding: 11mm 13mm 10mm; page-break-after: always; break-after: page; display: flex; flex-direction: column; }
+  h1 { font-family: var(--kai); font-weight: 400; font-size: 30mm; letter-spacing: .28em; margin: 0; line-height: 1; }
+  h2 { font-family: var(--kai); font-weight: 400; font-size: 8.4mm; letter-spacing: .16em; margin: 0 0 1.5mm; }
+  h2 small { font-family: var(--mono); font-size: 2.6mm; letter-spacing: .3em; color: var(--acc); margin-left: 3mm; vertical-align: middle; }
+  h3 { font-size: 3.5mm; font-weight: 600; letter-spacing: .08em; margin: 0 0 1mm; color: var(--acc); }
+  p, li { font-size: 3.15mm; line-height: 1.72; margin: 0 0 1.6mm; color: #dcd6c8; }
+  ul { margin: 0; padding-left: 4.4mm; } li { margin-bottom: .8mm; }
+  b { color: #fff; font-weight: 600; } em { font-style: normal; color: var(--cy); }
+  .lead { font-size: 3.7mm; line-height: 1.8; color: var(--ivory); }
+  .k { font-family: var(--mono); font-size: 2.4mm; letter-spacing: .3em; color: var(--acc); margin-bottom: 2mm; }
+  .cols { display: grid; gap: 6mm; flex: 1; min-height: 0; }
+  .c2 { grid-template-columns: 1fr 1fr; } .c3 { grid-template-columns: 1fr 1fr 1fr; } .c4 { grid-template-columns: repeat(4, 1fr); } .c12 { grid-template-columns: 1fr 1.9fr; } .c21 { grid-template-columns: 1.55fr 1fr; }
+  figure { margin: 0; display: flex; flex-direction: column; min-height: 0; }
+  figure img { width: 100%; height: 100%; object-fit: cover; display: block; border: .2mm solid var(--line); min-height: 0; flex: 1; }
+  figure.contain img { object-fit: contain; background: #0c0f14; }
+  figcaption { font-size: 2.45mm; line-height: 1.5; color: var(--dim); padding-top: 1.2mm; flex: none; }
+  figcaption b { color: var(--ivory); }
+  .foot { position: absolute; left: 13mm; right: 13mm; bottom: 4.2mm; display: flex; justify-content: space-between; font-family: var(--mono); font-size: 2.1mm; letter-spacing: .18em; color: #6d6a63; }
+  table { border-collapse: collapse; width: 100%; font-size: 2.7mm; } th, td { text-align: left; padding: 1.15mm 1.6mm; border-bottom: .15mm solid var(--line); vertical-align: top; line-height: 1.45; }
+  th { font-family: var(--mono); font-size: 2.2mm; letter-spacing: .12em; color: var(--acc); font-weight: 400; } td.n, th.n { text-align: right; font-family: var(--mono); }
+  .tag { display: inline-block; font-family: var(--mono); font-size: 2.1mm; letter-spacing: .1em; padding: .3mm 1.4mm; border: .15mm solid currentColor; margin-right: 1mm; }
+  .ok { color: #7dffb0; } .warn { color: var(--acc); } .bad { color: #ff7a6a; } .lux { color: var(--cy); } .code { color: var(--mg); }
+  .cover { padding: 0; } .cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .cover .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(4, 6, 10, .93) 0%, rgba(4, 6, 10, .72) 34%, rgba(4, 6, 10, 0) 62%); }
+  .cover .t { position: absolute; left: 16mm; top: 28mm; width: 120mm; }
+  .cover .en { font-family: var(--mono); font-size: 4mm; letter-spacing: .7em; color: var(--acc); margin: 5mm 0 9mm; }
+  .step { display: flex; gap: 2.5mm; align-items: baseline; margin-bottom: 1mm; } .step i { font-family: var(--mono); font-style: normal; color: var(--acc); font-size: 5mm; }
+  .grid2x2 { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 3mm; min-height: 0; }
+  .note { border-left: .5mm solid var(--acc); padding: 1mm 0 1mm 3mm; margin-top: 1mm; } .note p { margin: 0; font-size: 2.85mm; }
+  .perf td, .perf th { padding: .7mm 1.4mm; }
+  code { font-family: var(--mono); font-size: 2.6mm; color: var(--cy); }
+</style>
+</head>
+<body>
+
+<!-- 1 cover -->
+<section class="cover">
+  <img src="img/cover.jpg" alt="">
+  <div class="shade"></div>
+  <div class="t">
+    <div class="k">AHOLO 全球 3D AI 黑客松 · 项目报告书</div>
+    <h1>机心</h1>
+    <div class="en">JIXIN</div>
+    <p class="lead">面壳之后的引擎 —— 一座可以亲手“启封”的全 3D 赛博朋克网站。</p>
+    <p>转动三环，一张六米高的瓷面从正中裂开：雨停在半空，整座城亮起来，一台用字鼓和簧片“思考”的机械心智，在面壳之后醒来。</p>
+    <p style="margin-top:7mm;color:var(--dim);font-size:2.7mm">主角资产由 Aholo Lux3D 生成 · 世界、着色器、动画与交互由代码构建 · three.js r180 · 原生 3840×2160 / 120fps 演示母版</p>
+  </div>
+  <div class="foot" style="color:#8a867d"><span>THE ENGINE BEHIND THE FACE</span><span>2026.11</span></div>
+</section>
+
+<!-- 2 what / for whom -->
+<section>
+  <div class="k">01 · 这是什么 / 为谁而做</div>
+  <h2>一座会“醒”的网站 <small>WHAT &amp; FOR WHOM</small></h2>
+  <div class="cols c12">
+    <div>
+      <p class="lead">《机心》不是在页面里嵌一个 3D 小窗，而是整个页面就是一个可以走近、可以动手的空间。</p>
+      <h3>设定（虚构）</h3>
+      <p>雾港城地下的<b>第九井</b>里，封存着一台曾经替城市说话的心智——<b>傀-7</b>。它的脸是一张烧出来的白瓷面壳，裂纹用金补过。夜班技工在它脚下摆了一只改装成散热器的青铜炉。访客扮演的，就是今晚值班的那个人。</p>
+      <h3>为谁而做</h3>
+      <ul>
+        <li><b>喜欢科幻叙事和网页 3D 的玩家</b>：不需要安装，打开链接就能玩，鼠标、触屏、键盘都能完成整个流程。</li>
+        <li><b>评委与路过的人</b>：30 秒内看到招牌变形；愿意多留一会儿，就能钻进引擎里看簧片和字鼓。</li>
+        <li><b>创作者同行</b>：演示“少量 AI 生成的主角资产 + 代码构建的世界”这条工作流能做到什么质感。</li>
+      </ul>
+      <h3>想让人记住的一件事</h3>
+      <p>“它不是在计算，它是在给自己唱。”——心智被具象成一台<em>八音盒</em>：四只字鼓，每只八个字，铜针拨动簧片；它的每个念头都是四个字，一共 4096 种。</p>
+      <div class="note"><p>画面里所有文字、读数与“念头”都是设计内容，不是真实的智能或遥测数据；网站内已明确标注“虚构设定”。</p></div>
+    </div>
+    <figure><img src="img/home.jpg" alt=""><figcaption><b>初始状态 · 封存中。</b>瓷面（Lux3D 生成）悬在井心，身后是三道可以转动的光环；脚下是检修平台、控制台与供案，井壁之外是雾港。界面只保留：标题、三环状态、一行提示。</figcaption></figure>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>02</span></div>
+</section>
+
+<!-- 3 idea -->
+<section>
+  <div class="k">02 · 创意从哪里来</div>
+  <h2>“有机械者必有机事，有机事者必有机心” <small>CONCEPT</small></h2>
+  <div class="cols c2">
+    <div>
+      <p class="lead">“机心”出自《庄子·天地》。两千多年前这个词是贬义：用了机械，人就会生出机巧之心。我们把它反过来读——<b>如果机械自己长出了一颗心，它会是什么样子？</b></p>
+      <h3>方向取舍（只比较了三个，没有做大范围调研）</h3>
+      <table>
+        <tr><th>方向</th><th>为什么选 / 不选</th></tr>
+        <tr><td><b>瓷面 + 八音盒心智</b>（采用）</td><td>有一个天然的“招牌动作”——把脸打开；机械八音盒让“思考”变成看得见的齿、针、簧片，近景经得起看；人脸这种有机雕塑正好交给 Lux3D。</td></tr>
+        <tr><td>织机心智（经纬线织出记忆）</td><td>画面新鲜，但大量细线在实时渲染里容易闪烁，交互因果不如“开脸”直接。</td></tr>
+        <tr><td>记忆星盘（环套环的浑天仪）</td><td>容易滑向“发光球 + 粒子”的通用科幻观感，辨识度不够。</td></tr>
+      </table>
+      <h3>刻意避开的东西</h3>
+      <ul><li>发光的大脑、霓虹球、粒子场、堆满图表的科幻仪表盘。</li><li>围着一个 3D 小部件写长篇功能介绍的营销页。</li></ul>
+      <h3>参考视频给我们的启发</h3>
+      <p>参考视频（一个剖开头部、内部是房间的 3D 网页）让我们确认了两点：<b>空间要分层</b>，<b>信息面板要贴着场景出现</b>。我们没有照搬它的构图与题材：《机心》的头是合着的，要靠访客自己打开；里面不是房间，是一台机器。</p>
+    </div>
+    <div class="grid2x2">
+      <figure><img src="img/idea_drums.jpg" alt=""><figcaption><b>字鼓。</b>主语·动词·宾语·时间，各八字，任意组合都读得通。</figcaption></figure>
+      <figure><img src="img/idea_reeds.jpg" alt=""><figcaption><b>簧梳。</b>鼓上的铜针拨动簧片，换字时簧片会真的颤动并发声。</figcaption></figure>
+      <figure><img src="img/idea_seed.jpg" alt=""><figcaption><b>心种。</b>莲座里的晶体随第一只字鼓换色，带动整个场景的强调色。</figcaption></figure>
+      <figure><img src="img/idea_talisman.jpg" alt=""><figcaption><b>环境叙事。</b>“敕令机心安眠”“启封须三环”——井里挂满封条。</figcaption></figure>
+    </div>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>03</span></div>
+</section>
+
+<!-- 4 loop -->
+<section>
+  <div class="k">03 · 关键交互</div>
+  <h2>一个闭环，四步，可以反复玩 <small>INTERACTION LOOP</small></h2>
+  <div class="cols c4" style="flex:none;height:76mm">
+    <figure><img src="img/loop1.jpg" alt=""><figcaption><div class="step"><i>1</i><b>转环</b></div>拖动光环（或按 1/2/3、点左侧字牌），让“忆、感、志”三枚字牌各自转到十二点的卡爪下。每合一环，世界就醒一点：井壁机柜逐层亮灯、探照灯扫过、巡逻的灯奴转头看向面壳。</figcaption></figure>
+    <figure><img src="img/loop2.jpg" alt=""><figcaption><div class="step"><i>2</i><b>启封</b></div>三环合一后，面壳正中的缝开始呼吸发光。点击面壳（或空格）。环没合齐就去点，它会拒绝，并告诉你还差什么。</figcaption></figure>
+    <figure><img src="img/loop3.jpg" alt=""><figcaption><div class="step"><i>3</i><b>改写念头</b></div>点击任意一只字鼓换一个字（或 Z/X/C/V）。簧片颤动、发出五声音阶的音；第一只鼓决定“心种”和全场强调色。屏幕下方实时显示这句四字念头及其编号。</figcaption></figure>
+    <figure><img src="img/loop4.jpg" alt=""><figcaption><div class="step"><i>4</i><b>近观与归眠</b></div>场景里的 ◇ 标记把镜头带到七处细节，每处配两行世界观文字；Esc 返回。再按空格，面壳合拢、三环松开、雨继续下——可以从头再来。</figcaption></figure>
+  </div>
+  <div class="cols c3" style="margin-top:5mm">
+    <div><h3>反馈与可达性</h3><ul><li>悬停高亮、指针形态变化、靠近卡爪时字牌升温、锁定时的闪光与一声钟。</li><li>每个操作都有<b>三种入口</b>：直接操作 3D、界面按钮、键盘。</li><li>触屏：单指环视 / 拖环，双指缩放。</li></ul></div>
+    <div><h3>不会卡住</h3><ul><li>自动导览（T）随时可被任何输入打断并交还控制。</li><li>双击或 R 复位视角；检视状态下环视范围受限，不会穿模。</li><li>变形动画期间输入被安全忽略，结束后恢复。</li></ul></div>
+    <div><h3>已做的端到端测试</h3><p>用真实指针与键盘事件驱动<b>线上同一份页面</b>，覆盖上述全部步骤并重复第二轮，<b class="ok">21 / 21 项通过</b>（脚本：<code>source/capture/itest.mjs</code>）。加载、WebGL2 不可用、模型缺失三种状态均有可用的提示界面。</p></div>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>04</span></div>
+</section>
+
+<!-- 5 signature -->
+<section>
+  <div class="k">04 · 招牌变形</div>
+  <h2>把脸打开：雨停了一拍 <small>SIGNATURE TRANSFORMATION</small></h2>
+  <div class="cols c4" style="flex:none;height:84mm">
+    <figure><img src="img/trans1.jpg" alt=""><figcaption><b>0.0 s</b> 三环已合，面缝发光。</figcaption></figure>
+    <figure><img src="img/trans2.jpg" alt=""><figcaption><b>+1.4 s</b> 解锁：两半面壳先分开一指宽，压力环向外推开，封条被气浪掀起。</figcaption></figure>
+    <figure><img src="img/trans3.jpg" alt=""><figcaption><b>+3.5 s</b> 液压杆把两半脸向两侧推开，字鼓露出；雨丝减速，变成悬在空中的水珠。</figcaption></figure>
+    <figure><img src="img/trans4.jpg" alt=""><figcaption><b>+8 s</b> 清醒：莲座张开、心种升起；色调由冷转暖，亮窗从井口向城市外圈一层层推开。</figcaption></figure>
+  </div>
+  <div class="cols c3" style="margin-top:5mm">
+    <div><h3>同一个动作改变的东西</h3><ul><li><b>主体</b>：一张脸变成两个侧脸 + 一台机器。</li><li><b>天气</b>：雨停住、微微上浮；水面的雨圈消失。</li><li><b>城市</b>：亮窗波、招牌增亮、空中交通放慢。</li><li><b>光与色</b>：冷青 → 暖金，雾色、调色、辉光同步过渡。</li></ul></div>
+    <div><h3>为什么可信</h3><ul><li>两半面壳各由两根<b>会伸缩的液压杆</b>托着，杆端始终贴在面壳内壁上（加载时对生成网格做射线求交得到锚点）。</li><li>切口处内衬向外翻卷，与釉面闭合，没有“纸片边”。</li><li>面壳背面是黑漆与金线电路，不是空的反面。</li></ul></div>
+    <div><h3>运动的层级</h3><ul><li><b>大</b>：面壳开合、三环转动。</li><li><b>中</b>：字鼓步进（带回弹的机械卡位）、莲瓣、灯奴巡逻。</li><li><b>小</b>：簧片衰减振动、存储单元闪烁、线缆上的光包、封条摆动、香烟。</li></ul><p>所有运动都由状态驱动，没有“只是在转”的装饰。</p></div>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>05</span></div>
+</section>
+
+<!-- 6 detail -->
+<section>
+  <div class="k">05 · 近景细节</div>
+  <h2>镜头能走多近，细节就做到多近 <small>CLOSE-VIEW DETAIL · 原生 4K 画面裁切</small></h2>
+  <div class="cols c3">
+    <figure><img src="img/detail1.jpg" alt=""><figcaption><b>字鼓与齿冠。</b>字是刻进去的（凹凸 + 自发光），正对读数框的那一格最亮；鼓缘 96 齿，鼓间是带铜针的针筒。</figcaption></figure>
+    <figure><img src="img/detail2.jpg" alt=""><figcaption><b>面壳内壁。</b>生成网格内缩出的“第二层皮”：黑漆与金线电路，电流沿线路流动；液压杆端头托在内壁上。</figcaption></figure>
+    <figure><img src="img/detail3.jpg" alt=""><figcaption><b>供案。</b>Lux3D 生成的青铜炉（饕餮纹、压力表、警示贴），旁边是代码做的茶杯、线圈、三支香和一缕烟。</figcaption></figure>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>06</span></div>
+</section>
+
+<!-- 7 lux3d -->
+<section>
+  <div class="k">06 · Lux3D 的作用（一）</div>
+  <h2>三件主角资产，全部由 Aholo Lux3D 生成 <small>GENERATED ASSETS</small></h2>
+  <div class="cols" style="grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr; gap: 5mm">
+    <div style="display:flex;flex-direction:column;gap:2mm;min-height:0">
+      <div class="cols c2" style="gap:2mm"><figure class="contain"><img src="img/lux_mask_concept.jpg" alt=""><figcaption>① 文生图（概念图）</figcaption></figure><figure class="contain"><img src="img/lux_mask_glb.jpg" alt=""><figcaption>② 图生 3D（G1）原样</figcaption></figure></div>
+      <figure style="flex:1.1"><img src="img/lux_mask_scene.jpg" alt=""><figcaption><b>面壳</b> · 256,506 三角面 · 2048² 贴图<br>任务 6690690 → 6691940 · 12 + 20 积分</figcaption></figure>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:2mm;min-height:0">
+      <div class="cols c2" style="gap:2mm"><figure class="contain"><img src="img/lux_censer_concept.jpg" alt=""><figcaption>① 文生图（概念图）</figcaption></figure><figure class="contain"><img src="img/lux_censer_glb.jpg" alt=""><figcaption>② 图生 3D（G1）原样</figcaption></figure></div>
+      <figure style="flex:1.1"><img src="img/lux_censer_scene.jpg" alt=""><figcaption><b>铜炉</b> · 100,266 三角面 · 2048² 贴图<br>任务 6690707 → 6691965 · 12 + 20 积分</figcaption></figure>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:2mm;min-height:0">
+      <div class="cols c2" style="gap:2mm"><figure class="contain"><img src="img/lux_drone_concept.jpg" alt=""><figcaption>① 文生图（概念图）</figcaption></figure><figure class="contain"><img src="img/lux_drone_glb.jpg" alt=""><figcaption>② 图生 3D（G1）原样</figcaption></figure></div>
+      <figure style="flex:1.1"><img src="img/lux_drone_scene.jpg" alt=""><figcaption><b>灯奴</b>（巡逻无人机，同一网格实例化 3 架）· 135,498 三角面<br>任务 6690729 → 6691979 · 12 + 20 积分</figcaption></figure>
+    </div>
+  </div>
+  <p style="margin-top:3mm;font-size:2.8mm;color:var(--dim)">全部通过 Aholo Lux3D 中国站 API 完成：<code>multimodal-to-image</code> ×3、<code>img-to-3d (G1)</code> ×3，<b>一次成功、没有重试</b>，共 <b>96 积分</b>（以任务列表 consumedCredits 为准）。提示词、任务编号、原始 ZIP/GLB 均保存在 <code>assets/lux3d/</code>，密钥只存在本机环境变量中。</p>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>07</span></div>
+</section>
+
+<!-- 8 lux3d + code -->
+<section>
+  <div class="k">07 · Lux3D 的作用（二）</div>
+  <h2>生成的是“主角”，代码让它“会动” <small>GENERATED × CODED</small></h2>
+  <div class="cols c21">
+    <div class="grid2x2">
+      <figure><img src="img/split_closed.jpg" alt=""><figcaption><b>生成的原始网格是一个整体</b>（单网格、单材质）。合上时就是它本来的样子。</figcaption></figure>
+      <figure><img src="img/split_open.jpg" alt=""><figcaption><b>代码在着色器里把它切成三片</b>：左脸、右脸、后脑/颈部，各自挂在一个可动的枢轴上。</figcaption></figure>
+      <figure><img src="img/split_lining.jpg" alt=""><figcaption><b>内衬</b>是同一张生成网格沿法线内缩的“第二层皮”，靠近切口时缩进量归零，形成闭合的唇边。</figcaption></figure>
+      <figure><img src="img/split_wire.jpg" alt=""><figcaption><b>生成网格线框</b>（约 25.6 万面）。面数足够，才撑得住切口卷边和近景。</figcaption></figure>
+    </div>
+    <div>
+      <h3>为什么把这三件交给 Lux3D</h3>
+      <p>脸、青铜器、带磨损的小机器——这类<b>有机造型与手工质感</b>是程序化几何最不擅长、而图生 3D 最出效果的地方。它们也是画面里观众视线停留最久的三样东西：主角、近景道具、中景的“活物”。</p>
+      <h3>明确的分工</h3>
+      <table>
+        <tr><th>来自 Lux3D <span class="tag lux">生成</span></th><th>来自代码 <span class="tag code">编写</span></th></tr>
+        <tr><td>头部、铜炉、无人机的<b>几何</b></td><td>缩放与摆位；头部的<b>分片</b>、枢轴与开合动画</td></tr>
+        <tr><td>三件的<b>基础色 / 粗糙度贴图</b></td><td>内衬、缝光、开片细纹；把贴图里的金缮线识别出来并在苏醒时点亮</td></tr>
+        <tr><td>概念设定图（文生图）</td><td>无人机琥珀玻璃的内发光、巡逻与转头；铜炉旁的供品与香烟</td></tr>
+      </table>
+      <div class="note"><p><b>如实说明：</b>场景中其余全部内容——引擎、光环、井体、城市、雨、水面、线缆、封条、界面、声音——都不是 Lux3D 生成的，而是程序化几何、自写着色器和代码动画。我们没有为了“用得多”而把每个面都拿去生成。</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>08</span></div>
+</section>
+
+<!-- 9 code world -->
+<section>
+  <div class="k">08 · 代码构建的世界</div>
+  <h2>程序化几何、自写着色器、代码动画 <small>CODE-AUTHORED</small></h2>
+  <div class="cols c12">
+    <div>
+      <table>
+        <tr><th>系统</th><th>做法</th></tr>
+        <tr><td><b>认知引擎</b></td><td>4 只字鼓（画布生成的刻字带：凹凸 + 发光）、齿冠、针筒、192 枚实例化簧片（顶点着色器里的衰减振动）、莲座与晶体、涡轮、弧形记忆墙与 660 个存储灯。</td></tr>
+        <tr><td><b>三环光背</b></td><td>车削截面的环体、齿、滚轮、卡爪、刻度带；拖拽即沿环面求交换算角度。</td></tr>
+        <tr><td><b>“船壳”材质</b></td><td>一个改写过的 PBR 材质：按世界坐标生成拼板缝、铆钉、逐板色差、污渍流痕与划痕（无贴图），井壁、平台、引擎骨架共用。</td></tr>
+        <tr><td><b>井体</b></td><td>12 座实例化井墩、环廊、栏杆、灯条，以及画在材质里的“洗墙光”；7,560 个机柜状态灯。</td></tr>
+        <tr><td><b>城市与天空</b></td><td>560 栋实例化楼体，窗格、楼板、亮窗波全部在片元着色器里；16 种虚构招牌的画布图集；260 个空中交通光点；程序化烟霾天空。</td></tr>
+        <tr><td><b>雨与水</b></td><td>26,000 条实例化雨丝，可减速、悬停成水珠、上浮；水面为平面反射 + 程序化涟漪与雨圈 + 冲击波。</td></tr>
+        <tr><td><b>氛围</b></td><td>线缆光包、146 张会被气浪掀动的纸封条、光柱、薄雾、香烟。</td></tr>
+        <tr><td><b>成像</b></td><td>半浮点 HDR + 4×MSAA、阈值式多级辉光、ACES、随状态变化的调色、轻微色散与颗粒。</td></tr>
+        <tr><td><b>声音</b></td><td>Web Audio 实时合成：雨、低频、簧片音、锁环钟声、苏醒长音；无采样文件。</td></tr>
+      </table>
+      <p style="margin-top:2mm;color:var(--dim);font-size:2.7mm">原生画质档每帧约 180 次绘制调用、约 460 万三角面（含阴影与水面反射两次额外场景绘制）。</p>
+    </div>
+    <div class="grid2x2">
+      <figure><img src="img/code_engine.jpg" alt=""><figcaption><b>引擎骨架与簧梳</b>：全部为代码生成的几何。</figcaption></figure>
+      <figure><img src="img/code_halo.jpg" alt=""><figcaption><b>三环</b>：刻度、字牌与卡爪。</figcaption></figure>
+      <figure><img src="img/code_city.jpg" alt=""><figcaption><b>井壁与雾港</b>：实例化 + 着色器窗格。</figcaption></figure>
+      <figure><img src="img/code_water.jpg" alt=""><figcaption><b>水面</b>：反射、雨圈与悬停的雨。</figcaption></figure>
+    </div>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>09</span></div>
+</section>
+
+<!-- 10 iterations -->
+<section>
+  <div class="k">09 · 过程与关键迭代</div>
+  <h2>真实的过程截图：它不是一次就对的 <small>ITERATIONS</small></h2>
+  <div class="cols c3" style="grid-template-rows: 1fr 1fr; gap: 3.5mm 5mm">
+    <figure><img src="img/it1.jpg" alt=""><figcaption><b>① 第一次运行：全黑 / 全白。</b>一个把 uniform 对象当成颜色拷贝的笔误，让所有灯光变成 NaN。逐项关掉环境光、灯光定位后修复。</figcaption></figure>
+    <figure><img src="img/it2.jpg" alt=""><figcaption><b>② 第一帧能看的画面。</b>问题一目了然：头太小、像镀铬；线缆太粗还挡脸；城市窗户像积木。</figcaption></figure>
+    <figure><img src="img/it3.jpg" alt=""><figcaption><b>③ 第一次“开脸”。</b>招牌成立了，但辉光过曝、悬停的雨像雪片、切口光带太粗。</figcaption></figure>
+    <figure><img src="img/it4.jpg" alt=""><figcaption><b>④ 压辉光、细化城市、给井墩补“洗墙光”。</b>暗部的结构读得出来了；字鼓改为从上到下读，与界面一致。</figcaption></figure>
+    <figure><img src="img/it5.jpg" alt=""><figcaption><b>⑤ 瓷面从“镀铬”改回“白瓷”。</b>原因是把象牙色误判成了金线（金属度过高）；改用饱和度判别金缮线后，釉面才对。</figcaption></figure>
+    <figure><img src="img/it6.jpg" alt=""><figcaption><b>⑥ 原生 4K 试录裁切。</b>先录 2 秒验证：帧数、解码、清晰度、界面可读性都确认后才开始录全片。</figcaption></figure>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>10</span></div>
+</section>
+
+<!-- 11 tech -->
+<section>
+  <div class="k">10 · 技术实现</div>
+  <h2>一个静态网站，两种时钟 <small>ARCHITECTURE</small></h2>
+  <div class="cols c3">
+    <div>
+      <h3>网站本体</h3>
+      <ul>
+        <li><b>纯静态</b>：HTML + ES 模块 + 3 个 GLB，无构建步骤、无后端、<b>客户端没有任何密钥</b>；任何静态托管都能直接部署。</li>
+        <li>three.js r180（固定版本，随包分发），WebGL2。</li>
+        <li>约 2,000 行自写代码：<code>engine / halo / mask / world / materials / textures / post / director / ui / audio / main</code>。</li>
+        <li>加载进度、WebGL2 不可用、上下文丢失、模型缺失都有可用提示。</li>
+      </ul>
+      <h3>画质档位（如实标注）</h3>
+      <table>
+        <tr><th>档位</th><th>内部分辨率</th><th>MSAA</th><th>其它</th></tr>
+        <tr><td>原生 FIDELITY</td><td>100%（原生）</td><td>4×</td><td>全部</td></tr>
+        <tr><td>均衡 BALANCED</td><td>75%</td><td>2×</td><td>反射减半</td></tr>
+        <tr><td>流畅 PERFORMANCE</td><td>50%</td><td>无</td><td>无阴影 / 反射</td></tr>
+        <tr><td>自动 AUTO</td><td>50–100% 动态</td><td>2×</td><td>按帧率调节</td></tr>
+      </table>
+      <p style="font-size:2.7mm;color:var(--dim)">界面左下角始终显示<b>真实的内部渲染分辨率</b>；低于 100% 的档位明确标为放大输出，不计作原生。</p>
+    </div>
+    <div>
+      <h3>同一个场景，两种推进方式</h3>
+      <ul>
+        <li><b>实时</b>：<code>requestAnimationFrame</code> 驱动，时间步随刷新率变化。</li>
+        <li><b>离线录制</b>：<code>?capture</code> 关闭 rAF，由录制器每次推进<b>精确的 1/120 秒</b>并渲染一帧。所有动画只依赖仿真时间与固定种子，结果可重复。</li>
+      </ul>
+      <h3>导览 = 调用公开动作</h3>
+      <p>自动导览与母版用的是同一份脚本：它只接管相机，其余全部通过访客也在用的动作完成——<code>alignRing()</code>、<code>wake()</code>、<code>stepDrum()</code>、检视卡片。所以视频里发生的每件事，在网站里都能亲手做到。</p>
+      <h3>4K120 母版的录制方法</h3>
+      <ul>
+        <li>无头 Edge，视口 3840×2160、DPR 1，逐帧校验绘图缓冲与场景目标尺寸。</li>
+        <li>每帧：推进 1/120 s → 原生渲染 → 经 DevTools 协议<b>无损 PNG 截图</b>（含界面）→ 管道送入 ffmpeg。</li>
+        <li>无放大、无插帧、无重复帧；分 6 段录制后无损拼接。</li>
+        <li>声音：记录仿真中每次发声调用的帧号，再用网站同一合成器在离线音频上下文里重放，混入时视频流逐字节不变。</li>
+      </ul>
+    </div>
+    <div>
+      <h3>针对性的优化</h3>
+      <ul>
+        <li>重复物体全部<b>实例化</b>：井墩 12、楼体 560、机柜灯 7,560、雨 26,000、封条、簧片、招牌等。</li>
+        <li>静态结构<b>合并</b>为少量网格；整场约 180 次绘制调用。</li>
+        <li>细节尽量进<b>着色器</b>而不是贴图：拼板缝、窗格、电路、洗墙光都随距离淡出以避免闪烁。</li>
+        <li>只有 1 盏投影灯；井壁上百处“灯”是画在材质里的。</li>
+        <li>渲染目标内存（估算）：原生 4K 约 485 MB，其中 4×MSAA 的 HDR 颜色与深度占大头——这是高画质档最贵的部分，其余档位据此降级。</li>
+      </ul>
+      <h3>先量再改</h3>
+      <p>录制前对单帧成本做了拆分计时（<code>timing.mjs</code>）：4K 原生渲染约 40 ms，无损截图约 0.68 s——瓶颈在截图而不是渲染，于是没有去动画质。</p>
+    </div>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>11</span></div>
+</section>
+
+<!-- 12 perf -->
+<section class="perf">
+  <div class="k">11 · 性能与验证（两件事，分开说）</div>
+  <h2>母版是离线渲染；实时帧率另行实测 <small>MEASURED, NOT CLAIMED</small></h2>
+  <div class="cols c2">
+    <div>
+      <h3>A · 演示母版（离线，逐帧渲染）</h3>
+      <!--MASTER_TABLE-->
+      <h3 style="margin-top:3mm">B · 网站实时帧率（本机实测）</h3>
+      <!--BENCH_TABLE-->
+    </div>
+    <div>
+      <h3>测试环境</h3>
+      <!--ENV_TABLE-->
+      <h3 style="margin-top:3mm">结论与未达成项</h3>
+      <!--VERDICT-->
+    </div>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>12</span></div>
+</section>
+
+<!-- 13 credits -->
+<section>
+  <div class="k">12 · 体验方式 · 工具 · 许可 · 局限</div>
+  <h2>怎么看、用了什么、还差什么 <small>HOW TO RUN · CREDITS · LIMITS</small></h2>
+  <div class="cols c3">
+    <div>
+      <h3>如何体验</h3>
+      <ul>
+        <li><b>在线</b>：把 <code>JIXIN_site-static.zip</code> 解压到任意静态托管（魔搭创空间、对象存储、Pages 均可）即可。</li>
+        <li><b>本地</b>：<code>python source/web/serve.py 8787</code>，浏览器打开 <code>http://localhost:8787/</code>。</li>
+        <li>需要支持 WebGL2 并开启硬件加速的浏览器。</li>
+      </ul>
+      <h3>操作速查</h3>
+      <table>
+        <tr><td>拖环 / 1 2 3</td><td>合三环</td></tr><tr><td>点面壳 / 空格</td><td>启封 · 封存</td></tr><tr><td>点字鼓 / Z X C V</td><td>改写念头</td></tr>
+        <tr><td>拖空白 / 滚轮</td><td>环视 · 远近</td></tr><tr><td>◇ / Esc</td><td>近观 · 返回</td></tr><tr><td>T · M · Q · H · R</td><td>导览 · 声音 · 画质 · 隐藏界面 · 复位</td></tr>
+      </table>
+    </div>
+    <div>
+      <h3>工具与各自的贡献</h3>
+      <table>
+        <tr><td><b>Aholo Lux3D</b></td><td>3 张概念图、3 个 3D 模型（主角资产）</td></tr>
+        <tr><td><b>three.js r180</b>（MIT）</td><td>WebGL2 渲染框架、GLTF 加载、平面反射基类</td></tr>
+        <tr><td><b>自写代码</b></td><td>全部场景几何、着色器、动画、交互、界面、声音、录制与测试工具</td></tr>
+        <tr><td>Edge（无头）+ puppeteer-core</td><td>逐帧录制、截图、交互测试、PDF 生成</td></tr>
+        <tr><td>ffmpeg（libx265 / libx264 / AAC）</td><td>母版与预览编码、混入音轨</td></tr>
+        <tr><td>Claude Code</td><td>编写代码与文档的 AI 编程助手</td></tr>
+      </table>
+      <h3>素材与许可</h3>
+      <p>没有使用第三方模型、贴图、字体文件或音频采样。文字用访客系统自带的中文字体绘制；招牌、封条、读数均为原创虚构内容。three.js 许可证随包附带。</p>
+    </div>
+    <div>
+      <h3>诚实的局限</h3>
+      <ul>
+        <li>中文书法字体取决于访客系统（楷体 / 宋体回退），不同设备上字形略有差异。</li>
+        <li>生成模型的贴图为 2048²；极近处的清晰度靠代码细纹补足，面壳背面与内衬的五官处有少量内缩自交。</li>
+        <li>水面反射、4×MSAA 在原生 4K 下开销大，集显设备请用“均衡 / 流畅”。</li>
+        <li>视频里的声音由网站同一套合成器离线生成并按仿真帧对齐；录屏本身不采集浏览器声音。</li>
+        <li>触屏流程可用，但界面主要按桌面横屏设计。</li>
+        <li>实时 4K/120 尚未在 120Hz 设备上验证，见上一页。</li>
+      </ul>
+      <h3>如果还有时间</h3>
+      <p>为生成网格烘焙更高分辨率的局部贴图；给“感”环加上会跟随指针的传感器；把 4096 句念头做成可分享的短链接。</p>
+    </div>
+  </div>
+  <div class="foot"><span>机心 JIXIN · 项目报告书</span><span>13</span></div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+AHOLO Open API（OpenAPI 3.0.3，info.version=1.0.0）
+
+本文件在每次聚合 OpenAPI 时自动生成，与下列 openapi.yaml / openapi.json 同源；若与手工文档不一致，以 OpenAPI 为准。
+
+主文档首页：
+- https://labs.aholo3d.cn/api-docs/
+
+机器可读 API 规范（聚合）：
+- OpenAPI YAML（全部服务）：https://labs.aholo3d.cn/api-docs/openapi.yaml
+- OpenAPI JSON（全部服务）：https://labs.aholo3d.cn/api-docs/openapi.json
+
+机器可读 API 规范（按服务）：
+- asset 服务（上传凭证与 OUS）：
+  - YAML：https://labs.aholo3d.cn/api-docs/specifications/services/asset/openapi.yaml
+  - JSON：https://labs.aholo3d.cn/api-docs/specifications/services/asset/openapi.json
+- world 服务（世界重建、世界生成）：
+  - YAML：https://labs.aholo3d.cn/api-docs/specifications/services/world/openapi.yaml
+  - JSON：https://labs.aholo3d.cn/api-docs/specifications/services/world/openapi.json
+- lux3d 服务：
+  - YAML：https://labs.aholo3d.cn/api-docs/specifications/services/lux3d/openapi.yaml
+  - JSON：https://labs.aholo3d.cn/api-docs/specifications/services/lux3d/openapi.json
+- rendercloud 服务：
+  - YAML：https://labs.aholo3d.cn/api-docs/specifications/services/rendercloud/openapi.yaml
+  - JSON：https://labs.aholo3d.cn/api-docs/specifications/services/rendercloud/openapi.json
+- spatialunderstanding 服务（空间理解）：
+  - YAML：https://labs.aholo3d.cn/api-docs/specifications/services/spatialunderstanding/openapi.yaml
+  - JSON：https://labs.aholo3d.cn/api-docs/specifications/services/spatialunderstanding/openapi.json
+
+OpenAPI info（摘要一行）：
+- 本文档为 AHOLO OpenAPI 说明，侧重世界重建与世界生成：从图片、视频等资源发起 3D 高斯溅射（3DGS）世界重建，或使用文案与图片发起 世界生成（Spatial Gen），并支持按 worldId 查询详情与分页列表等。请在请求头按平台约定携带 Authorization（见各接口安全定义）。默认网关地址见 Servers。
+
+Servers（与 openapi.yaml 一致）：
+  - https://api.aholo3d.cn (Aholo 开放平台 HTTPS 入口)
+
+侧栏 Tags（与 openapi.yaml 一致）：
+  - Asset
+  - World
+  - Lux3D
+  - RenderCloudOpenUSDGuide
+  - RenderCloud
+  - SpatialUnderstanding
+
+聚合 operationId 索引（实现细节以 openapi.yaml 为准）：
+  - closeRenderCloudRealtimeStream  (DELETE /rendercloud/v1/streams/{sessionId})
+  - createArticulationAnimationTask  (POST /lux3d/v1/articulation-animation/task/create)
+  - createHumanoidAnimationRetargetTask  (POST /lux3d/v1/animations/retarget/task/create)
+  - createHumanoidAutoRigTask  (POST /lux3d/v1/animations/rig/task/create)
+  - createImageToFourViewTask  (POST /lux3d/v1/generate/image-to-four-view/task/create)
+  - createImgTo3dTask  (POST /lux3d/v1/generate/img-to-3d/task/create)
+  - createMaterialTransferTask  (POST /lux3d/v1/generate/material-transfer/task/create)
+  - createMeshUploadAndProcessTask  (POST /rendercloud/v1/mesh-upload-process/task/create)
+  - createMultiFormatExportTask  (POST /lux3d/v1/multi-format-export/task/create)
+  - createMultimodalToImageTask  (POST /lux3d/v1/generate/multimodal-to-image/task/create)
+  - createPartSplitTask  (POST /lux3d/v1/part-split/task/create)
+  - createRenderCloudRealtimeStream  (POST /rendercloud/v1/streams)
+  - createSpatialUnderstandingTask  (POST /spatial-understanding/v1/tasks)
+  - createTextTo3dTask  (POST /lux3d/v1/generate/text-to-3d/task/create)
+  - createWorld  (POST /world/v1/reconstructions)
+  - generateWorld  (POST /world/v1/generations)
+  - getMySpatialUnderstandingTaskList  (POST /spatial-understanding/v1/tasks/list)
+  - getMyWorldList  (POST /world/v1/list)
+  - getRenderCloudInstanceInAholo  (GET /rendercloud/v1/mesh-upload-process/task/get)
+  - getSpatialUnderstandingTaskDetail  (GET /spatial-understanding/v1/tasks/{taskId})
+  - getTask  (GET /lux3d/v1/generate/task/get)
+  - getUploadToken  (GET /asset/v1/token)
+  - getWorldDetail  (GET /world/v1/{worldId})
+  - listTasks  (GET /lux3d/v1/generate/task/list)
+  - ousCosBlockUploadInit  (POST /ous/api/v2/block/upload/init)
+  - ousCosBlockUploadPart  (POST /ous/api/v2/block/upload/part)
+  - ousCosSingleUpload  (POST /ous/api/v2/single/upload)
+  - ousCosUploadStatus  (GET /ous/api/v2/upload/status)
+  - pushRenderCloudRealtimeStreamUpdate  (POST /rendercloud/v1/streams/{sessionId}:push)
+  - runRenderCloudOfflineJob  (POST /rendercloud/v1/jobs)
+
+参考与指南（Docusaurus）：
+- 指南首页：https://labs.aholo3d.cn/api-docs/intro
+- 快速开始：https://labs.aholo3d.cn/api-docs/quickstart
+- Agent Skills 索引：https://labs.aholo3d.cn/api-docs/skills
+- Skill aholo-3dgs-reconstruction：https://labs.aholo3d.cn/api-docs/skills/aholo-3dgs-reconstruction
+- Skill Lux3D：https://labs.aholo3d.cn/api-docs/skills/lux3d
+- 鉴权说明：https://labs.aholo3d.cn/api-docs/authentication
+- 交互 API：https://labs.aholo3d.cn/api-docs/api-reference/
+
+官方 SDK（canonical，优先于 GitHub README）：
+- SDK 概览：https://labs.aholo3d.cn/api-docs/sdk
+- TypeScript SDK：https://labs.aholo3d.cn/api-docs/sdk/typescript
+- Java SDK：https://labs.aholo3d.cn/api-docs/sdk/java
+- Python SDK：https://labs.aholo3d.cn/api-docs/sdk/python
+
+SDK 源码（secondary，仅查 examples 时使用）：
+- GitHub：https://github.com/manycoretech/aholo-spatial-sdk
+- TS examples：https://github.com/manycoretech/aholo-spatial-sdk/tree/main/typescript/examples
+- Java examples：https://github.com/manycoretech/aholo-spatial-sdk/tree/main/java/examples
+
+SDK 能力矩阵：
+- Asset（上传）：TypeScript ✅ | Java ✅ | Python ✅
+- World（3DGS 重建/生成）：TypeScript ✅ | Java ✅ | Python ✅
+- Lux3D（单图四视图、图/文转 3D、材质迁移、多格式导出、部件拆分、关节化、数字人绑骨/重定向、任务历史）：TypeScript ✅ | Java ✅ | Python ✅
+- RenderCloud：暂无 SDK，请用 OpenAPI 直调
+
+SDK 鉴权（与 REST 相同）：
+- 环境变量 AHOLO_API_KEY；或在客户端 config 传入 apiKey
+- region：cn → https://api.aholo3d.cn | com → https://api.aholo.ai
+
+SDK 安装（按需选包）：
+- TypeScript：npm install @manycore/aholo-sdk-asset | @manycore/aholo-sdk-world | @manycore/aholo-sdk-lux3d
+- Java：com.manycoreapis:aholo-sdk-asset | aholo-sdk-world | aholo-sdk-lux3d（Maven Central）
+- Python：pip install manycore-aholo-sdk-asset | manycore-aholo-sdk-world | manycore-aholo-sdk-lux3d
+
+SDK 典型调用链（TypeScript 方法名，Java 类似）：
+- 上传：createAssetClient → uploadFile → result.url
+- 世界重建：uploadFile → world.reconstructions.create → world.waitFor(worldId) → assets.splats.urls
+- 世界生成：world.generations.create → world.waitFor(worldId)
+- Lux3D 生成：lux3d.imgTo3d.create({ img, version: "G1" }) → lux3d.tasks.waitFor(taskId) → outputs[n].content
+- Lux3D 其他接口：multimodalToImage.create | imageToFourView.create | materialTransfer.create | multiFormatExport.create | partSplit.create | articulationAnimation.create | humanoidAutoRig.create | humanoidAnimationRetarget.create
+- Lux3D 任务历史：lux3d.tasks.list({ page, pageSize, status, startTime, endTime })
+
+SDK 约束（Agent 必读）：
+- 世界/Lux3D 均为异步：create 后必须 waitFor / tasks.waitFor 轮询
+- World 进行中：PENDING | PREPROCESSING | RUNNING；成功：SUCCEEDED；失败：FAILED | CANCELED | TIMEOUT | REJECTED
+- Lux3D 任务状态：0 初始化 | 1 进行中 | 3 成功 | 4 失败 | 6 已取消
+- Lux3D 生成必须指定 G1 或 G1-Turbo；faceCount 10000–300000；outputFormat 支持 zip/glb/ply；aiPredictSize 控制尺寸预测
+- 图片重建：image 须 ≥ 20 条（.jpg/.jpeg/.png/.webp），或 video 每条 type=video（.mp4/.mov），或 Insta360 每条 type=insv（.insv）；扩展名须与 type 一致
+- 世界生成：纯文案、单图或图文；至多 1 张图片（.jpg/.jpeg/.png/.webp）
+- 上传大文件：SDK 内置分块上传，无需手写 OUS 流程
+- 错误类型：AuthenticationError | RateLimitError | BusinessError | PollingTimeoutError | PollingFailedError
+
+Agent 路由建议（SDK vs REST）：
+- 用户要写应用集成代码 → 优先读 /sdk/*，不要手写 HTTP
+- 用户要查接口字段/错误码 → 读 OpenAPI 或 /api-reference/
+- RenderCloud → 仅 OpenAPI，无 SDK
+- 若 SDK 文档与 GitHub README 冲突，以 /sdk/* 为准
+
+鉴权要求：
+- 开放平台网关：每个请求在 Header 中设置 Authorization，值为平台申请的 API key，无需 Bearer 前缀；细节见指南「授权」与 openapi components.securitySchemes。
+- 上传（OUS）：获取上传凭证仍使用上述 Authorization；对 OUS globalDomain 的请求使用 ous-token-v2 等，与网关 Authorization 独立；见指南「授权」与 OpenAPI Upload 相关路径。
+- 若多份说明不一致，以 openapi.yaml 与指南 authentication 页面为权威。
+
+Agent 路由建议：
+- 若任务涉及多个服务，优先读取聚合 OpenAPI。
+- 若任务只涉及单个服务，优先读取该服务的 openapi.yaml。
+- 若聚合与单服务规范冲突，以单服务规范为准。
+
+数据约定：
+- 除状态字段外，枚举入参使用小写。
+- 状态值使用大写。
+- World 详情/列表中的 createTime、updateTime 为 Unix 毫秒时间戳；其它服务以各 OpenAPI 为准。
+
+执行与可靠性建议：
+- 优先使用 operationId 作为动作选择标识。
+- 执行前先校验必填字段与枚举值。
+- 异步流程先创建任务，再轮询查询接口直到终态。
+- 遇到 429 或瞬时 5xx，采用有上限的指数退避重试。
+- 遇到 401，检查 API key 后重试一次。
+
+典型调用链（示例）：
+- 世界重建：createWorld → getWorldDetail（轮询至终态）。
+- 世界生成：generateWorld → getWorldDetail（轮询至终态）。
+- 世界列表：getMyWorldList → getWorldDetail。
+
+备注：
+- 文档中仅包含已发布 API。

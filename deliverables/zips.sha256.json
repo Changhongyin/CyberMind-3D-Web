@@ -1,0 +1,14 @@
+[
+ {
+  "file": "JIXIN_site-static.zip",
+  "bytes": 47985323,
+  "files": 27,
+  "sha256": "0938310eb67d1b2feee5277328601857985054a40e02d24d817899a43950c9d2"
+ },
+ {
+  "file": "JIXIN_source.zip",
+  "bytes": 171672967,
+  "files": 150,
+  "sha256": "aee37dd3c472df0dfa6cbcbefe8860b567941748454dc583fe6c79961935be6e"
+ }
+]

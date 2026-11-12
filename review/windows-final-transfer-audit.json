@@ -1,0 +1,1294 @@
+{
+ "date": "2026-11-12T06:36:34",
+ "project": "JIXIN / CyberMind-3D-Web",
+ "scope": {
+  "scannedRecursively": [
+   "C:\\Users\\lover (whole profile: Desktop, Documents, Downloads, OneDrive, AppData incl. Temp and all Claude session temp folders, .claude, .codex, .clawd)"
+  ],
+  "checkedOnly": [
+   "C:\\ top level (only OS swap/hibernation files changed since project start)",
+   "C:\\Users (no other user profile in use)",
+   "D: (empty CD-ROM drive, no media)"
+  ],
+  "notScanned": [
+   "C:\\Windows, C:\\Program Files*, C:\\ProgramData (system locations, not used by the project)",
+   "other user profiles (Default/Public: not modified since 2026-08-11)"
+  ],
+  "candidateRule": "modified since 2026-11-11 19:00 local with a project-like extension, OR path/name mentions jixin/cybermind/机心/capture.json/seg_N/master_3840/soundtrack/report_built",
+  "filesWalked": 112667,
+  "walkErrorCount": 84,
+  "walkErrorsSample": [
+   "[WinError 5] Access is denied: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Application Data'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\dml-wordprocessingDrawing.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\dml-wordprocessingDrawing.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-additionalCharacteristics.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-additionalCharacteristics.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-customXmlDataProperties.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-customXmlDataProperties.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-customXmlSchemaProperties.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-customXmlSchemaProperties.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesCustom.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-documentPropertiesCustom.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesExtended.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-documentPropertiesExtended.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesVariantTypes.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-documentPropertiesVariantTypes.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-relationshipReference.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-relationshipReference.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\docx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\vml-wordprocessingDrawing.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\docx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\vml-wordprocessingDrawing.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\dml-wordprocessingDrawing.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\dml-wordprocessingDrawing.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-additionalCharacteristics.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-additionalCharacteristics.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-customXmlDataProperties.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-customXmlDataProperties.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-customXmlSchemaProperties.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-customXmlSchemaProperties.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesCustom.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-documentPropertiesCustom.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesExtended.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-documentPropertiesExtended.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesVariantTypes.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-documentPropertiesVariantTypes.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\shared-relationshipReference.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\shared-relationshipReference.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\pptx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\vml-wordprocessingDrawing.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\pptx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\vml-wordprocessingDrawing.xsd'",
+   "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\ecde682c-9646-4a0b-b421-f203a1d15710\\skills\\xlsx\\scripts\\office\\schemas\\ISO-IEC29500-4_2016\\dml-wordprocessingDrawing.xsd: [WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\lover\\\\AppData\\\\Local\\\\Claude-Data\\\\claude_pzs8sxrjxfjjc\\\\local-agent-mode-sessions\\\\skills-plugin\\\\06ff3749-3e00-40cb-ae83-e0e9c74e12c8\\\\ecde682c-9646-4a0b-b421-f203a1d15710\\\\skills\\\\xlsx\\\\scripts\\\\office\\\\schemas\\\\ISO-IEC29500-4_2016\\\\dml-wordprocessingDrawing.xsd'"
+  ],
+  "walkErrorNote": "access-denied legacy junctions (e.g. AppData\\Local\\Application Data) and over-long paths inside the Claude desktop app skills cache; not project locations",
+  "excludedByRule_counts": {
+   ".claude": 554,
+   "AppData\\Local\\Microsoft": 42,
+   "AppData\\Local\\npm-cache": 5,
+   "AppData\\Local\\Packages": 38,
+   "AppData\\Local\\Programs": 8,
+   "AppData\\Local\\Temp\\puppeteer_dev": 68,
+   "AppData\\Roaming": 8
+  },
+  "excludedByRule_meaning": "browser profiles (puppeteer temp profiles, Edge/WebView), app data, npm/pip caches, installed programs, agent configuration (.claude); never copied"
+ },
+ "previouslyRemoved": {
+  "C:\\Users\\lover\\cybermind-scratch": "removed 2026-11-12 ~06:05 after SHA256-verified transfer (review/copy_manifest.json); absent now",
+  "discardedThere": "redundant intermediates only: 6 video segments, silent master (video packets identical to delivered master), superseded test renders, node_modules"
+ },
+ "shareIndex": {
+  "files": 238,
+  "errors": []
+ },
+ "transferredNow": [
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\b91t0kjf2.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/b91t0kjf2.output",
+   "bytes": 213,
+   "sha256": "08b118d54384fafddd1b45ef2eefdd368498e234c8690d2ee4ce7ff4f0b8a8b0",
+   "verified": true,
+   "what": "Lux3D concept-image wait/fetch (2026-11-11)"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bkxw7kdfs.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/bkxw7kdfs.output",
+   "bytes": 1741,
+   "sha256": "60431182f50616f4e5b5007b3ea37e62b2e44af4340463f437e79cd3ebbdd614",
+   "verified": true,
+   "what": "master export watcher tail"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bti87d89x.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/bti87d89x.output",
+   "bytes": 22,
+   "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+   "verified": true,
+   "what": "master export run_master.sh exit"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\b8nk6x737.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/b8nk6x737.output",
+   "bytes": 22,
+   "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+   "verified": true,
+   "what": "first (stopped) export attempt exit"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bynmbi7on.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/bynmbi7on.output",
+   "bytes": 22,
+   "sha256": "5da6bcf56bf3157a2448671a77c71e7350cc778f24edffcee3fcee8f0431879d",
+   "verified": true,
+   "what": "timing probe run (background)"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\b3ds21epz.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/b3ds21epz.output",
+   "bytes": 22,
+   "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+   "verified": true,
+   "what": "make_derivatives.sh exit"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\blvu9nbir.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/blvu9nbir.output",
+   "bytes": 56,
+   "sha256": "5fb264a3313163c2488a9928c3eebbe4e323d67bb30c649e5c7ff261a9cafbec",
+   "verified": true,
+   "what": "static server :8787 (stopped by agent)"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\be6ep3cky.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/be6ep3cky.output",
+   "bytes": 56,
+   "sha256": "b6e3013da6489b9de38906ac6593b9aa83304291db87d071432cfbb289ba6c28",
+   "verified": true,
+   "what": "package test server :8790 (stopped)"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bb0opvj1x.output",
+   "dst": "recovery/windows-final-transfer/claude-session-7507bda7-job-logs/bb0opvj1x.output",
+   "bytes": 56,
+   "sha256": "a28e94cfde56bd6a69a6df89d1e4b3aae7348a3d93a9f8f447217e8c37cf11e2",
+   "verified": true,
+   "what": "package test server :8791 (stopped)"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\scratchpad\\audit_scan.py",
+   "dst": "recovery/windows-final-transfer/audit-tools/audit_scan.py",
+   "bytes": 3651,
+   "sha256": "51f0d3bdb9b58d036efd1bd00e358751c9d027adad6b0f3da2d01ef0b0a9e1d5",
+   "verified": true,
+   "what": "transfer-audit script"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\scratchpad\\audit_finish.py",
+   "dst": "recovery/windows-final-transfer/audit-tools/audit_finish.py",
+   "bytes": 7481,
+   "sha256": "b401dd909714ef175f6f08da70d4997a8f347725bd82f2d066f2e5282429f651",
+   "verified": true,
+   "what": "transfer-audit script"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\scratchpad\\summ.py",
+   "dst": "recovery/windows-final-transfer/audit-tools/summ.py",
+   "bytes": 561,
+   "sha256": "56ea87b10bfa5a0497beb8b62e02a4e5ff47350b048c3c5e857a0738793fee7e",
+   "verified": true,
+   "what": "transfer-audit script"
+  },
+  {
+   "src": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\scratchpad\\summ2.py",
+   "dst": "recovery/windows-final-transfer/audit-tools/summ2.py",
+   "bytes": 268,
+   "sha256": "fe88e221db4a2ab6db552d5e5d62a463e670bf413abaad37650f963137611768",
+   "verified": true,
+   "what": "transfer-audit script"
+  }
+ ],
+ "copyManifestRecheck": {
+  "entries": 84,
+  "matching": 83,
+  "mismatches": [
+   {
+    "file": "review/copy_manifest.json",
+    "manifestSha256": "d706052eaa8dc9149735d21175235e7849a836acf6fcb30bc517877c85a833cd",
+    "currentSha256": "bc1f37dc2d3b23dc8a1feca69c63d626969b8d4553d1dfc0b189adf3095df0c7",
+    "match": false,
+    "expectedChange": "self-referencing entry: the manifest records the hash of the version copied before the final entries were appended; the final manifest was then written over it, so its own entry can never match"
+   }
+  ],
+  "all": [
+   {
+    "file": "deliverables/video/JIXIN_master_3840x2160_120fps_HEVC-Main10.mp4",
+    "manifestSha256": "faea4c8b23f82e3ff8e4d93df03726e91a2e03315318a7e8dc873227dd8791e2",
+    "currentSha256": "faea4c8b23f82e3ff8e4d93df03726e91a2e03315318a7e8dc873227dd8791e2",
+    "match": true
+   },
+   {
+    "file": "deliverables/video/JIXIN_viewing-copy_1920x1080_60fps_H264_derived-from-master.mp4",
+    "manifestSha256": "f25e4f2754467d24dfda325a24b8e40b71b1f3f2a23dc001f4f2bdec3db4c0c2",
+    "currentSha256": "f25e4f2754467d24dfda325a24b8e40b71b1f3f2a23dc001f4f2bdec3db4c0c2",
+    "match": true
+   },
+   {
+    "file": "deliverables/video/JIXIN_viewing-copy_3840x2160_60fps_H264_derived-from-master.mp4",
+    "manifestSha256": "4e2c0b54a1a80811d43b4627623695ad5a70ee85c35f28d4a9d9dda14a1c7f39",
+    "currentSha256": "4e2c0b54a1a80811d43b4627623695ad5a70ee85c35f28d4a9d9dda14a1c7f39",
+    "match": true
+   },
+   {
+    "file": "deliverables/video/soundtrack/JIXIN_soundtrack_48k.events.json",
+    "manifestSha256": "b5ef075196af3a652615ed9fffd3d558fb2ca0c9817f260f29ae1cae63ec3a04",
+    "currentSha256": "b5ef075196af3a652615ed9fffd3d558fb2ca0c9817f260f29ae1cae63ec3a04",
+    "match": true
+   },
+   {
+    "file": "deliverables/video/soundtrack/JIXIN_soundtrack_48k.wav",
+    "manifestSha256": "d3b9d01c4638157e993bc185c7f85401336f67783e859f7cda7e0bf4cc290478",
+    "currentSha256": "d3b9d01c4638157e993bc185c7f85401336f67783e859f7cda7e0bf4cc290478",
+    "match": true
+   },
+   {
+    "file": "deliverables/video/soundtrack/waveform.png",
+    "manifestSha256": "677d99d604426c1b1a7ec51372db3b684534d72272cbc99b4d00e4938c98483a",
+    "currentSha256": "677d99d604426c1b1a7ec51372db3b684534d72272cbc99b4d00e4938c98483a",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_01_sealed.png",
+    "manifestSha256": "dae864263d56cfbc1e35b5e2db18b5bb9aad5db434ad004297005c15775d17b1",
+    "currentSha256": "dae864263d56cfbc1e35b5e2db18b5bb9aad5db434ad004297005c15775d17b1",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_02_rings-aligned.png",
+    "manifestSha256": "5dabd8db7fc3101139513420fd5244ad51d6e9d2f1dec568ab7cdfdae5c81c6f",
+    "currentSha256": "5dabd8db7fc3101139513420fd5244ad51d6e9d2f1dec568ab7cdfdae5c81c6f",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_03_unsealing.png",
+    "manifestSha256": "8cba83fe35bfd9aced02b94a5e73d04a2d427a81dc6bf26468bfaf66f461b462",
+    "currentSha256": "8cba83fe35bfd9aced02b94a5e73d04a2d427a81dc6bf26468bfaf66f461b462",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_04_awake.png",
+    "manifestSha256": "616d43b65e19c020ef2d82629ca874aa04e02d377db55ab56f1c99bbd9e95b37",
+    "currentSha256": "616d43b65e19c020ef2d82629ca874aa04e02d377db55ab56f1c99bbd9e95b37",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_05_glyph-drums.png",
+    "manifestSha256": "7abd4c5722a8aa1e73a61f5cc136bd87206f1d052ad03887af9f6bae25d9ee85",
+    "currentSha256": "7abd4c5722a8aa1e73a61f5cc136bd87206f1d052ad03887af9f6bae25d9ee85",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_06_reed-comb.png",
+    "manifestSha256": "b32e7409a11d2d683dc6b94e1363596734f668eaa74e8cd57004234240bccb02",
+    "currentSha256": "b32e7409a11d2d683dc6b94e1363596734f668eaa74e8cd57004234240bccb02",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_07_seed.png",
+    "manifestSha256": "663a8a90b4b27883ff785f9554e32e3c86fb0822f5fc5677554c231572f3bb0d",
+    "currentSha256": "663a8a90b4b27883ff785f9554e32e3c86fb0822f5fc5677554c231572f3bb0d",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_08_inner-lining.png",
+    "manifestSha256": "91da29d09628f21facae2262e00343bca7e64ebc5ff96727b6dd932f26a42fec",
+    "currentSha256": "91da29d09628f21facae2262e00343bca7e64ebc5ff96727b6dd932f26a42fec",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_09_shrine.png",
+    "manifestSha256": "10467c89c668927107a4836ffc06701acca5a899cc6411b1cf59465ac80cd1d7",
+    "currentSha256": "10467c89c668927107a4836ffc06701acca5a899cc6411b1cf59465ac80cd1d7",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_10_well-overview.png",
+    "manifestSha256": "de4457ba4877dccb3db7915128c598359b5e70b07c6cc46342c7dec8cd9ae550",
+    "currentSha256": "de4457ba4877dccb3db7915128c598359b5e70b07c6cc46342c7dec8cd9ae550",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_11_wugang.png",
+    "manifestSha256": "2b3b9b7ef8b6680292c757bff1900691a63cd84ca967ef286d2a14a37fcfc7e3",
+    "currentSha256": "2b3b9b7ef8b6680292c757bff1900691a63cd84ca967ef286d2a14a37fcfc7e3",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/JIXIN_4K_12_drums-with-interface.png",
+    "manifestSha256": "0a9a7167642c745f21d9250e2eabc93310bb8d3705b2b7ec1aa5a4c7c364d2cb",
+    "currentSha256": "0a9a7167642c745f21d9250e2eabc93310bb8d3705b2b7ec1aa5a4c7c364d2cb",
+    "match": true
+   },
+   {
+    "file": "deliverables/stills/shots.meta.json",
+    "manifestSha256": "99a69628b23812e83dab9390eaaa8d34b4506eae23bea8d5964f68ded04db5fe",
+    "currentSha256": "99a69628b23812e83dab9390eaaa8d34b4506eae23bea8d5964f68ded04db5fe",
+    "match": true
+   },
+   {
+    "file": "deliverables/report/JIXIN_project-report.pdf",
+    "manifestSha256": "f471a38645e3a6357b70213cb90386c9aea24e643b2ff92aff8db219d690e1af",
+    "currentSha256": "f471a38645e3a6357b70213cb90386c9aea24e643b2ff92aff8db219d690e1af",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p01.png",
+    "manifestSha256": "2aa153936fb02c20494b9963916252a87a5cbc939c57d47cd9c77f78812e9f14",
+    "currentSha256": "2aa153936fb02c20494b9963916252a87a5cbc939c57d47cd9c77f78812e9f14",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p02.png",
+    "manifestSha256": "112b246133d763d0eed18a419a5165651d6e689ab1a7812cb24b3c4710be253b",
+    "currentSha256": "112b246133d763d0eed18a419a5165651d6e689ab1a7812cb24b3c4710be253b",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p03.png",
+    "manifestSha256": "4fc4fdf9c0bb8c5fb0022eb3e0d6708ee0a38be782efe489e986c98298d8244e",
+    "currentSha256": "4fc4fdf9c0bb8c5fb0022eb3e0d6708ee0a38be782efe489e986c98298d8244e",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p04.png",
+    "manifestSha256": "c5dd6edd2d69d034f296c1eae4a437be81bf982254760fe5586798edf2428bf6",
+    "currentSha256": "c5dd6edd2d69d034f296c1eae4a437be81bf982254760fe5586798edf2428bf6",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p05.png",
+    "manifestSha256": "fa021c920ff9875d9fcceaf188ede07dadd38f5cc28c4e4d9127b54fde7b548e",
+    "currentSha256": "fa021c920ff9875d9fcceaf188ede07dadd38f5cc28c4e4d9127b54fde7b548e",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p06.png",
+    "manifestSha256": "95bd8c48a120cb20abb49dde077c5476bce6687da3a230c66e1d45a1e7a33a6c",
+    "currentSha256": "95bd8c48a120cb20abb49dde077c5476bce6687da3a230c66e1d45a1e7a33a6c",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p07.png",
+    "manifestSha256": "1e9592f76780af4f0db3ff61247a1c70063cb89a1f0ea51a9454224e37ad7e9c",
+    "currentSha256": "1e9592f76780af4f0db3ff61247a1c70063cb89a1f0ea51a9454224e37ad7e9c",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p08.png",
+    "manifestSha256": "7cd67db9234741b05a671a73ed6f45558b891db28459c89c95162deb96b9c3be",
+    "currentSha256": "7cd67db9234741b05a671a73ed6f45558b891db28459c89c95162deb96b9c3be",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p09.png",
+    "manifestSha256": "fbe11251b01c13eb14a3f39a8ae5508b864f25a6f73c253b073345b3429e8976",
+    "currentSha256": "fbe11251b01c13eb14a3f39a8ae5508b864f25a6f73c253b073345b3429e8976",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p10.png",
+    "manifestSha256": "c6a983bdbeef6078aa0375e2c8c541b45d7d0b4e6a753b115470752e19b170e3",
+    "currentSha256": "c6a983bdbeef6078aa0375e2c8c541b45d7d0b4e6a753b115470752e19b170e3",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p11.png",
+    "manifestSha256": "4cb199ee47e4b4d2483b7b84a02ee98c5c29577ca6cdf81168cf8dc55170a3c0",
+    "currentSha256": "4cb199ee47e4b4d2483b7b84a02ee98c5c29577ca6cdf81168cf8dc55170a3c0",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p12.png",
+    "manifestSha256": "a59c00b3915c9eac79ce00a04c1788d422e3abf41e61a185455e97d962c0d31c",
+    "currentSha256": "a59c00b3915c9eac79ce00a04c1788d422e3abf41e61a185455e97d962c0d31c",
+    "match": true
+   },
+   {
+    "file": "review/report-pages/p13.png",
+    "manifestSha256": "91571089c16c7bb83fecaa48d60a29f726f492af40fbc57dd566d32990040e2d",
+    "currentSha256": "91571089c16c7bb83fecaa48d60a29f726f492af40fbc57dd566d32990040e2d",
+    "match": true
+   },
+   {
+    "file": "review/benchmark/bench_1_fidelity_headed.json",
+    "manifestSha256": "1efc9331b9add5589bcba3c55368bd8d0b0860d5195c1fb20fe1abce5b8b0e0e",
+    "currentSha256": "1efc9331b9add5589bcba3c55368bd8d0b0860d5195c1fb20fe1abce5b8b0e0e",
+    "match": true
+   },
+   {
+    "file": "review/benchmark/bench_2_balanced_headed.json",
+    "manifestSha256": "23b5aa0d89615938c052e2cf678159554f20a571828f4e4d8cd2f156efbc82ed",
+    "currentSha256": "23b5aa0d89615938c052e2cf678159554f20a571828f4e4d8cd2f156efbc82ed",
+    "match": true
+   },
+   {
+    "file": "review/benchmark/bench_3_performance_headed.json",
+    "manifestSha256": "8df14ddb35c12e91bd2ad9b4dd066f474a6a240016e282c8672e585761319343",
+    "currentSha256": "8df14ddb35c12e91bd2ad9b4dd066f474a6a240016e282c8672e585761319343",
+    "match": true
+   },
+   {
+    "file": "review/benchmark/bench_4_auto_headed.json",
+    "manifestSha256": "a1d5036222cd0e227b37d0222b9bb35fdba172985e6fd5b3b5731177be195275",
+    "currentSha256": "a1d5036222cd0e227b37d0222b9bb35fdba172985e6fd5b3b5731177be195275",
+    "match": true
+   },
+   {
+    "file": "review/benchmark/bench_5_fidelity_headless-offscreen-3840x2160.json",
+    "manifestSha256": "e0e638a7dcac7381940ec03253fb093d497a35d93c80c6be4178d88eba41a11e",
+    "currentSha256": "e0e638a7dcac7381940ec03253fb093d497a35d93c80c6be4178d88eba41a11e",
+    "match": true
+   },
+   {
+    "file": "review/benchmark/env.json",
+    "manifestSha256": "b89a4085437466f069223cef5badf7c59d85dcf23c47c762136e90da01c32b9b",
+    "currentSha256": "b89a4085437466f069223cef5badf7c59d85dcf23c47c762136e90da01c32b9b",
+    "match": true
+   },
+   {
+    "file": "review/video/master_validation.json",
+    "manifestSha256": "9ddbcdb9bfc0968d5d1e46be28d6c7cde05782cd3800fd742fb7ddaa70b49102",
+    "currentSha256": "9ddbcdb9bfc0968d5d1e46be28d6c7cde05782cd3800fd742fb7ddaa70b49102",
+    "match": true
+   },
+   {
+    "file": "review/video/master_validation_joins.png",
+    "manifestSha256": "a757ba82fa65af8ed3b7ee47416bb9439a895af0a2a3b0f7ee401868c066e0e1",
+    "currentSha256": "a757ba82fa65af8ed3b7ee47416bb9439a895af0a2a3b0f7ee401868c066e0e1",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_01199.png",
+    "manifestSha256": "64b2a770ae4f5b8dfb794fdb8031d5ab48c086177b6236bacf5c268977380fd6",
+    "currentSha256": "64b2a770ae4f5b8dfb794fdb8031d5ab48c086177b6236bacf5c268977380fd6",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_01200.png",
+    "manifestSha256": "ad23dea4dd33666304c862cc43982009f3f174dad36a20992228e5b9a49c1268",
+    "currentSha256": "ad23dea4dd33666304c862cc43982009f3f174dad36a20992228e5b9a49c1268",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_02399.png",
+    "manifestSha256": "b57b1ede80c9d39bbd583b93ba243c7c00ffc44360d383800e3723758b915f94",
+    "currentSha256": "b57b1ede80c9d39bbd583b93ba243c7c00ffc44360d383800e3723758b915f94",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_02400.png",
+    "manifestSha256": "51dca68f4602cc207f75049e21e84d9886ae39fbcc989f4bfb51001fe8b77181",
+    "currentSha256": "51dca68f4602cc207f75049e21e84d9886ae39fbcc989f4bfb51001fe8b77181",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_03599.png",
+    "manifestSha256": "9209ffcecbfec535320e3d44ffefd384405ea3aa612313bff16f4021c55aa6b4",
+    "currentSha256": "9209ffcecbfec535320e3d44ffefd384405ea3aa612313bff16f4021c55aa6b4",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_03600.png",
+    "manifestSha256": "3f7165516d9d736df57f6cf1e78026b5c31d15d310fb884c43e92796ef411935",
+    "currentSha256": "3f7165516d9d736df57f6cf1e78026b5c31d15d310fb884c43e92796ef411935",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_04799.png",
+    "manifestSha256": "1cfe0cb0c34cd95babe1bd0217294622669ace64125bf02c32fbf078fe74a097",
+    "currentSha256": "1cfe0cb0c34cd95babe1bd0217294622669ace64125bf02c32fbf078fe74a097",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_04800.png",
+    "manifestSha256": "23e5e4f8946ba3e3fe5ee1bec61b335f2cd51b03bfb15e8f9fc6d2d0426c1591",
+    "currentSha256": "23e5e4f8946ba3e3fe5ee1bec61b335f2cd51b03bfb15e8f9fc6d2d0426c1591",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_05999.png",
+    "manifestSha256": "c15ac34c6055774fa26c489ac0c2e47e11fe8609874e8bdd498d5af59de7bb54",
+    "currentSha256": "c15ac34c6055774fa26c489ac0c2e47e11fe8609874e8bdd498d5af59de7bb54",
+    "match": true
+   },
+   {
+    "file": "review/video/join-check-continuous/cont_06000.png",
+    "manifestSha256": "32e2c5159feaa9a41f858423f10696e447cad7a1e40901951efdc5629016e279",
+    "currentSha256": "32e2c5159feaa9a41f858423f10696e447cad7a1e40901951efdc5629016e279",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_00000.png",
+    "manifestSha256": "3bc01f7bac1037e7108225add95c2e0d139832175fe541ffa269929953b7f9ff",
+    "currentSha256": "3bc01f7bac1037e7108225add95c2e0d139832175fe541ffa269929953b7f9ff",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_00600.png",
+    "manifestSha256": "ebf28bb68dd9f3588ec3c12badcd18dcf066d4a5fab2eb1e1ae77f8ba44ec14e",
+    "currentSha256": "ebf28bb68dd9f3588ec3c12badcd18dcf066d4a5fab2eb1e1ae77f8ba44ec14e",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_01200.png",
+    "manifestSha256": "717be201da15823f1b9cd0cf34631c95ca8ccf22b5d389d0ad14b36b4d42ca67",
+    "currentSha256": "717be201da15823f1b9cd0cf34631c95ca8ccf22b5d389d0ad14b36b4d42ca67",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_01800.png",
+    "manifestSha256": "832639d2613c4c62c265990e703f32e5a09957648be64fd5db3810ffbb2b5891",
+    "currentSha256": "832639d2613c4c62c265990e703f32e5a09957648be64fd5db3810ffbb2b5891",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_02400.png",
+    "manifestSha256": "a41fa2d3fd815a96bda1fc0f0d3182734faa8a1fdc9defb3c647b5d148012557",
+    "currentSha256": "a41fa2d3fd815a96bda1fc0f0d3182734faa8a1fdc9defb3c647b5d148012557",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_03000.png",
+    "manifestSha256": "8c0c2b66aaf1245c77342cbe4873ad2fd7669e392f1aa879999b344beb5b6b4a",
+    "currentSha256": "8c0c2b66aaf1245c77342cbe4873ad2fd7669e392f1aa879999b344beb5b6b4a",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_03600.png",
+    "manifestSha256": "29419e628fd543c59765a4a064858edead3f16454bc996519811da9de93aa467",
+    "currentSha256": "29419e628fd543c59765a4a064858edead3f16454bc996519811da9de93aa467",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_04200.png",
+    "manifestSha256": "20e4f200b8a0e9aa704528a80eed71582557b9cb7f04d3173364b150c8ac0dbb",
+    "currentSha256": "20e4f200b8a0e9aa704528a80eed71582557b9cb7f04d3173364b150c8ac0dbb",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_04800.png",
+    "manifestSha256": "ab5218b4b4f2d815d94f360c08c640688de5205e7bf16f54979de3b0ddacd333",
+    "currentSha256": "ab5218b4b4f2d815d94f360c08c640688de5205e7bf16f54979de3b0ddacd333",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_05400.png",
+    "manifestSha256": "7fd0d3024034f31c8efcb01e21117b07b8bfec908666511000a937b482161ae7",
+    "currentSha256": "7fd0d3024034f31c8efcb01e21117b07b8bfec908666511000a937b482161ae7",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_06000.png",
+    "manifestSha256": "195773f353bea92b32e2fbe89c5cd515d29931ecc47bd0ab39cee5f419e7e1a6",
+    "currentSha256": "195773f353bea92b32e2fbe89c5cd515d29931ecc47bd0ab39cee5f419e7e1a6",
+    "match": true
+   },
+   {
+    "file": "review/video/master-native-frames/frame_06600.png",
+    "manifestSha256": "cf35f74ee4750bf0732955ad4be013bf7e858a39feeabc74541acb171bf2916a",
+    "currentSha256": "cf35f74ee4750bf0732955ad4be013bf7e858a39feeabc74541acb171bf2916a",
+    "match": true
+   },
+   {
+    "file": "review/video/capture-records/deriv_log.txt",
+    "manifestSha256": "5e6a326b9c2b35241f060395ff1fb2cd0a4e9651f545581a9b78cbb755c7b16d",
+    "currentSha256": "5e6a326b9c2b35241f060395ff1fb2cd0a4e9651f545581a9b78cbb755c7b16d",
+    "match": true
+   },
+   {
+    "file": "review/video/capture-records/master_log.txt",
+    "manifestSha256": "4276aae3cd68a36fbbec3dc45fce5f9cec77818db6a09831de2efdbe73930d56",
+    "currentSha256": "4276aae3cd68a36fbbec3dc45fce5f9cec77818db6a09831de2efdbe73930d56",
+    "match": true
+   },
+   {
+    "file": "review/video/capture-records/seg_0.capture.json",
+    "manifestSha256": "01739f73c0f3f4bd6c3698bc4f0c5a073fc87490a487a46a4e5231e2d0840ab3",
+    "currentSha256": "01739f73c0f3f4bd6c3698bc4f0c5a073fc87490a487a46a4e5231e2d0840ab3",
+    "match": true
+   },
+   {
+    "file": "review/video/capture-records/seg_1.capture.json",
+    "manifestSha256": "b0888e71229074ccb9cbf4eda57643193398417c85baf35d287d2959bf1906e4",
+    "currentSha256": "b0888e71229074ccb9cbf4eda57643193398417c85baf35d287d2959bf1906e4",
+    "match": true
+   },
+   {
+    "file": "review/video/capture-records/seg_2.capture.json",
+    "manifestSha256": "6f8df6653eed096e0de5fd32eb996bdc7085aa0fdc061c3a078e2968fcaa36ac",
+    "currentSha256": "6f8df6653eed096e0de5fd32eb996bdc7085aa0fdc061c3a078e2968fcaa36ac",
+    "match": true
+   },
+   {
+    "file": "review/video/capture-records/seg_3.capture.json",
+    "manifestSha256": "9ae029e2f18218a2440618c2cdeb994de58da726e1db02d35c5fd61274516279",
+    "currentSha256": "9ae029e2f18218a2440618c2cdeb994de58da726e1db02d35c5fd61274516279",
+    "match": true
+   },
+   {
+    "file": "review/video/capture-records/seg_4.capture.json",
+    "manifestSha256": "f1d54797bf6aa355183a486282c005b35dd8b46dc6244daf143c26c055618bf5",
+    "currentSha256": "f1d54797bf6aa355183a486282c005b35dd8b46dc6244daf143c26c055618bf5",
+    "match": true
+   },
+   {
+    "file": "review/video/capture-records/seg_5.capture.json",
+    "manifestSha256": "225f0871818c03dd446db5d05fbe0ee42077fd3183e9d428227fa9bd3ce991dd",
+    "currentSha256": "225f0871818c03dd446db5d05fbe0ee42077fd3183e9d428227fa9bd3ce991dd",
+    "match": true
+   },
+   {
+    "file": "review/video/waveform.png",
+    "manifestSha256": "677d99d604426c1b1a7ec51372db3b684534d72272cbc99b4d00e4938c98483a",
+    "currentSha256": "677d99d604426c1b1a7ec51372db3b684534d72272cbc99b4d00e4938c98483a",
+    "match": true
+   },
+   {
+    "file": "review/copy_manifest.json",
+    "manifestSha256": "d706052eaa8dc9149735d21175235e7849a836acf6fcb30bc517877c85a833cd",
+    "currentSha256": "bc1f37dc2d3b23dc8a1feca69c63d626969b8d4553d1dfc0b189adf3095df0c7",
+    "match": false,
+    "expectedChange": "self-referencing entry: the manifest records the hash of the version copied before the final entries were appended; the final manifest was then written over it, so its own entry can never match"
+   },
+   {
+    "file": "review/tests/failtest_packaged.txt",
+    "manifestSha256": "036657ae46cd529ace189738d3cf1dd7210bf02b754f3e367af8e5e75f4ce788",
+    "currentSha256": "036657ae46cd529ace189738d3cf1dd7210bf02b754f3e367af8e5e75f4ce788",
+    "match": true
+   },
+   {
+    "file": "review/tests/fallback_missing-model_loading.png",
+    "manifestSha256": "fdbc7d37098194fba2f3756fc14d6c97cd046375cf2bd4b3bbfae8d47508e6e5",
+    "currentSha256": "fdbc7d37098194fba2f3756fc14d6c97cd046375cf2bd4b3bbfae8d47508e6e5",
+    "match": true
+   },
+   {
+    "file": "review/tests/fallback_missing-model_scene.png",
+    "manifestSha256": "e5380d5411f6bc8f1f3efba9ff095604e1ede2db29718a28004683c021af003c",
+    "currentSha256": "e5380d5411f6bc8f1f3efba9ff095604e1ede2db29718a28004683c021af003c",
+    "match": true
+   },
+   {
+    "file": "review/tests/fallback_no-webgl.png",
+    "manifestSha256": "d6d60e2c1c87b287cf4015ed5ef47757ca757bc04fe66641412f8204f49fde20",
+    "currentSha256": "d6d60e2c1c87b287cf4015ed5ef47757ca757bc04fe66641412f8204f49fde20",
+    "match": true
+   },
+   {
+    "file": "review/tests/itest_end_packaged.png",
+    "manifestSha256": "fe5c37a00c3bea2fe4227f663b3e033f234949ab851b06c5c368fae434aca303",
+    "currentSha256": "fe5c37a00c3bea2fe4227f663b3e033f234949ab851b06c5c368fae434aca303",
+    "match": true
+   },
+   {
+    "file": "review/tests/itest_packaged.txt",
+    "manifestSha256": "a98260681213673f5a313ab8512f0f43db42c8a3f626ebafdb752b6658e467fb",
+    "currentSha256": "a98260681213673f5a313ab8512f0f43db42c8a3f626ebafdb752b6658e467fb",
+    "match": true
+   },
+   {
+    "file": "review/tests/phone_390x844.png",
+    "manifestSha256": "dfe86ef4ba2cd38d5768f9b005e052fe98ea3af9744f570de99be16716f5cd21",
+    "currentSha256": "dfe86ef4ba2cd38d5768f9b005e052fe98ea3af9744f570de99be16716f5cd21",
+    "match": true
+   },
+   {
+    "file": "review/tests/phone_390x844_awake.png",
+    "manifestSha256": "6c253ccc4cc596b1b426352f3255f41221b4d2a6a683f6d2e6eff672cbb75e90",
+    "currentSha256": "6c253ccc4cc596b1b426352f3255f41221b4d2a6a683f6d2e6eff672cbb75e90",
+    "match": true
+   },
+   {
+    "file": "review/tests/sound_label.txt",
+    "manifestSha256": "01a902bfdbcdf7ecddb4e063580f15b8a5e898fc5e972f835152fc16c1764918",
+    "currentSha256": "01a902bfdbcdf7ecddb4e063580f15b8a5e898fc5e972f835152fc16c1764918",
+    "match": true
+   },
+   {
+    "file": "source/capture/helpers/encoder_test_grab.mjs",
+    "manifestSha256": "d1de58e9f1712527c791e28804efceccc047403b28f9cfc0d5b0b518a29d16af",
+    "currentSha256": "d1de58e9f1712527c791e28804efceccc047403b28f9cfc0d5b0b518a29d16af",
+    "match": true
+   },
+   {
+    "file": "source/capture/helpers/fetch_rules_page.mjs",
+    "manifestSha256": "7bfae2d2e26f444398cfb7750a35a87c9ff3de965d383fb3286c9c2806a29a89",
+    "currentSha256": "7bfae2d2e26f444398cfb7750a35a87c9ff3de965d383fb3286c9c2806a29a89",
+    "match": true
+   }
+  ]
+ },
+ "candidates": [
+  {
+   "path": "C:\\Users\\lover\\.claude.json",
+   "bytes": 88694,
+   "mtime": "2026-11-12T06:03:55",
+   "sha256": "09f8a1e5aef459bbb0f161cc015ee2bb8e6b0f97278d96631cc28f90516d0267",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\codex-auto-start.json",
+   "bytes": 64,
+   "mtime": "2026-11-11T22:33:29",
+   "sha256": "ab07e3ad077998f3a9f05f275d4745c5b8ae10dc5059c3fb391152f765fd0b9d",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\kimi-quota-runtime.json",
+   "bytes": 83,
+   "mtime": "2026-11-11T22:33:31",
+   "sha256": "95f20ff556ea6a097e4bca9f7d2c23cacb3c6d6168e7acb3f7860222e7347ce1",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\runtime.json",
+   "bytes": 345,
+   "mtime": "2026-11-11T22:33:31",
+   "sha256": "adedf6fb4ef5bb8920b917706f34f89093dd29721211ee472b0b2d0d634615fa",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\recap-v1\\coverage-2026-11.json",
+   "bytes": 1868,
+   "mtime": "2026-11-12T06:33:52",
+   "sha256": "80a2d2f3716e492d26b2157aa24e84de2b14d12013b02547acf45f1a52a2631e",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\recap-v1\\coverage-open.json",
+   "bytes": 113,
+   "mtime": "2026-11-12T06:33:52",
+   "sha256": "a0102d1a58cb55cbd1013195b1d9df6d08e5fce6fa9a5c67e8d094203b9eb7d4",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\recap-v1\\daily-2026-10.json",
+   "bytes": 1655,
+   "mtime": "2026-11-11T22:33:32",
+   "sha256": "1fe1dbd2fb815aa1ea67652bb9ffca48358e1e96d84b740b645e4b69a7dc597c",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\recap-v1\\daily-2026-11.json",
+   "bytes": 4497,
+   "mtime": "2026-11-12T06:33:28",
+   "sha256": "fe6f2f7c7179e552ebf9cc319dcad208af55d9804c4c688b1aae2c42d3b9e354",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\session-history-v1\\session-history-v1-58db95427d4af9909704b66ae8827729.json",
+   "bytes": 437,
+   "mtime": "2026-11-12T06:33:26",
+   "sha256": "212c6eac129baf75efdecb1c537a27e4b0320c148fe606a3611e213c83c49598",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\session-history-v1\\session-history-v1-8a60bd3437e479265e12d97d05d88ce0.json",
+   "bytes": 412,
+   "mtime": "2026-11-11T19:14:16",
+   "sha256": "baf39dcb947066d09f95b8c85d0365367ab3ce6ae20a51c97488ce1a698287b2",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\session-history-v1\\session-history-v1-9a08e8de570aab13a56b0cb0c99fb9e2.json",
+   "bytes": 449,
+   "mtime": "2026-11-11T20:26:50",
+   "sha256": "a591b398b649cbbb0d42855ff53ab716326a71fa5fe43e242c5a0f0ce87d5d2a",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\session-history-v1\\session-history-v1-c9d89359622a846fb12b634943db91fd.json",
+   "bytes": 401,
+   "mtime": "2026-11-12T02:38:25",
+   "sha256": "8989d20fff467f5fd58f6041422fd64913fda392a66b24714528a0be67cbf6bb",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.clawd\\session-recovery-v1\\session-recovery-v1-681b89ff2967cb71bb9b3fb4734f98f2.json",
+   "bytes": 418,
+   "mtime": "2026-11-12T06:33:28",
+   "sha256": "a554d3adeb6ad24fd9aba595d5636c2bde35c805ac71f7165f4052de2bcfe36c",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.codex\\.sandbox\\sandbox.2026-11-12.log",
+   "bytes": 126,
+   "mtime": "2026-11-11T22:33:41",
+   "sha256": "062e716d5326bc73b65186cf4b770a3340ca2073105f5f321267f88f3006ae4b",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\.codex\\vendor_imports\\skills-curated-cache.json",
+   "bytes": 1267,
+   "mtime": "2026-11-11T22:33:41",
+   "sha256": "3d29416a817c4a709982b7b130e2fe30269daa3a339dac82c92f652a170619df",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude\\logs\\claude.ai-web.log",
+   "bytes": 623618,
+   "mtime": "2026-11-12T04:54:28",
+   "sha256": "82d3c3bebab99d44b51ca12d028f14e3a8d3a87e984689d3dcf3de0307ea8a02",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude\\logs\\cowork_vm_node.log",
+   "bytes": 18239,
+   "mtime": "2026-11-11T19:14:43",
+   "sha256": "3518c6aea0521773109051cfec5f878c2653762bfb531acfb4b5ee1838b879df",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude\\logs\\main.log",
+   "bytes": 8745105,
+   "mtime": "2026-11-12T06:33:06",
+   "sha256": "72087f1c285d79da4aeb8c5c0751a85517f63a664257a19af955bcff29e1d96b",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude\\logs\\remote-control.log",
+   "bytes": 393702,
+   "mtime": "2026-11-12T05:44:48",
+   "sha256": "7a90502eeae5f0156060aef1670d14835e60b2f5e91070a76e9f82af570a6fab",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude\\logs\\ssh.log",
+   "bytes": 8683,
+   "mtime": "2026-11-11T19:14:45",
+   "sha256": "f609b95f65c896c5aa195da4623810ed213d25bfa1af581322749a15eb309cd0",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\ant-device-registry.json",
+   "bytes": 148,
+   "mtime": "2026-11-12T02:32:25",
+   "sha256": "742cd3763e6127869c0034d9417b652cd35c6af0001a041fcbc8aa593c056949",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\claude_desktop_config.json",
+   "bytes": 5449,
+   "mtime": "2026-11-12T02:34:26",
+   "sha256": "9d2e1659adb5f315986185ee4ab3475d07fc8097d52931a01764e417ea5e0542",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\config.json",
+   "bytes": 8684,
+   "mtime": "2026-11-12T06:12:03",
+   "sha256": "81f552170fd6771ee88f3843f2d98e709c6bedfac602b07c99fe2a7786408033",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\git-worktrees.json",
+   "bytes": 2294,
+   "mtime": "2026-11-12T06:13:47",
+   "sha256": "c4f6897e2cdea6e30ddd70faea0ca84c96a4209af64b754b795f05b653e77a96",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\plan-usage-history.json",
+   "bytes": 9057,
+   "mtime": "2026-11-12T06:28:48",
+   "sha256": "cdd788acf9c8849305d237b22329f5d76e1e646d9bb44f659b4f7b21f4937509",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\window-state.json",
+   "bytes": 196,
+   "mtime": "2026-11-12T06:01:06",
+   "sha256": "6170889ed8e758fd5e9d7d6004d5a267e867e203a20c76380401c6cba9dd7703",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\IndexedDB\\https_claude.ai_0.indexeddb.leveldb\\000011.log",
+   "bytes": 388980,
+   "mtime": "2026-11-12T06:33:52",
+   "sha256": "e004227fec8e3fe94bae1f7c9a069d06e5fab7ba16e7b54da7a3f23aa65c144c",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\Local Storage\\leveldb\\000624.log",
+   "bytes": 46176,
+   "mtime": "2026-11-12T06:33:44",
+   "sha256": "98f410478c8254ee97b3d93eb51665c0324e3bc3cc3cd1ad0449988ecb35833d",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\de7dc28a-8d70-42c4-85ae-24e415815a2a\\cbab20db-5ee0-4643-b70d-6cfe895acf3d\\skills\\consolidate-memory\\SKILL.md",
+   "bytes": 1983,
+   "mtime": "2026-11-12T06:23:48",
+   "sha256": "7edd3cadeefc6461dfc487338bf751ae8f905e7c2dbf0b2eab13000d3659d132",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\de7dc28a-8d70-42c4-85ae-24e415815a2a\\cbab20db-5ee0-4643-b70d-6cfe895acf3d\\skills\\explain-usage\\SKILL.md",
+   "bytes": 1384,
+   "mtime": "2026-11-12T06:23:48",
+   "sha256": "7c3d6ae21e2492641d8aa89164c7912b24a4d2f02cc8ce895c878e3acf40c9e3",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\de7dc28a-8d70-42c4-85ae-24e415815a2a\\cbab20db-5ee0-4643-b70d-6cfe895acf3d\\skills\\setup-claude\\SKILL.md",
+   "bytes": 12023,
+   "mtime": "2026-11-12T06:23:48",
+   "sha256": "9f60020e05da38668d5421dc8a22e29242815c94093dc3698e793b910dd0a069",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\local-agent-mode-sessions\\skills-plugin\\de7dc28a-8d70-42c4-85ae-24e415815a2a\\cbab20db-5ee0-4643-b70d-6cfe895acf3d\\skills\\setup-cowork\\SKILL.md",
+   "bytes": 12054,
+   "mtime": "2026-11-12T06:23:48",
+   "sha256": "b68c38f0066ffa800b46db07d74f89046eeaa044572ecc3475335b726cbaceca",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\plugin-list\\cbab20db-5ee0-4643-b70d-6cfe895acf3d\\de7dc28a-8d70-42c4-85ae-24e415815a2a\\plugins.json",
+   "bytes": 339,
+   "mtime": "2026-11-12T06:18:37",
+   "sha256": "5c5f8869b16470491c2dcb36edd465f7f579973bad1baaf7790f862ae59eb050",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\rpm\\cbab20db\\de7dc28a\\manifest.json",
+   "bytes": 558,
+   "mtime": "2026-11-12T06:23:49",
+   "sha256": "b4b76123c9e489577e3b1d9a0dcb8ac08370573e5023773e847276fdfa0439be",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\sentry\\dump-organizations.json",
+   "bytes": 40,
+   "mtime": "2026-11-11T19:14:39",
+   "sha256": "51d3def8de48fd0ac780b9df63e48b149091683e7e52a0817e3e2bbf7d16791b",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\sentry\\scope_v3.json",
+   "bytes": 18703,
+   "mtime": "2026-11-12T06:30:10",
+   "sha256": "7e9ce9641a0d0cdeb8b9797175c3e6ec8cb1b299edb393fe7be24e6c12b60032",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\sentry\\session.json",
+   "bytes": 266,
+   "mtime": "2026-11-12T06:33:47",
+   "sha256": "556b7749a6ea16546c9a8a96c8e18b9ae0c512fdd630c52de8641e7689659c7e",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\sentry\\queue\\queue-v2.json",
+   "bytes": 2,
+   "mtime": "2026-11-11T19:14:43",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\Session Storage\\000019.log",
+   "bytes": 19933,
+   "mtime": "2026-11-12T05:59:57",
+   "sha256": "9157049c6ff660833612258ba3f4a7a649150dd7c18f48353df1795e2eaa72a2",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\shared_proto_db\\000003.log",
+   "bytes": 467,
+   "mtime": "2026-11-12T02:36:34",
+   "sha256": "a6cd890d53aa4558aa25ff61440026f931aa7b3962d7709b12af774170439a55",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\shared_proto_db\\metadata\\000003.log",
+   "bytes": 160,
+   "mtime": "2026-11-12T02:34:34",
+   "sha256": "baecf9f3086e106261f5f03af60d6399079871ac97fbc1d0c740e3460dba1c20",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\WebStorage\\2\\CacheStorage\\index.txt",
+   "bytes": 89,
+   "mtime": "2026-11-11T19:10:14",
+   "sha256": "92cda5a28f4c1874bcf0aca7ca908e1234751120abf372f5a81cbb33590c3590",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\io.github.clash-verge-rev.clash-verge-rev\\EBWebView\\component_crx_cache\\metadata.json",
+   "bytes": 908,
+   "mtime": "2026-11-12T04:07:13",
+   "sha256": "00965dbb48e43d1b07a3317bdd4696927b93af122c33675d303902b2c8872624",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\io.github.clash-verge-rev.clash-verge-rev\\EBWebView\\Default\\settings_diagnostic.log",
+   "bytes": 57180,
+   "mtime": "2026-11-12T02:13:38",
+   "sha256": "0fa0d82cfb8c2abc8e9bb3588145ad6181141a9984d0b9818f9ff6082893faf9",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Steam\\htmlcache\\Default\\shared_proto_db\\000004.log",
+   "bytes": 191720,
+   "mtime": "2026-11-11T22:35:18",
+   "sha256": "93c9f8c97aafb2f8816a7ba4aae66c9952aaeeb161de9230c8b52cd87cb4c33b",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Steam\\htmlcache\\Default\\shared_proto_db\\metadata\\000003.log",
+   "bytes": 5628,
+   "mtime": "2026-11-11T22:33:26",
+   "sha256": "26d309414bf1fcf934f194d13fdc5ee3dfb27607a3b277b2b08488cef10272eb",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\348d1e6e-7778-409f-9bd0-cadb3cf111f6.tmp.wav",
+   "bytes": 139748,
+   "mtime": "2026-11-11T22:33:42",
+   "sha256": "cdef95d9dbc8643855fbddc4c207f4861c689a86c79ad4742fae3628e79c604d",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\a.txt",
+   "bytes": 1680,
+   "mtime": "2026-11-11T20:25:58",
+   "sha256": "fa7a8d6ccd0183e0b613c65a1da33e5e587b1dcaaec2a8d3c9d3b4cf4009c53b",
+   "classification": "Zoetrope STL checksum list (not JIXIN, out of scope)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\b.txt",
+   "bytes": 1680,
+   "mtime": "2026-11-11T20:25:59",
+   "sha256": "fa7a8d6ccd0183e0b613c65a1da33e5e587b1dcaaec2a8d3c9d3b4cf4009c53b",
+   "classification": "Zoetrope STL checksum list (not JIXIN, out of scope)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\b16bc580-b493-4899-ae55-98bc94806653.tmp.wav",
+   "bytes": 169034,
+   "mtime": "2026-11-11T22:33:42",
+   "sha256": "fb993fdfef45312eaaae208019bc90c637b0b85bbe4f0a1741adda6978cecabc",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\ba73a989-5234-40c7-97c9-6d5e744a399a.tmp.wav",
+   "bytes": 102674,
+   "mtime": "2026-11-11T22:33:42",
+   "sha256": "3057c1ba20d4b86317f5b0875269654bebd138502beec988bf04a5a3ea591047",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\clawd-pidcache2-53a10a4765013b27.json",
+   "bytes": 189,
+   "mtime": "2026-11-11T20:26:50",
+   "sha256": "c29ed9d4e03a4e10057193725c408dd9132b9d20096c310bf05d8bfa1f58d948",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\clawd-pidcache2-82e9a28830318b31.json",
+   "bytes": 207,
+   "mtime": "2026-11-12T06:04:49",
+   "sha256": "806681df267d333b5bd7a6ad21d6ddb55adbaae86ef6ac9f1ac56ac3d8170ccf",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\clawd-pidcache2-95fb09a74ef1636b.json",
+   "bytes": 202,
+   "mtime": "2026-11-11T20:25:57",
+   "sha256": "c6bca563f263ae072901799f2d4ca85dd69487044c55d94bc395b2873ab5d0a8",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\clawd-pidcache2-a3a51872caf22157.json",
+   "bytes": 231,
+   "mtime": "2026-11-12T02:10:10",
+   "sha256": "ed20508771c14cbe777922e01fd6e3b23c58a5daab7e7e1f2bccace11fc7a99a",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\clawd-pidcache2-ae49690cb9799323.json",
+   "bytes": 211,
+   "mtime": "2026-11-11T20:25:12",
+   "sha256": "2a1fcad340f6ac471bc375e363a8519e3314f4b6030e09976f12f18300cab5e3",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\clawd-pidcache2-d593cccafd02b6e2.json",
+   "bytes": 188,
+   "mtime": "2026-11-12T06:33:28",
+   "sha256": "bda206f2aaf57f08be45ebc12f70daf194d7a14be75f2b7e648623277989cbd0",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\clawd-pidcache2-fbba4da176af9b7e.json",
+   "bytes": 209,
+   "mtime": "2026-11-11T20:24:59",
+   "sha256": "5f9947471c1663c9eb8bb5d0d56f34d7ec7557d77d73ddd6784ceece8e0925cb",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\cv_debug.log",
+   "bytes": 13331,
+   "mtime": "2026-11-12T06:01:32",
+   "sha256": "e38b5bee5a04b75cfd3332549e9e2ce66d950d7da0ce58d1505a3f3b266b6a6a",
+   "classification": "unrelated application/system data (Claude app, clawd, codex, Steam, Clash, Edge, Windows temp)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\out.html",
+   "bytes": 3658,
+   "mtime": "2026-11-11T19:20:16",
+   "sha256": "d019cf5e63127c6d1665d2c8a9c0939611d1ae96515cd44cb7439fee222200d8",
+   "classification": "docs page fetched 2026-11-11 19:20, before JIXIN started (not JIXIN)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\scratchpad\\audit_scan.py",
+   "bytes": 3651,
+   "mtime": "2026-11-12T06:33:26",
+   "sha256": "51f0d3bdb9b58d036efd1bd00e358751c9d027adad6b0f3da2d01ef0b0a9e1d5",
+   "classification": "transfer-audit script/data -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\b3ds21epz.output",
+   "bytes": 22,
+   "mtime": "2026-11-12T04:09:54",
+   "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\b8nk6x737.output",
+   "bytes": 22,
+   "mtime": "2026-11-12T01:22:59",
+   "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\b91t0kjf2.output",
+   "bytes": 213,
+   "mtime": "2026-11-11T20:58:44",
+   "sha256": "08b118d54384fafddd1b45ef2eefdd368498e234c8690d2ee4ce7ff4f0b8a8b0",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bb0opvj1x.output",
+   "bytes": 56,
+   "mtime": "2026-11-12T06:03:55",
+   "sha256": "a28e94cfde56bd6a69a6df89d1e4b3aae7348a3d93a9f8f447217e8c37cf11e2",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\be6ep3cky.output",
+   "bytes": 56,
+   "mtime": "2026-11-12T06:03:55",
+   "sha256": "b6e3013da6489b9de38906ac6593b9aa83304291db87d071432cfbb289ba6c28",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bkxw7kdfs.output",
+   "bytes": 1741,
+   "mtime": "2026-11-12T03:45:27",
+   "sha256": "60431182f50616f4e5b5007b3ea37e62b2e44af4340463f437e79cd3ebbdd614",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\blvu9nbir.output",
+   "bytes": 56,
+   "mtime": "2026-11-12T06:03:55",
+   "sha256": "5fb264a3313163c2488a9928c3eebbe4e323d67bb30c649e5c7ff261a9cafbec",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bp7air5i2.output",
+   "bytes": 0,
+   "mtime": "2026-11-12T06:33:28",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "classification": "harness-internal job log of the audit itself (not a project file)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bti87d89x.output",
+   "bytes": 22,
+   "mtime": "2026-11-12T03:45:14",
+   "sha256": "9ee8ddbc1f705d5cad80decea71573a77c4bf3d3e817fbb4e7c644c51b31e747",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\7507bda7-4f2c-4fe6-81ef-431cc1790168\\tasks\\bynmbi7on.output",
+   "bytes": 22,
+   "mtime": "2026-11-12T01:25:29",
+   "sha256": "5da6bcf56bf3157a2448671a77c71e7350cc778f24edffcee3fcee8f0431879d",
+   "classification": "JIXIN session job log -> transferred"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\images\\2.png",
+   "bytes": 559224,
+   "mtime": "2026-11-11T19:18:36",
+   "sha256": "e88cbfff57a745727f14def6980e7ece2777827913968785d127ce122ae737fe",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\images\\3.png",
+   "bytes": 524646,
+   "mtime": "2026-11-11T19:18:36",
+   "sha256": "4033e50a6ca60c0b82bec5d496591eafc2886fd283800bddc66ca877e19cbbd5",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\images\\4.png",
+   "bytes": 431078,
+   "mtime": "2026-11-11T19:18:36",
+   "sha256": "0be18fec7675aaded9cf0bf595269b37880bf90b8c4b489612647c1d732e8e54",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\images\\5.png",
+   "bytes": 1296344,
+   "mtime": "2026-11-11T19:18:36",
+   "sha256": "4f29f45df6a01968d308f80f700cf2f63443484d03b438020118d7e39c2fcb56",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\images\\6.png",
+   "bytes": 940429,
+   "mtime": "2026-11-11T19:18:36",
+   "sha256": "38255370545f2d12ce9bbebf00d42d9ca2045271f63364ac07f3e5eddbdb3d51",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\a28f7cb983a0ccd7b.output",
+   "bytes": 0,
+   "mtime": "2026-11-11T19:19:24",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\ac1409daa56927c7c.output",
+   "bytes": 0,
+   "mtime": "2026-11-11T19:19:24",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\b3ujae8jr.output",
+   "bytes": 138,
+   "mtime": "2026-11-11T19:22:53",
+   "sha256": "361028fa950eee49b2ddd764cc3dfcd421aa6e4226175d5f6be4651e623823ad",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\bbauetxdg.output",
+   "bytes": 152,
+   "mtime": "2026-11-11T19:36:26",
+   "sha256": "5275ec0d2d2730b1bbcd2757deadff19a64036ee0eb02609ac866f9ae5e3ea24",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\bchjdj1km.output",
+   "bytes": 56,
+   "mtime": "2026-11-11T20:26:23",
+   "sha256": "3ac3e9deafc84c9b3598da59ade84812892ac4bc52a57c236f52c3589cf29c36",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\be3336qle.output",
+   "bytes": 470,
+   "mtime": "2026-11-11T19:59:15",
+   "sha256": "bfd6c0beff758a53b652fa55f13c9d90e4e2cfcfdbd91df4fdf6f38da73d5813",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\bj6klf5qk.output",
+   "bytes": 286,
+   "mtime": "2026-11-11T19:41:59",
+   "sha256": "dc04182135b24067799b7675fbf5d97efd750a28851ac15cb4dd70c7c6295f10",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\bnaw3w8c1.output",
+   "bytes": 56,
+   "mtime": "2026-11-11T20:26:23",
+   "sha256": "806b23905c95fdfe5a67862747ff6d6f3fa69f22903c5704bd8703928aed736d",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\by9xmcxum.output",
+   "bytes": 1472,
+   "mtime": "2026-11-11T19:32:56",
+   "sha256": "92d4f26a478169a7c431b5b7b2e711322ad77e8d8891b2911215afc0e3b50060",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  },
+  {
+   "path": "C:\\Users\\lover\\AppData\\Local\\Temp\\claude\\105afce1da1a4480\\85ea9ff6-af0a-4220-bd89-7cecd1439432\\tasks\\byksd3x6f.output",
+   "bytes": 470,
+   "mtime": "2026-11-11T20:18:32",
+   "sha256": "45e58c6bc84ec0aea6f81f916c113ac8a78a598bd666b27695382f6be26cda9e",
+   "classification": "previous Zoetrope session temp (pre-dates JIXIN, out of scope by instruction)"
+  }
+ ],
+ "runningProjectJobs": "none (no node/ffmpeg/python/headless-Edge processes, no listening ports 8700-8899) at 2026-11-12 06:33",
+ "localCopiesDeletedInThisAudit": "none — the transferred items are Claude harness temp files (job logs, scratchpad scripts), not project working copies; they are left for the harness to clean up"
+}

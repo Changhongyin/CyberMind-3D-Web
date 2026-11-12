@@ -1,0 +1,8 @@
+{
+  "os": "macOS-27.2.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "cpu": "Mac17,4",
+  "memory_bytes": 25769803776,
+  "test_source": "extracted delivered JIXIN_site-static.zip",
+  "temporary_directory": "/var/folders/rq/mw58_vxs2x54djkzlj49ddyr0000gn/T/jixin-mac-validation-nvn1gkb3"
+}

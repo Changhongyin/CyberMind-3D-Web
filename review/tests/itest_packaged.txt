@@ -1,0 +1,23 @@
+PASS  loading screen shows the enter button 
+PASS  render loop advances (59 frames in 1 s)
+PASS  HUD visible, loading hidden 
+PASS  ring 0 locks after a manual drag [0,-1.35,2.85]
+PASS  ring 1 aligns and locks after a click 
+PASS  face refuses to open before all rings lock 
+PASS  ring 2 locks from the keyboard (key 3) 
+PASS  unseal button offered 
+PASS  drag orbits and wheel zooms az 0.30->-0.91 dist 19.5->12.6
+PASS  clicking the face starts the transformation 
+PASS  reaches the awake state 
+PASS  clicking a glyph drum changes the thought 182->246
+PASS  HUD glyph button turns drum 1 246->758
+PASS  mark opens the seed inspection 
+PASS  Escape returns to the overview 
+PASS  tour starts and a pointer press interrupts it 
+PASS  performance profile halves the internal target, fidelity restores native 800,450 -> 1600,900, buffer 1600,900
+PASS  Space starts sealing 
+PASS  returns to dormant with all rings released [false,false,false]
+PASS  second run: rings re-lock and the face opens again 
+PASS  no page errors 
+
+21/21 passed

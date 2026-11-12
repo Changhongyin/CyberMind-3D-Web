@@ -1,0 +1,436 @@
+{
+ "viewport": [
+  3840,
+  2160
+ ],
+ "dpr": 1,
+ "profile": "fidelity",
+ "shots": [
+  {
+   "name": "JIXIN_4K_01_sealed",
+   "file": "JIXIN_4K_01_sealed.png",
+   "state": "dormant",
+   "pose": null,
+   "hud": true,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 5.016666666666706,
+    "frame": 601,
+    "phase": "dormant",
+    "calls": 177,
+    "tris": 4538296,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_02_rings-aligned",
+   "file": "JIXIN_4K_02_rings-aligned.png",
+   "state": "locked",
+   "pose": {
+    "az": 0.42,
+    "el": 0.06,
+    "dist": 8.8,
+    "tgt": [
+     0.15,
+     0.6,
+     1.4
+    ],
+    "fov": 36
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 3.0166666666666586,
+    "frame": 361,
+    "phase": "dormant",
+    "calls": 158,
+    "tris": 4300706,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_03_unsealing",
+   "file": "JIXIN_4K_03_unsealing.png",
+   "state": "film@19.7",
+   "pose": null,
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 19.71666666666619,
+    "frame": 2365,
+    "phase": "opening",
+    "calls": 175,
+    "tris": 4538544,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_04_awake",
+   "file": "JIXIN_4K_04_awake.png",
+   "state": "awake",
+   "pose": {
+    "az": 0.3,
+    "el": 0.035,
+    "dist": 19.5,
+    "tgt": [
+     0,
+     0.55,
+     0
+    ],
+    "fov": 38
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 4.016666666666656,
+    "frame": 481,
+    "phase": "awake",
+    "calls": 179,
+    "tris": 4673796,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_05_glyph-drums",
+   "file": "JIXIN_4K_05_glyph-drums.png",
+   "state": "awake",
+   "pose": {
+    "az": 0.2,
+    "el": 0.02,
+    "dist": 5.6,
+    "tgt": [
+     0,
+     0.3,
+     0.3
+    ],
+    "fov": 36
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 3.0166666666666586,
+    "frame": 361,
+    "phase": "awake",
+    "calls": 121,
+    "tris": 4155082,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_06_reed-comb",
+   "file": "JIXIN_4K_06_reed-comb.png",
+   "state": "awake",
+   "pose": {
+    "az": -0.75,
+    "el": 0.22,
+    "dist": 1.7,
+    "tgt": [
+     0.62,
+     0.24,
+     1.22
+    ],
+    "fov": 32
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 3.0166666666666586,
+    "frame": 361,
+    "phase": "awake",
+    "calls": 101,
+    "tris": 4142660,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_07_seed",
+   "file": "JIXIN_4K_07_seed.png",
+   "state": "awake",
+   "pose": {
+    "az": -0.35,
+    "el": 0.22,
+    "dist": 3,
+    "tgt": [
+     0,
+     3.15,
+     0.06
+    ],
+    "fov": 34
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 3.0166666666666586,
+    "frame": 361,
+    "phase": "awake",
+    "calls": 128,
+    "tris": 4124504,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_08_inner-lining",
+   "file": "JIXIN_4K_08_inner-lining.png",
+   "state": "awake",
+   "pose": {
+    "az": -0.62,
+    "el": 0.05,
+    "dist": 4.4,
+    "tgt": [
+     3.5,
+     0.8,
+     2.2
+    ],
+    "fov": 36
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 3.0166666666666586,
+    "frame": 361,
+    "phase": "awake",
+    "calls": 97,
+    "tris": 4105046,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_09_shrine",
+   "file": "JIXIN_4K_09_shrine.png",
+   "state": "dormant",
+   "pose": {
+    "az": 0.78,
+    "el": 0.2,
+    "dist": 2.7,
+    "tgt": [
+     2.85,
+     -3.08,
+     3.9
+    ],
+    "fov": 34
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 2.016666666666662,
+    "frame": 241,
+    "phase": "dormant",
+    "calls": 115,
+    "tris": 4362652,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_10_well-overview",
+   "file": "JIXIN_4K_10_well-overview.png",
+   "state": "awake",
+   "pose": {
+    "az": -0.5,
+    "el": 0.45,
+    "dist": 26,
+    "tgt": [
+     0,
+     -0.5,
+     0
+    ],
+    "fov": 38
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 3.0166666666666586,
+    "frame": 361,
+    "phase": "awake",
+    "calls": 188,
+    "tris": 4687448,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_11_wugang",
+   "file": "JIXIN_4K_11_wugang.png",
+   "state": "awake",
+   "pose": {
+    "az": 0.62,
+    "el": 0.02,
+    "dist": 40,
+    "tgt": [
+     -8,
+     5.5,
+     -14
+    ],
+    "fov": 30
+   },
+   "hud": false,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 6.016666666666755,
+    "frame": 721,
+    "phase": "awake",
+    "calls": 161,
+    "tris": 4554532,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  },
+  {
+   "name": "JIXIN_4K_12_drums-with-interface",
+   "file": "JIXIN_4K_12_drums-with-interface.png",
+   "state": "film@36.2",
+   "pose": null,
+   "hud": true,
+   "info": {
+    "buffer": [
+     3840,
+     2160
+    ],
+    "scene": [
+     3840,
+     2160
+    ],
+    "msaa": 4,
+    "scale": 1,
+    "profile": "fidelity",
+    "T": 36.216666666665255,
+    "frame": 4345,
+    "phase": "awake",
+    "calls": 117,
+    "tris": 4283024,
+    "rtMB": 485.14434814453125,
+    "directorDone": false,
+    "directorLen": 58.5
+   }
+  }
+ ]
+}

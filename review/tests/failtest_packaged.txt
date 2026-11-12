@@ -1,0 +1,4 @@
+PASS  no WebGL -> readable message + reload button {"fatal":true,"zh":"此设备或浏览器无法启动 WebGL2 渲染。","btn":true}
+PASS  missing drone.glb -> warning, site still enters {"warn":"灯奴 drone.glb 未能载入，场景以缺省形态继续。灯奴 drone.glb failed to load; the scene continues without it.","enter":true}
+PASS  phone viewport: no horizontal scroll, touch button wakes the face {"sw":390,"iw":390,"buf":[1170,2532],"ph":"awake"}
+3/3 passed

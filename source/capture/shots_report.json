@@ -1,0 +1,16 @@
+[
+ {"name": "home", "state": "dormant", "secs": 2, "jpg": true},
+ {"name": "idea_talisman", "state": "dormant", "secs": 2, "pose": {"az": 0.4, "el": -0.5, "dist": 8, "tgt": [-8, 12.5, 8], "fov": 40}, "hud": false, "jpg": true},
+ {"name": "loop1", "state": "film@6.9", "jpg": true},
+ {"name": "loop2", "state": "film@15.4", "jpg": true},
+ {"name": "loop3", "state": "film@38.2", "jpg": true},
+ {"name": "loop4", "state": "film@47.5", "jpg": true},
+ {"name": "trans1", "state": "film@16.15", "hud": false, "jpg": true},
+ {"name": "trans2", "state": "film@17.6", "hud": false, "jpg": true},
+ {"name": "trans3", "state": "film@19.7", "hud": false, "jpg": true},
+ {"name": "trans4", "state": "film@24.2", "hud": false, "jpg": true},
+ {"name": "split_closed", "state": "locked", "secs": 2, "pose": {"az": 0.95, "el": 0.12, "dist": 14, "tgt": [0, 0.6, 0.3], "fov": 36}, "hud": false, "jpg": true},
+ {"name": "split_open", "state": "awake", "secs": 3, "pose": {"az": 0.95, "el": 0.12, "dist": 14, "tgt": [0, 0.6, 0.3], "fov": 36}, "hud": false, "jpg": true},
+ {"name": "code_halo", "state": "awake", "secs": 3, "pose": {"az": 2.5, "el": 0.25, "dist": 11, "tgt": [0, 0.8, 0]}, "hud": false, "jpg": true},
+ {"name": "code_water", "state": "awake", "secs": 4, "pose": {"az": 0.6, "el": 0.1, "dist": 22, "tgt": [0, -8.5, 0], "fov": 38}, "hud": false, "jpg": true}
+]

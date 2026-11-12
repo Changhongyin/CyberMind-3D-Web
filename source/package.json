@@ -1,0 +1,20 @@
+{
+  "name": "jixin-cybermind-3d-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JIXIN 机心 — interactive full-3D cyberpunk website (static site + capture tooling)",
+  "type": "module",
+  "scripts": {
+    "serve": "python web/serve.py 8787",
+    "vendor": "node -e \"const fs=require('fs');const s='node_modules/three/';const d='web/vendor/';for(const [a,b] of [['build/three.module.min.js','three.module.min.js'],['build/three.core.min.js','three.core.min.js'],['LICENSE','THREE-LICENSE'],['examples/jsm/loaders/GLTFLoader.js','jsm/loaders/GLTFLoader.js'],['examples/jsm/utils/BufferGeometryUtils.js','jsm/utils/BufferGeometryUtils.js'],['examples/jsm/objects/Reflector.js','jsm/objects/Reflector.js'],['examples/jsm/environments/RoomEnvironment.js','jsm/environments/RoomEnvironment.js']]){fs.mkdirSync(require('path').dirname(d+b),{recursive:true});fs.copyFileSync(s+a,d+b);}\"",
+    "test": "node capture/itest.mjs",
+    "probe": "node capture/probe.mjs 3840x2160",
+    "master": "bash capture/run_master.sh ../deliverables/video/work"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.22.0"
+  }
+}
