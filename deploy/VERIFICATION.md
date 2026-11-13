@@ -67,29 +67,44 @@ $ curl -s -o /dev/null -w '%{http_code}' https://jixin-cybermind.reedymaple.chat
 # Cloudflare: "Sorry, you have been blocked"（安全策略拦截中国大陆访问）
 ```
 
-## 5. 备选托管：腾讯云 CloudBase 的实测结论
+## 5. 腾讯云 CloudBase 默认域名（当前国内主入口）
 
-已试用本机登录的 CloudBase 环境（`my-render-demo-d2g394trhe6ae0726`，ap-shanghai），站点部署在
-静态托管 `/jixin/`，CDN 下载 15.5 MB 模型约 2.9 s（约 5.4 MB/s，国内速度很好）。但 CloudBase 的
-**默认域名**会为浏览器导航插入腾讯云“测试域名风险提醒”中间页（页面标题 `风险提醒`，提示内容未经审核），
-默认域名也仅面向开发测试且有风控/限流。因此它不作为公开“官方网站”，仅保留为待备案域名可用的备用副本。
-正式消除提示页需要绑定已完成 ICP 备案的自定义域名。
+已部署到本机登录的 CloudBase 环境（`my-render-demo-d2g394trhe6ae0726`，ap-shanghai，体验版）的
+静态托管 `/jixin/`。2026-11-13 真机实测（中国浙江，Safari，直连）：
+
+| 项目 | 结果 |
+| --- | --- |
+| 首次访问 | 平台拦截导航请求并返回「风险提醒」页（HTTP 404）；3 秒倒计时后点「确定访问」→ 写入 `cloudbase_confirm_domain_access` cookie → 加载真实站点 |
+| 再次访问 | 同一浏览器直接进入，不再出现提示（新标签页验证 `WARN: false`） |
+| 模型加载 | mask 5.7 s / drone 5.8 s / censer 7.3 s，约 25 s 后进入「就绪 · ready」 |
+| 场景帧率 | 60 FPS（内部 2752×1628 原生 · 4×MSAA） |
+| curl 同时段对比 | CloudBase 约 1.1–1.8 MB/s；GitHub Pages 约 2–22 KB/s |
+
+截图：[`screenshots/04-cloudbase-safari.png`](screenshots/04-cloudbase-safari.png)。
+
+注意：平台明确标注默认域名**仅供开发测试**，存在访问频率限制与稳定性风险；体验版环境有效期至
+2027-03-16。要彻底去掉提示页并长期稳定，需绑定已完成 ICP 备案的自定义域名。
 
 ## 6. 复现命令
 
 ```bash
 cd <repo>
 
-# 重新发布（source/web -> gh-pages）
+# 主入口：重新发布到腾讯云 CloudBase（source/web -> /jixin）
+tcb hosting deploy source/web /jixin -e my-render-demo-d2g394trhe6ae0726 --concurrency 10
+
+# 备用入口：重新发布到 GitHub Pages（source/web -> gh-pages）
 ./deploy/publish-github-pages.sh
 
-# 逐文件校验
+# GitHub Pages 逐文件校验
 ./deploy/verify-site.sh
 ```
 
 ## 7. 局限与后续建议
 
-- 本次验证在中国大陆单一网络（浙江）完成；GitHub Pages 的国内访问速度因运营商和时段波动，
-  首次加载需下载约 54 MB 模型，建议测试时留足加载时间。
-- 如需长期、稳定、合规的品牌站点，建议绑定**已备案的自有域名**（GitHub Pages 自定义域名，或
-  腾讯云 CloudBase 自定义域名 + 国内 CDN），这样可以获得更好的国内访问速度并去掉平台提示页。
+- 本次验证在中国大陆单一网络（浙江）完成；GitHub Pages 的国内访问速度因运营商和时段波动很大
+  （2 KB/s–4 MB/s），CloudBase 上海 CDN 相对稳定（约 1–2 MB/s）。
+- 腾讯云默认域名会显示「测试域名风险提醒」，且平台标注仅供开发测试、有频率限制与稳定性风险；
+  体验版环境有效期至 2027-03-16。
+- 如需长期、稳定、合规且无提示页的品牌站点，建议绑定**已备案的自有域名**（腾讯云 CloudBase 自定义域名
+  + 国内 CDN，或 GitHub Pages 自定义域名），备案后可直接复用现有 `/jixin/` 文件。

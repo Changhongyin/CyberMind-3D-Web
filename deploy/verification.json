@@ -157,5 +157,35 @@
       "bytes": 338908,
       "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6"
     }
-  ]
+  ],
+  "mirrors": {
+    "cloudbase_default_domain": {
+      "url": "https://my-render-demo-d2g394trhe6ae0726-1489026908.tcloudbaseapp.com/jixin/",
+      "role": "中国大陆快速入口（主入口）",
+      "first_visit": "HTTP 404 风险提醒页，3 秒倒计时后点「确定访问」，写入 cloudbase_confirm_domain_access cookie",
+      "revisit": "同一浏览器直接进入",
+      "safari_2026_11_13": {
+        "glb_seconds": {
+          "mask": 5.7,
+          "drone": 5.8,
+          "censer": 7.3
+        },
+        "ready_after_sec": 25,
+        "fps": 60,
+        "internal_resolution": "2752x1628 4xMSAA"
+      },
+      "curl_speed_same_period": "约 1.1–1.8 MB/s",
+      "caveats": [
+        "平台标注默认域名仅供开发测试",
+        "存在访问频率限制与稳定性风险",
+        "体验版环境有效期至 2027-03-16",
+        "去掉提示页需绑定已备案自定义域名"
+      ]
+    },
+    "github_pages": {
+      "url": "https://changhongyin.github.io/CyberMind-3D-Web/",
+      "role": "备用入口（无提示页）",
+      "curl_speed_same_period": "约 2–22 KB/s（波动大）"
+    }
+  }
 }

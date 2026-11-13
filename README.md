@@ -1,14 +1,18 @@
 # 机心 JIXIN — 面壳之后的引擎
 
-## [进入 3D 互动体验 · 国内直连官方入口](https://changhongyin.github.io/CyberMind-3D-Web/)
+## [进入 3D 互动体验 · 国内快速入口（腾讯云上海 CDN）](https://my-render-demo-d2g394trhe6ae0726-1489026908.tcloudbaseapp.com/jixin/)
 
 无需启动本地服务器。转动三环、启封白瓷面壳，探索雾港下的机械心智。
 
-> 中国大陆可直连（GitHub Pages）：2026-11-13 实测首页 HTTP 200、站点 27 个文件逐文件 SHA-256 一致、
-> 真实浏览器渲染通过；详见 [deploy/README.md](deploy/README.md) 与 [deploy/VERIFICATION.md](deploy/VERIFICATION.md)。
+> **首次打开**会先显示腾讯云「测试域名风险提醒」：等 3 秒倒计时结束后点「确定访问」即可进入；
+> 同一浏览器确认一次后不再提示。2026-11-13 真机实测（中国浙江、直连）：54 MB 模型约 6–7 秒加载完，
+> 进入场景后约 60 FPS。
+>
+> 备用入口（GitHub Pages，无提示页，但中国大陆速度不稳定）：
+> <https://changhongyin.github.io/CyberMind-3D-Web/>
 >
 > 原公网地址 <https://jixin-cybermind.reedymaple.chatgpt.site> 由 Cloudflare 托管，在中国大陆会被拦截（HTTP 403），
-> 仅保留为历史发布记录。首次进入需下载约 54 MB 的 3D 模型，请等待加载完成。
+> 仅保留为历史发布记录。部署与验证见 [deploy/README.md](deploy/README.md) 与 [deploy/VERIFICATION.md](deploy/VERIFICATION.md)。
 
 - [完整项目备份与原画质视频](https://github.com/Changhongyin/CyberMind-3D-Web/releases/tag/v1.0.0)
 - [项目报告 PDF](deliverables/report/JIXIN_project-report.pdf)
